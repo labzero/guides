@@ -3,5 +3,5 @@ Guides for best practices for each programming languages.
 
 <h3> Languages </h3>
 <ul>
-	<l1><a href="https://github.com/labzero/guides/languages/ios">iOS</a></l1>
+	<l1><a href="https://github.com/labzero/guides/blob/master/languages/ios">iOS</a></l1>
 </ul>
