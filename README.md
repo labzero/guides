@@ -1,20 +1,33 @@
-<h1>:LZ iOS - Best Practices Guide:</h1>
+<h1>LZ iOS - Best Practices Guide</h1>
 
-LZ iOS - Best Practices Guide
+LZ iOS - Best Practices Guide
 Overview
+
 Style Guide
+
 Addendum
+
 Closing Curly Braces
+
 Images
+
 Interface Construction
+
 Styling
+
 Pragma Marks
+
 Continuous Delivery
+
 Getting a new project going for CI
+
 Test Driven Development
+
 Unit Testing
+
 Acceptance Testing
-Useful Design Patterns
+
+Useful Design Patterns
 
 <h2>Overview</h2>
 This document is our narrative over a handful of good online resources and to cover topics that those resources do not address.
@@ -25,6 +38,7 @@ To get started, make sure that you’re familiar with the style guides.
 The following guides explain how we style our code at LZ. These are not merely suggestions, you need to follow them, excepting the addendum below. In particular, deviating from Apple’s guide will cause KVC and KVO issue, as their guide covers naming conversions that the Objective-C runtime and Cocoa runtime rely on.
  
 Apple: https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html
+
 New York Times: https://github.com/NYTimes/objective-c-style-guide
 
 <h2>Addendum</h2>
@@ -35,8 +49,8 @@ Ignore the curly brace styles in the NYT guide (found in the Spacing section). A
 For example:
 ```
 if (foo) {
-	// do stuff
-	} else if (bar) {
+// do stuff
+} else if (bar) {
 	// other stuff
 } else {
 	// more stuff
@@ -44,8 +58,8 @@ if (foo) {
 
 Not:
 if (foo) {
-	// do stuff
-	}
+// do stuff
+}
 else if (bar) {
 	// other stuff
 }
