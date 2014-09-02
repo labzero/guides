@@ -21,7 +21,7 @@ Ignore the curly brace styles in the NYT guide (found in the Spacing section). A
 For example:
 ```
 if (foo) {
-// do stuff
+	// do stuff
 } else if (bar) {
 	// other stuff
 } else {
@@ -30,7 +30,7 @@ if (foo) {
 
 Not:
 if (foo) {
-// do stuff
+	// do stuff
 }
 else if (bar) {
 	// other stuff
