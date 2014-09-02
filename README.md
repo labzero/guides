@@ -1,6 +1,5 @@
 <h1>LZ iOS - Best Practices Guide</h1>
 
-LZ iOS - Best Practices Guide
 
 <h2>Overview</h2>
 This document is our narrative over a handful of good online resources and to cover topics that those resources do not address.
@@ -67,18 +66,21 @@ All of our iOS applications should have automated builds that are triggered by c
 We’re using the XCode plugin with the Jenkins Slave plugin…
 
 Do these things:
--setup testflight (list these things)
--
+
+setup testflight (list these things)
+
 <h2>Test Driven Development</h2>
 
 <h3>Unit Testing</h3>
 OCUnit? Cedar? 
 
 <h3>Acceptance Testing</h3>
+
 Calabash?  
 
 Can we parallelize these tests?
 
 
 <h2>Useful Design Patterns</h2>
-<which ones?>
+
+which ones?
