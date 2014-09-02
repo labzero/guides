@@ -1,33 +1,6 @@
 <h1>LZ iOS - Best Practices Guide</h1>
 
 LZ iOS - Best Practices Guide
-Overview
-
-Style Guide
-
-Addendum
-
-Closing Curly Braces
-
-Images
-
-Interface Construction
-
-Styling
-
-Pragma Marks
-
-Continuous Delivery
-
-Getting a new project going for CI
-
-Test Driven Development
-
-Unit Testing
-
-Acceptance Testing
-
-Useful Design Patterns
 
 <h2>Overview</h2>
 This document is our narrative over a handful of good online resources and to cover topics that those resources do not address.
