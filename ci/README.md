@@ -57,23 +57,41 @@ Become root and create chkconfig file.
 Copy and paste this entire block into the terminal on the server as root to create the file.
 
 `cat > /sbin/chkconfig <<-EOF`
+
 `#!/bin/bash`
+
 `# Oracle 11gR2 XE installer chkconfig, Only run once.`
+
 `echo "Simulating /sbin/chkconfig..."`
+
 `if [[ ! \`tail -n1 /etc/init.d/oracle-xe | grep INIT\` ]]; then`
+
 `cat >> /etc/init.d/oracle-xe <<-EOM`
+
 `#`
+
 `### BEGIN INIT INFO`
+
 `# Provides: OracleXE`
+
 `# Required-Start: \\\$remote_fs \\\$syslog`
+
 `# Required-Stop: \\\$remote_fs \\\$syslog`
+
 `# Default-Start: 2 3 4 5`
+
 `# Default-Stop: 0 1 6`
+
 `# Short-Description: Oracle 11g Express Edition`
+
 `### END INIT INFO`
+
 `EOM`
+
 `fi`
+
 `update-rc.d oracle-xe defaults 80 01`
+
 `EOF`
 
 Log out as root and make the chkconfig file executable.
@@ -118,18 +136,31 @@ Create Jenkins VirtualHost
 `sudo vi /etc/apache2/sites-available/jenkins.conf`
 
 `<VirtualHost *:80>`
+
 `  ServerAdmin master@yourdomain.com`
+
 `  ErrorLog /var/log/apache2/error.log`
+
 `  LogLevel warn`
+
 `  CustomLog /var/log/apache2/access.log combined`
+
 `  ProxyRequests Off`
+
 `  <Proxy *>`
+
 `    Order deny,allow`
+
 `    Allow from all`
+
 `  </Proxy>`
+
 `  ProxyPreserveHost on`
+
 `  ProxyPass / http://localhost:8080/ nocanon`
+
 `  ProxyPassReverse / http://localhost:8080/`
+
 `</VirtualHost>`
 
 Enable Jenkins VirtualHost
