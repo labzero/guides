@@ -14,7 +14,7 @@ Servers
 Jenkins Initial Setup
 ---------------------
 
-##Download and Install Jenkins##
+###Download and Install Jenkins###
 
 `wget -q -O - https://jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -`
 
@@ -26,7 +26,7 @@ Jenkins Initial Setup
 
 `sudo apt-get install jenkins`
 
-##Install Oracle##
+###Install Oracle###
 
 This requires logging in to Oracle and accepting the license agreement.
 
@@ -56,25 +56,25 @@ Become root and create chkconfig file.
 
 Copy and paste this entire block into the terminal on the server as root to create the file.
 
-`cat > /sbin/chkconfig <<-EOF
-#!/bin/bash
-# Oracle 11gR2 XE installer chkconfig, Only run once.
-echo "Simulating /sbin/chkconfig..."
-if [[ ! \`tail -n1 /etc/init.d/oracle-xe | grep INIT\` ]]; then
-cat >> /etc/init.d/oracle-xe <<-EOM
-#
-### BEGIN INIT INFO
-# Provides: OracleXE
-# Required-Start: \\\$remote_fs \\\$syslog
-# Required-Stop: \\\$remote_fs \\\$syslog
-# Default-Start: 2 3 4 5
-# Default-Stop: 0 1 6
-# Short-Description: Oracle 11g Express Edition
-### END INIT INFO
-EOM
-fi
-update-rc.d oracle-xe defaults 80 01
-EOF`
+`cat > /sbin/chkconfig <<-EOF`
+`#!/bin/bash`
+`# Oracle 11gR2 XE installer chkconfig, Only run once.`
+`echo "Simulating /sbin/chkconfig..."`
+`if [[ ! \`tail -n1 /etc/init.d/oracle-xe | grep INIT\` ]]; then`
+`cat >> /etc/init.d/oracle-xe <<-EOM`
+`#`
+`### BEGIN INIT INFO`
+`# Provides: OracleXE`
+`# Required-Start: \\\$remote_fs \\\$syslog`
+`# Required-Stop: \\\$remote_fs \\\$syslog`
+`# Default-Start: 2 3 4 5`
+`# Default-Stop: 0 1 6`
+`# Short-Description: Oracle 11g Express Edition`
+`### END INIT INFO`
+`EOM`
+`fi`
+`update-rc.d oracle-xe defaults 80 01`
+`EOF`
 
 Log out as root and make the chkconfig file executable.
 
@@ -99,7 +99,7 @@ After the installation is complete, set the oracle user's password, then save it
 
 `sudo passwd oracle`
 
-Install and Configure Apache
+###Install and Configure Apache###
 
 `sudo aptitude install apache2`
 
@@ -117,20 +117,20 @@ Create Jenkins VirtualHost
 
 `sudo vi /etc/apache2/sites-available/jenkins.conf`
 
-`<VirtualHost *:80>
- ServerAdmin master@yourdomain.com
- ErrorLog /var/log/apache2/error.log
-LogLevel warn
-CustomLog /var/log/apache2/access.log combined
-ProxyRequests Off
-  <Proxy *>
-  Order deny,allow
-  Allow from all
-  </Proxy>
-  ProxyPreserveHost on
-  ProxyPass / http://localhost:8080/ nocanon
-  ProxyPassReverse / http://localhost:8080/
-</VirtualHost>`
+`<VirtualHost *:80>`
+`  ServerAdmin master@yourdomain.com`
+`  ErrorLog /var/log/apache2/error.log`
+`  LogLevel warn`
+`  CustomLog /var/log/apache2/access.log combined`
+`  ProxyRequests Off`
+`  <Proxy *>`
+`    Order deny,allow`
+`    Allow from all`
+`  </Proxy>`
+`  ProxyPreserveHost on`
+`  ProxyPass / http://localhost:8080/ nocanon`
+`  ProxyPassReverse / http://localhost:8080/`
+`</VirtualHost>`
 
 Enable Jenkins VirtualHost
 
@@ -140,15 +140,15 @@ Restart Apache
 
 `sudo service apache2 restart`
 
-Update DNS and Set Jenkins URL
+###Update DNS and Set Jenkins URL###
 
-Request DNS entry for jenkins.yourdomain.com
+Request DNS entry for `jenkins.yourdomain.com`
 
 After DNS is set up, go to `/configure on` the server and update the "Jenkins URL" setting appropriately.
 
 Jenkins URL: `http://jenkins.yourdomain.com/`
 
-Install Jenkins Plugins
+###Install Jenkins Plugins###
  * All Plugins which needed to be updated
  * active-directory
   * audit-trail 
@@ -172,11 +172,13 @@ Install Jenkins Plugins
  * StashBranchParameter 
  * stashNotifier
 
-Connect Jenkins to Active Directory
+###Connect Jenkins to Active Directory###
 
 After making the connection to active directory, put groups / users / permissions in place and remove anonymous access to Jenkins.
 
-Configure SMTP
+###Configure SMTP###
+
+###Use SSL###
 
 Acquire and install the SSL Certificate for `jenkins.yourdomain.com`.
 
