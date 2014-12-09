@@ -1,6 +1,6 @@
 # Definition of Done
 
-You will never be "done", and your version of done will vary by feature at different points in a product's life cycle. Early prototypes might not have exhaustive tests or pixel perfect styling. Once you start releasing your code to the "public" you need to tighten things up.  Here's what to look for:
+You will never be "done", and your version of done will vary by feature at different points in a product's lifecycle. Early prototypes might not have exhaustive tests or pixel perfect styling. Once you start releasing your code to the "public" you need to tighten things up.  Here's what to look for:
 
 * Designs reviewed and understood by the business and developers (make sure everyone knows what "done" means for the story at that point in time)
 
