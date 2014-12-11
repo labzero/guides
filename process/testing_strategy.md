@@ -47,8 +47,8 @@ bare minimum, during a code review we should be looking for coverage over common
 best intentions can miss things; they could use an extra set of eyes.
 
 ## Partnering with QA
-This is where magic happens. Teams fortunate enough to have QA team members have a great oppotunity to create
-a great partnership between Dev and QA to help manage gaps in coverage.
+This is where magic happens. Teams fortunate enough to have QA team members have a great opportunity to create
+a valuable partnership between Dev and QA to help manage gaps in coverage.
 
 By using modern ATDD tools, it's easier to see which use cases are covered and which are not. These BDD tools also lend
 themselves nicely to a proper collaboration at the test code level to acheive the "coverage" that we're after.
