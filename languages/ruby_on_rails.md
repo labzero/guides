@@ -30,10 +30,11 @@ These should be the definition of what the app should does, especially with BDD 
 For sensible suggestions, see https://github.com/bbatsov/ruby-style-guide and https://github.com/bbatsov/rails-style-guide 
 
 ## Variable Naming
-Spend a few moments to choose an appropriate word
-Avoid tla’s, use words.
-Snake case
-The names shouldn’t be too long.  (Perhaps you need to refactor if the name has to be super long)
+* Spend a few moments to choose an appropriate word
+* Avoid tla’s, use words.
+* Single character variable names should only be used for local variables that only live in a small block or loop.
+* Snake case
+* The names shouldn’t be too long.  (Perhaps you need to refactor if the name has to be super long)
 
 ## Formatting
 Don’t use tabs, ever.  Use spaces.
