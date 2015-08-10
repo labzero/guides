@@ -60,14 +60,14 @@ We have to patch 3rd party gems from time to time, but we want to minimize the i
 
 As good open source citizens we should fork third-party gems and contribute back to them with pull-requests for our fixes and additions.  Let’s consider some scenarios when we should fork and when we should patch. 
 
-# Forks vs Monkey patches
-## Forking best practices:
+## Forks vs Monkey patches
+### Forking best practices:
 Use forks as much as possible over monkey-patches
 Use the Labzero account for forking those repos
 Submit pull requests and be a good OSS citizen
 Watch for your pull request to be released in a new release.  When it has been accepted clean up the Gemfile to use the new official version and delete your fork.
 
-## Monkey-patching best practices:
+### Monkey-patching best practices:
 * Try not to.
 * Do not ever monkey-patch base classes.
 * Use alias_method_chain when possible to preserve the actual implementations.
