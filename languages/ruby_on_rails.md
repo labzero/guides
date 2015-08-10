@@ -78,7 +78,7 @@ When you’re adding new gems or updating some of them try updating others while
 
 For Ruby and/or Rails we should be on the latest patch level (tiny) for the version
 
-#Unobtrusive Javascript
+# Unobtrusive Javascript
 [main principles shamelessly stolen from Wikipedia]
 Do not make any assumptions: Defensive programming techniques should allow for the possibilities that JavaScript may not run, the browser may not support expected methods, the HTML may have changed, unexpected input devices may be in use and other scripts may either not be present or may be encroaching on the global namespace.
 Find your hooks and relationships, such as IDs and other aspects of the expected HTML.
@@ -88,13 +88,13 @@ Understand events, including how they 'bubble' and the features of the Event obj
 Play well with other scripts by avoiding global function and variable names.
 Work for the next developer by using self-explanatory variable and function names, creating logical and readable code, making dependencies obvious, and commenting any code that still might confuse.
 
-OOP
+# OOP
 This is always the destination, but we often have to crossover from chaos and the simplest code to the code that could work to the best code we know how to write.
 
-Fat Model - Skinny Controller
+# Fat Model - Skinny Controller
 This is a fancy way of saying that your views and controller code is not the place for capturing business logic, that stuff belongs in our models and other supporting classes.  The primary role of a controller is to help manage inbound requests, delegation to the domain that knows how to manage the actual details, and packaging a response.
 
-Smells to watch for:
+## Smells to watch for:
 Controller actions that set attributes on a variety of objects.  i.e. your controller should not understand how one model relates to another and how they should be orchestrated.
 Controller actions that are longer than 10 lines of code (there’s no magic number here, but consider that when you see long actions.
 7 Patterns to Refactor Fat ActiveRecord Models include:
@@ -105,7 +105,8 @@ extract query objects (and place in app/models)
 introduce view objects
 extract policy objects
 extract decorators (consider using the draper gem)
-Security
+
+# Security
 
 As a starting point, please read http://guides.rubyonrails.org/security.html and become familiar with the concepts.  We must adhere to all of the points mentioned there.
 
