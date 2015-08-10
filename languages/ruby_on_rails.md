@@ -1,4 +1,4 @@
-# Ruby on Rails Style Guide
+# Ruby on Rails Developer Guide
 
 # Overview
 This document is a living doc shared by all developers at Lab Zero.  We as developers at Lab Zero believe that following these principles produces higher quality software.  It’s a pact that we share.  Please read and add to it as we find things on our projects that we’d like to make standard for our engineering practice.
