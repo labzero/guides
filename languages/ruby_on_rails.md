@@ -111,5 +111,13 @@ extract decorators (consider using the draper gem)
 
 As a starting point, please read http://guides.rubyonrails.org/security.html and become familiar with the concepts.  We must adhere to all of the points mentioned there.
 
-Another useful, quick read is Rails' Insecure Defaults:13 Security Gotchas You Should Know About
+Another useful, quick read is http://blog.codeclimate.com/blog/2013/03/27/rails-insecure-defaults/
+
+## Brakeman
+We include brakeman in our CI runs on both PRBuilder jobs and on commit-level jobs on develop when we can't use CodeClimate.
+
+The brakeman Jenkins job should be configured to fail if any new security vulnerabilities are found.
+
+Remember to keep this gem updated to catch the latest list of vulnerabilities. 
+
 
