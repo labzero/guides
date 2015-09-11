@@ -45,7 +45,7 @@ Be consistent.
 If you have a method more than 10 lines long it’s time to consider refactoring it.  This isn’t to say that no method can be longer than 10 lines, but this should be a clue that your method may be doing too many things.
 
 ## CSS Guidelines
-[TODO link to CSS guidlines]
+[Coming soon!]
 
 ## Beyond MVC
 ### Models vs lib
