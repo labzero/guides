@@ -17,7 +17,7 @@ Favor [placeholders/extends](http://sass-lang.com/documentation/file.SASS_REFERE
 ## File structure
 Keep variables, mixins, and placeholders, and utility classes (if applicable) in separate files so they can be imported at the top of your main stylesheet(s).
 
-Put rules for elements (without classes) underneath those.
+Put rules for elements (without classes) underneath those import statements.
 
 The rest of the rules are generally laid out in an order that matches what's closest to the top of the page, but it's not a hard-and-fast requirement.
 
