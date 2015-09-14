@@ -39,6 +39,11 @@ Avoid using class names that include words like `left`, `bold`, `large` or `blue
 
 Use class names that make use of words like `container`, `actions`, `group`, `active`, `disabled`, and other names that represent items or states in a user interface.
 
+## Headings
+Use `<section>` elements wisely and you will be able to regularly reset your heading numbering back to `<h1>`.
+
+Despite this, it is wise to add classes to heading elements since they can easily become subheadings.
+
 ## Use [BEM](https://css-tricks.com/bem-101/) to avoid unnecessary nesting.
 There is no need to apply a class to every single element, especially buttons, links, table elements, or others that have a specific function.
 
@@ -74,11 +79,6 @@ Otherwise, you can write a more specific selector and/or create a new class to o
 - Using Bootstrap in its entirety requires undoing a lot of its CSS
 - If client has an established, in-depth style guide, do not use Bootstrap
 - Some Bootstrap components require a rigid HTML structure, which might be at odds with what the designs specify
-
-## Headings
-Use `<section>` elements wisely and you will be able to regularly reset your heading numbering back to `<h1>`.
-
-Despite this, it is wise to add classes to heading elements since they can easily become subheadings.
 
 ## Use Autoprefixer
 Do not use Compass's vendor prefix mixins - [Autoprefixer](https://github.com/postcss/autoprefixer) takes care of all vendor prefixes.
