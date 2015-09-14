@@ -65,7 +65,7 @@ Otherwise, you can write a more specific selector and/or create a new class to o
 
 ## Modernizr
 
-[Modernizr](https://modernizr.com/) is helpful if you are creating HTML5 elements and need to support IE8 or below. Otherwise, consider using graceful degradation rather than feature detection when writing your CSS.
+[Modernizr](https://modernizr.com/) is helpful if you are creating HTML5 elements and need to support IE8 or below. Otherwise, consider using graceful degradation rather than feature detection when writing your CSS. For example, ensure that pages don't look broken without support for CSS transitions, flexbox, semitransparency, etc.
 
 ## Bootstrap
 [Bootstrap](http://getbootstrap.com/) (and similar libraries like [Foundation](http://foundation.zurb.com/)) can provide a massive head-start for a project that's just starting out, but it's not the right tool for every job. 
