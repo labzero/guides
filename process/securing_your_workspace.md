@@ -8,7 +8,7 @@ With a few simple tricks you can secure your machine.
 * Never leave your laptop unlocked. Don't walk away for lunch or an errand without locking your computer.
 * Keep your laptop in a safe place. e.g. Not in your car. Cars are broken into very often.
 
-And finally, if your workspace is compromised physically or digitally, please notify Chris, Matt and/or Dean immediately.
+And finally, if your workspace is compromised physically or digitally, please notify Chris, Matt and Dean immediately.
 
 
 
