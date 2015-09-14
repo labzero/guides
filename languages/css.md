@@ -15,7 +15,7 @@ Use [Scut](https://davidtheclark.github.io/scut/) for common utilities and trick
 Favor [placeholders/extends](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#placeholders) over [mixins](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#mixins).
 
 ## File structure
-Keep variables, mixins, and placeholders, and utility classes (if applicable) in separate files so they can be imported at the top of your main stylesheet(s).
+Keep variables, mixins, placeholders, and utility classes (if applicable) in separate files so they can be imported at the top of your main stylesheet(s).
 
 Put rules for elements (without classes) underneath those import statements.
 
@@ -54,7 +54,7 @@ Keep element names as simple as possible. If you have a `.block__table`, prefer 
 [Sass 3.3+ has BEM syntax support](http://visuellegedanken.de/2014-03-29/using-bem-syntax-with-sass-3-3/).
 
 ## Z-index
-`z-index` is relative, which means any element that has a `z-index` will create a new base layer for anything inside it, allowing you to restart numbering. There is no need to use massive numbers like `100`, `2000`, etc - single-digit increments will suffice.
+`z-index` is relative, which means any element that has a `z-index` will create a new base layer for anything inside it, allowing you to restart numbering. There is no need to use massive numbers like `100`, `2000`, etc. - single-digit increments will suffice.
 
 CSS comments will help explain the rationale behind a specific z-index - what specifically an element needs to on top of or underneath.
 
