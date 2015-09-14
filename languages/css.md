@@ -84,6 +84,8 @@ Otherwise, you can write a more specific selector and/or create a new class to o
 Do not use Compass's vendor prefix mixins - [Autoprefixer](https://github.com/postcss/autoprefixer) takes care of all vendor prefixes.
 
 ## Icons
+In most cases, it's more "semantic" to use `<button>` or `<a>` elements rather than `<img>` elements when using icons. You'll need to use a background image and hide the text using an image replacement hack, like [the one provided by Scut](https://davidtheclark.github.io/scut/image-replace.html).
+
 Prefer SVGs over PNG sprites (again, no need for Compass). Bother your designer if they haven't provided vector-based assets.
 
 Prefer SVGs over icon fonts, since you will inevitably need multicolor icons, and it is easier to manage separate SVG files.
