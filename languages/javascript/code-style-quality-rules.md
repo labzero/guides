@@ -13,7 +13,7 @@ Here are a few things to keep an eye on:
 We are *not* enforcing maximum number of function parameters, because that doesn't work well with Angular dependency injection, but if you have more than about 3 in a regular function, that's probably too many.
 
 ### JSHint
-You can see our recommended JSHint settings in the  `.jshintrc` file. 
+You can see our recommended JSHint settings in the  [`.jshintrc`](.jshintrc) file. 
 
 You will have to add the appropriate entries for your project to the `globals` section.
 
@@ -24,7 +24,7 @@ JSHint is built in to RubyMine, so it should honor the project `.jshintrc` and s
 There is also a package for Sublime
 
 #### Adding JSHint to your project
-Copy this `.jshintrc` file into the root of your project.
+Copy this [`.jshintrc`](.jshintrc) file into the root of your project.
 
 You'll need `node` both in your local and ci environments. You'll need your `package.json` to include the current version of `jshint`
 Run `npm install` in the project root to make sure you have the library installed
@@ -39,13 +39,13 @@ sh './node_modules/jshint/bin/jshint app/assets/javascripts/'
 
 ### JSCS
 JSCS comes with presets for several JS style guides. I chose the one that seemed to be the closest to our current practices (out of laziness more than anything else).
-I changed/relaxed a few settings (which you can see in `.jscsrc`)
+I changed/relaxed a few settings (which you can see in [`.jscsrc`](.jscsrc))
 
 #### Editor Integration
 There is a plugin for RubyMine and a package for Sublime Text
 
 #### Adding JSHint to your project
-Copy this `.jscsrc` file into the root of your project.
+Copy this [`.jscsrc`](.jscsrc) file into the root of your project.
 
 You'll need `node` both in your local and ci environments. You'll need your `package.json` to include the current version of `jscs`
 Run `npm install` in the project root to make sure you have the library installed
