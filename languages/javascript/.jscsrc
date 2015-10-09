@@ -1,0 +1,17 @@
+{
+  "preset": "airbnb",
+  "validateIndentation": 2,
+  "requireCamelCaseOrUpperCaseIdentifiers": null,
+  "requireLineFeedAtFileEnd": null,
+  "requirePaddingNewLinesAfterBlocks": null,
+  "disallowPaddingNewLinesBeforeLineComments": null,
+  "disallowMultipleVarDecl": "exceptUndefined",
+  "disallowSpacesInAnonymousFunctionExpression": null,
+  "disallowSpacesInFunctionExpression": null,
+  "disallowSpacesInFunctionDeclaration": {
+    "beforeOpeningRoundBrace": true
+  },
+  "excludeFiles": [
+    // add excluded files here if absolutely necessary
+  ]
+}
