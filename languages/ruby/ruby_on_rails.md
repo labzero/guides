@@ -29,7 +29,7 @@ These should be the definition of what the app should does, especially with BDD 
 # Code Style
 For sensible suggestions, see https://github.com/bbatsov/ruby-style-guide and https://github.com/bbatsov/rails-style-guide
 
-We enforce some of these guidelines using Rubocop (see https://github.com/labzero/guides/blob/master/quality-style-tooling/languages/ruby/ruby-style-quality-rules.md) 
+We enforce some of these guidelines using Rubocop (see https://github.com/labzero/guides/blob/master/languages/ruby/ruby-style-quality-rules.md) 
 
 ## Variable Naming
 * Spend a few moments to choose an appropriate word
