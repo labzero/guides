@@ -12,7 +12,7 @@ We generally leave the Rubocop defaults alone, but we have made some changes
 - Relax some whitespace rules (extra new lines at the beginning / end of blocks) for specs and cukes since block based DSLs are more readable if you can break some rules that work for regular ruby code.
 
 
-### Most broken rules:
+### Common mistakes:
 
 DON'T | DO
  ------- | -----
