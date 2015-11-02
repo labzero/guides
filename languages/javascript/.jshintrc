@@ -1,0 +1,15 @@
+{
+  "globals": {
+  // add globals defined by your projects dependencies here (i.e. angular, moment, $ etc.)
+    "$":false
+  },
+  "strict": true,
+  "curly": true,
+  "eqeqeq": true,
+  "forin": true,
+  "undef": true,
+  "unused": true,
+  "maxdepth": 3, // in a perfect world this is 2
+  "maxcomplexity": 8, // and this is lower
+  "nonbsp": true
+}
