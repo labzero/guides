@@ -1,7 +1,7 @@
 # Overview
 Showing your work and the work of your team to a broader audience uses some different skills than we might use when building products. Let's talk about the most important tips we keep in mind when running demos. 
 
-# Be Prepared
+# Be prepared
 Go through all of the delivered and accepted tickets to make sure you know what was done and how to show it. 
 
 Take notes to use during the demo so that you can cruise through the delivered work as a story. Some back and forth is okay but you should try to minimize it. 
@@ -20,7 +20,7 @@ Make sure the audience is with you. It is okay to look at them, in the eye, and 
 # Keep it organized
 Someone other than the demoer should be playing scribe for the demo, but if not make sure to jot larger conversations down for later discussion. Don't let some feedback from the audience turn into a several minute group design session. 
 
-# Check Yourself
+# Check yourself
 There are a handful of common things that a demoer can do and say that don't show well. Be mindful to avoid things like:
 
 * Extra mouse clicks 
@@ -36,6 +36,6 @@ There are a handful of common things that a demoer can do and say that don't sho
 * [Draw a circle around navigation elements](http://cl.ly/0i3w1b1U143I) with your mouse before clicking to draw attention to where the action is happening and give the audience time to follow along.
 * Zoom in (⌘ +) to a level that makes text readable to everybody. (Especially when showing things like a Pivotal backlog)
 
-# Take Turns
+# Take turns
 The demoer role should be shared by taking turns each week to encourage new styles and a safe place for learning.
  
