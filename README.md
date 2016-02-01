@@ -9,3 +9,4 @@ Guides for best practices for languages, process and tools.
 - [Testing Strategy](https://github.com/labzero/guides/blob/master/process/testing_strategy.md)
 - [Securing Your Workspace](https://github.com/labzero/guides/blob/master/process/securing_your_workspace.md)
 - [Meeting Etiquette](https://github.com/labzero/guides/blob/master/process/Meeting-Etiquette.md)
+- [Sprint Demo Guide](https://github.com/labzero/guides/blob/master/process/demo_guide.md)
