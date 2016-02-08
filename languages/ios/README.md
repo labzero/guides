@@ -7,7 +7,7 @@ To get started, make sure that you’re familiar with the style guides.
 
 ## Style Guide
 
-The following guides explain how we style our code at LZ. These are not merely suggestions, you need to follow them, excepting the addendum below. In particular, deviating from Apple’s guide will cause KVC and KVO issue, as their guide covers naming conversions that the Objective-C runtime and Cocoa runtime rely on.
+The following guides explain how we style our code at LZ. These are not merely suggestions; you need to follow them, excepting the addendum below. In particular, deviating from Apple’s guide will cause KVC and KVO issues, as their guide covers naming conversions that the Objective-C runtime and Cocoa runtime rely on.
  
 Apple: https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html
 
