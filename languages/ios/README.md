@@ -71,15 +71,15 @@ setup testflight (list these things)
 
 ### Unit Testing
 
-XCode provides XCTest as a way to unit test code.  This should be the preferred method for unit testing your code.  OCMock https://ocmock.org is an open source library that we've used in the past to mock out components to help with unit testing.  OCMock now works for Swift!
+XCode provides XCTest as a way to unit test code.  This should be the preferred method for unit testing your code.  OCMock https://ocmock.org is an open source library that we've used in the past to mock out components to help with unit testing.  OCMock now works with Swift!
 
 ### Acceptance Testing
 
 Calabash
-We use Calabash for automated functional testing of iOS apps.  https://calab.sh.  Calabash requires generating a separate test target to your iOS project.  The installation steps are here https://github.com/calabash/calabash-ios.  Calabash asks as a server listens for commands sent from the test scripts, CFNetwork framework should be included in your project as well as calabash.framework.  The tests are run using Cucumber and written in Gherkin.  
+We use Calabash for automated functional testing of iOS apps.  https://calab.sh.  Calabash requires generating a separate test target to your iOS project.  The installation steps are here https://github.com/calabash/calabash-ios.  Calabash acts as a server listening for commands sent from the test scripts. CFNetwork framework should be included in your project as well as calabash.framework. The tests are run using Cucumber and written in Gherkin.  
 
 Appium
-We are also investigating using Appium for testing iOS apps.  Unlike Calabash, Appium does not require a separate test target for testing your applciation.  Appium server issues commands to your iOS application via UIAutomation.  Running appium is fairly simple locally with a stand-alone app that can be download via https://appium.io.  For integrating with CI, appium commandline should be installed.  The stand-alone Appium app has a recorder that acts as a great first steps for creating tests.  Appium is language agnostic and can generate tests in various languages.  Our preference is to record the test steps in ruby and run with rspec.
+We are also investigating using Appium for testing iOS apps.  Unlike Calabash, Appium does not require a separate test target for testing your applciation.  The Appium server issues commands to your iOS application via UIAutomation.  Running appium is fairly simple locally with a stand-alone app that can be download via https://appium.io.  For integrating with CI, the Appium commandline should be installed.  The stand-alone Appium app has a recorder that acts as a great first step for creating tests.  Appium is language agnostic and can generate tests in various languages.  Our preference is to record the test steps in ruby and run with rspec.
 
 Parallelizing tests
 Currently, since iOS tests are run via the iOS Simulator, we aren't able to run test suites in parallel.  We currently run our tests on a Jenkin slave node that can launch the simulator.  There are various companies that can run tests in parallel which can be used if that is desired.
