@@ -1,5 +1,5 @@
 # Lab Zero Best Practices Guides 
-Guides for best practices for languages, process and tools.
+Guides for our best practices for languages, process and tools.
 
 - [iOS](https://github.com/labzero/guides/blob/master/languages/ios)
 - [Ruby on Rails](https://github.com/labzero/guides/blob/master/languages/ruby/ruby_on_rails.md)
@@ -10,3 +10,4 @@ Guides for best practices for languages, process and tools.
 - [Securing Your Workspace](https://github.com/labzero/guides/blob/master/process/securing_your_workspace.md)
 - [Meeting Etiquette](https://github.com/labzero/guides/blob/master/process/Meeting-Etiquette.md)
 - [Sprint Demo Guide](https://github.com/labzero/guides/blob/master/process/demo_guide.md)
+- [Git Commit Guide](https://github.com/labzero/guides/blob/master/process/commit_guide.md)
