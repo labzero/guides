@@ -3,6 +3,7 @@ Guides for our best practices for languages, process and tools.
 
 - [iOS](https://github.com/labzero/guides/blob/master/languages/ios)
 - [Ruby on Rails](https://github.com/labzero/guides/blob/master/languages/ruby/ruby_on_rails.md)
+- [Javascript](https://github.com/labzero/guides/blob/master/languages/javascript/code-style-quality-rules.md)
 - [CSS](https://github.com/labzero/guides/blob/master/languages/css.md)
 - [Chef](https://github.com/labzero/guides/blob/master/devops/chef)
 - [Definition of Done](https://github.com/labzero/guides/blob/master/process/dod.md)
