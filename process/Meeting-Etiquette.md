@@ -18,7 +18,11 @@ _Productivity is never an accident. It is always the result of a commitment to e
 ## We Listen Earnestly
 _You cannot truly listen to anyone and do anything else at the same time._ - M. Scott Peck
 
-* We do not bring distractions like laptops, phones, tablets, unless we are a presenter.
+* We do not bring distractions like lapk
+* 
+* asd
+* 
+* dstops, phones, tablets, unless we are a presenter.
 * When we are no longer the presenter, we close our laptops.
 * We do not interrupt, or finish people's sentences.
 * We ask clarifying questions to ensure understanding.
