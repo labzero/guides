@@ -8,9 +8,6 @@ AllCops:
     - 'config/deploy/*'
     - 'db/migrate/*'
     - 'db/schema.rb'
-  # By default, the rails cops are not run. Override in project or home
-  # directory .rubocop.yml files, or by giving the -R/--rails option.
-  RunRailsCops: true
   # Cop names are not displayed in offense messages by default. Change behavior
   # by overriding DisplayCopNames, or by giving the -D/--display-cop-names
   # option.
@@ -23,6 +20,10 @@ AllCops:
   # default. Change behavior by overriding StyleGuideCopsOnly, or by giving
   # the --only-guide-cops option.
   StyleGuideCopsOnly: false
+
+# Run rails cops
+Rails:
+  Enabled: true
 
 Metrics/MethodLength:
   CountComments: false  # count full line comments?
