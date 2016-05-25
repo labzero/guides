@@ -97,6 +97,22 @@ Pixels are not the devil - they're great for heights, padding, margin, and other
 
 `rem`s are useful for type-related measurements, including `font-size`, `line-height`, and some margins.
 
+## SCSS Linting
+
+When working with Rails, please include `gem scss_lint, require: false` in your Gemfile and then run `bundle install`. Read more on configuring `scss-lint` at [its repository](https://github.com/brigade/scss-lint).  Finally, when all is set up, run `scss-lint` locally to view and fix issues. 
+
+### Example ci:rake
+
+```ruby
+namespace :ci do
+  task build: ['ci:scsslint']
+
+  task :scsslint do
+    exec 'rake scss-lint'
+  end
+end
+```
+
 ## Resources
 - https://developer.mozilla.org/en-US/docs/Web/CSS
 - http://caniuse.com
