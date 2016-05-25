@@ -112,10 +112,10 @@ When working with Rails, please include `gem scss_lint, require: false` in your 
 namespace :ci do
   task build: ['ci:scsslint']
 
-    task :scsslint do
-      exec 'rake scss-lint'
-    end
- end
+  task :scsslint do
+    exec 'rake scss-lint'
+  end
+end
 ```
 
 
