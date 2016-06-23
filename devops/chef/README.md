@@ -1,7 +1,6 @@
-Chef Cookbook Best Practices
-============================
+# Chef Cookbook Best Practices
 
-General
+## General
 
   1. Create a cookbook for every service or application that you have.
   1. Create a public recipe for each component of the service or application (app server, db server, etc.)
@@ -16,17 +15,21 @@ General
   1. Use custom attributes in a wrapper cookbook instead of using roles.
   1. Use Berkshelf to manage third party libraries.
 
-Testing
+## Testing
 
   1. Embrace test driven development by writing Kitchen tests using ServerSpec before cookbook code is written.
   1. Add tests for complete coverage after cookbook code is written.
   1. Use Kitchen and ServerSpec to test all changes to cookbooks before uploading to Chef server or checking into Git, adding tests for complete coverage.
   1. Use Foodcritic for linting of all changes to cookbooks before uploading to Chef server or checking into Git.
 
-Source Control
+## Source Control
 
   1. Branch in Git for changes to cookbooks.
   1. Set up Continuous Integration for testing of Chef cookbook merge / pull requests.
+
+## Style
+  1. See [Ruby Style Quality Rules](../languages/ruby/ruby-style-guide-rules.md)
+  1. See [Ruby on Rails Guide](../languages/ruby/ruby_on_rails.md)
 
 More Information / References
 =============================
