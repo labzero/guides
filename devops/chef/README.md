@@ -28,8 +28,8 @@
   1. Set up Continuous Integration for testing of Chef cookbook merge / pull requests.
 
 ## Style
-  1. See [Ruby Style Quality Rules](../languages/ruby/ruby-style-guide-rules.md)
-  1. See [Ruby on Rails Guide](../languages/ruby/ruby_on_rails.md)
+  1. See [Ruby Style Quality Rules](../../languages/ruby/ruby-style-guide-rules.md)
+  1. See [Ruby on Rails Guide](../../languages/ruby/ruby_on_rails.md)
 
 More Information / References
 =============================
