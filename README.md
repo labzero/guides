@@ -12,3 +12,4 @@ Guides for our best practices for languages, process and tools.
 - [Meeting Etiquette](https://github.com/labzero/guides/blob/master/process/Meeting-Etiquette.md)
 - [Sprint Demo Guide](https://github.com/labzero/guides/blob/master/process/demo_guide.md)
 - [Git Commit Guide](https://github.com/labzero/guides/blob/master/process/commit_guide.md)
+- [How We Write User Stories](https://github.com/labzero/guides/blob/master/process/how_we_write_user_stories.md)
