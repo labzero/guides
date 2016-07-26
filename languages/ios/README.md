@@ -76,7 +76,7 @@ XCode provides XCTest as a way to unit test code.  This should be the preferred 
 ### Acceptance Testing
 
 Calabash
-We use Calabash for automated functional testing of iOS apps.  https://calab.sh.  Calabash requires generating a separate test target to your iOS project.  The installation steps are here https://github.com/calabash/calabash-ios.  Calabash acts as a server listening for commands sent from the test scripts. CFNetwork framework should be included in your project as well as calabash.framework. The tests are run using Cucumber and written in Gherkin.  
+We use Calabash for automated functional testing of iOS apps.  http://calaba.sh.  Calabash requires generating a separate test target to your iOS project.  The installation steps are here https://github.com/calabash/calabash-ios.  Calabash acts as a server listening for commands sent from the test scripts. CFNetwork framework should be included in your project as well as calabash.framework. The tests are run using Cucumber and written in Gherkin.  
 
 Appium
 We are also investigating using Appium for testing iOS apps.  Unlike Calabash, Appium does not require a separate test target for testing your applciation.  The Appium server issues commands to your iOS application via UIAutomation.  Running appium is fairly simple locally with a stand-alone app that can be download via https://appium.io.  For integrating with CI, the Appium commandline should be installed.  The stand-alone Appium app has a recorder that acts as a great first step for creating tests.  Appium is language agnostic and can generate tests in various languages.  Our preference is to record the test steps in ruby and run with rspec.
