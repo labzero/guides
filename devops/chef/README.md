@@ -18,6 +18,9 @@
   1. Use `berks install` from the cookbook's directory to generate the Berksfile.lock from the Berksfile and metadata.json, as well as to download third party dependencies from the Supermarket.
   1. Use `berks upload` from the cookbook's directory to upload the new version of the cookbook and any dependency updates to the Chef server.
 
+![Berks Upload Flow](https://github.com/labzero/guides/tree/master/devops/chef/images/BerksUploadFlow.svg "Berks Upload Flow")
+
+
 ## Testing
 
   1. Embrace test driven development by writing Kitchen tests using ServerSpec before cookbook code is written.
