@@ -34,7 +34,7 @@ Feedback from customers and stakeholders can prompt you to make your principles 
 ## Guerilla principles
 
 We don’t always have access to the research we need. Sometimes we don't have direct access to customers. Sometimes the timeframe or budget limits us. 
-In these cases, it’s still important to work from principles, even if they’re less grounded. Heuristics such as best practices can still help focus ideation and align the team on evaluating designs. For example, if you’re designing software for a productivity app, common sense suggests a principle like:
+In these cases, it’s still important to work from principles, even if they’re less grounded. For example, if you’re designing software for a productivity app, common sense suggests a principle like:
 
 > **Minimize user input**
 > Remember and anticipate user decisions in expected ways. Completing a task should feel as efficient and effortless as possible.
