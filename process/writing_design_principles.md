@@ -33,11 +33,13 @@ Feedback from customers and stakeholders can prompt you to make your principles 
 
 ## Guerilla principles
 
-We don’t always have access to the research we need. Sometimes we don't have direct access to customers. Sometimes the timeframe or budget limits us. 
-In these cases, it’s still important to work from principles, even if they’re less grounded. For example, if you’re designing software for a productivity app, common sense suggests a principle like:
+You don’t always have access to the research you need. Sometimes you don't have direct access to customers, or the timeframe or budget limits you. 
+
+In these cases, it’s still important that the team have a common framework for evaluating and iterating on the designs. You might choose principles from usability best practices or principles you've used on similar projects. For example, if you’re designing an onboarding experience, a good principle might be:
 
 > **Minimize user input**
 > Remember and anticipate user decisions in expected ways. Completing a task should feel as efficient and effortless as possible.
+
 
 ## Examples
 
