@@ -15,7 +15,7 @@ You might consider using [Scut](https://davidtheclark.github.io/scut/) for commo
 When using Sass, favor [mixins](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#mixins) over [placeholders/extends](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#placeholders). (A gzipped CSS file will cut down on the resulting additional filesize.)
 
 ## File structure
-Keep variables, mixins, and utility classes (if applicable) in separate files so they can be imported at the top of your main stylesheet(s).
+Keep variables, mixins, and utility classes (if applicable) in separate files so they can be imported at the top of your main stylesheet(s). You might even want to split your helper files into smaller ones for typography, colors, common measurements, etc.
 
 Put rules for elements (without classes) underneath those import statements.
 
@@ -64,6 +64,10 @@ Media queries are good, but percentages and `max-width`s are better, since they 
 
 Do not rely on any so-called "industry standard" media query breakpoints. Add a custom breakpoint for whenever an element begins to look awkward.
 
+## Don't hide focus styling
+
+Another thing to discuss with your designer is the lack of focus styling on inputs. The default focus outline might be garish, but you should not be completely hiding them in response. Ensure the focused element is easily discoverable by tabbing through your page.
+
 ## Use as few elements as possible
 
 Don't create `<div>`-stew. Use pseudo-elements for decorative shapes, like arrows, complex borders, circles, etc.
@@ -83,13 +87,14 @@ Only use `!important` to override inline styles applied by a JS library, with a 
 
 Otherwise, you can write a more specific selector and/or create a new class to override any other rules.
 
-## Bootstrap
-[Bootstrap](http://getbootstrap.com/) (and similar libraries like [Foundation](http://foundation.zurb.com/)) can provide a massive head-start for a project that's just starting out, but it's not the right tool for every job. 
+## Bootstrap et al
+[Bootstrap](https://getbootstrap.com/) (and similar libraries like [Bulma](https://bulma.io/) or [Foundation](https://foundation.zurb.com/)) can provide a massive head-start for a project that's just starting out, but it's not the right tool for every job. 
 
 ### Pros
 - Bootstrap helps you start fast
 - Comes with a good, responsive grid system
 - Great for prototypes
+- Can be customized to better suit design/feature needs
 
 ### Cons
 - Using Bootstrap in its entirety requires undoing a lot of its CSS
@@ -121,3 +126,4 @@ Use [Stylelint](https://stylelint.io/) along with [stylelint-config-standard](ht
 - https://developer.mozilla.org/en-US/docs/Web/CSS
 - http://caniuse.com
 - https://css-tricks.com/
+- https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript
