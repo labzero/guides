@@ -12,6 +12,15 @@ Working securely is important to Lab Zero and our clients. With a few simple tri
 * Clean up when a project finishes. When you wrap-up a project, take a few minutes to clean those old assets off of your machine.
 * When you leave the office, lock it up and set the alarm.
 
+# Managing Documents Securely
+Once your workspace has been made secure you still need to make secure decisions while working. Here are some things to keep in mind:
+
+* Slack is not an approved document sharing solution and it should not be used in place of Google Docs or other means.
+* Source code should always be managed securely via version control. Each project will have it's own ways to solve this, please adhere to the tools being used by your team. Never send source code via email, Slack or any other mean than the approved version control system. 
+* Lab Zero uses Google G Suite with Team Drive and that is the only LZ approved place to store, edit, share documents, presentations, spredsheets etc. Our clients may require us to use their own tools in which case our work will be stored and shared using their solutions.
+* We never share documents with folks that aren't on our project team and we always adhere to the security policies that our clients have put in place.
+* Keep as many documents in the cloud and off of your workspace as possible. Peridiodicaly clean up your local files to keep past project assets off of your machine.
+
 ## Escalation
 
 And finally, if your workspace is compromised physically or digitally, please notify Chris, Matt and Dean as well as your team lead immediately so that the appropriate actions can be taken.
