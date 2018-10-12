@@ -9,6 +9,8 @@ Working securely is important to Lab Zero and our clients. With a few simple tri
 * Keep your laptop in a safe place. e.g. Not in your car's front seat. Cars are broken into very often. If you must leave it in your car, put it in the trunk or hide it well.
 * Use a password manager, like 1Password (paid) or LastPass (free) to keep your passwords hard and secure between sites. Don't write passwords down on paper or share them with others. 
 * Use Multi-Factor Authentication whenever possible. As a bare minimum, use it on Github, Google, AWS, Slack and any client provided service accounts.
+* Never store production secrets/keys on your machine. They should only reside on the servers that need them, and on the configuration management system (in an encrypted format).
+* Do not share SSH keys with team members. Use an SSH key specific to your machine, and have that key whitelisted on the systems you need to access. This reduces the impact of a compromised key significantly.
 * Clean up when a project finishes. When you wrap-up a project, take a few minutes to clean those old assets off of your machine.
 * When you leave the office, lock it up and set the alarm.
 
