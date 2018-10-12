@@ -15,7 +15,7 @@ Working securely is important to Lab Zero and our clients. With a few simple tri
 # Managing Documents Securely
 Once your workspace has been made secure you still need to make secure decisions while working. Here are some things to keep in mind:
 
-* Slack is not an approved document sharing solution and it should not be used in place of Google Docs or other means.
+* Slack should not be used as a document sharing solution and it should not be used in place of Google Docs or other means.
 * Source code should always be managed securely via version control. Each project will have it's own ways to solve this, please adhere to the tools being used by your team. Never send source code via email, Slack or any other mean than the approved version control system. 
 * Lab Zero uses Google G Suite with Team Drive and that is the only LZ approved place to store, edit, share documents, presentations, spredsheets etc. Our clients may require us to use their own tools in which case our work will be stored and shared using their solutions.
 * We never share documents with folks that aren't on our project team and we always adhere to the security policies that our clients have put in place.
