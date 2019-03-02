@@ -5,7 +5,7 @@ _If we're not early, we're late._
 * We create an agenda for meetings we organize.
 * When we share our screen:
  * We close out of, or minimize, any windows and tabs that are not pertinent to the meeting.
- * We close out of any messaging applications (Slack, Mail, etc), and put our OS X or Growl notifications into "Do Not Disturb" mode.
+ * We close out of any messaging applications (Slack, Mail, etc), and put our OS X or Growl notifications into "Do Not Disturb" mode. Option-Click on the Notification Center icon in the menu bar will enable "Do Not Disturb" mode.
  * We perform any required A/V setup before the meeting starts (Connecting to G2M, Turning on TV, etc).
 
 ## We Are Productive
