@@ -32,6 +32,7 @@ Bad commit log:
 
 Good commit log:
 
+1. ISSUE-###: Adjust vertical item spacing on user list
 1. Fix menu overlap in the shared page footer
 1. Limit view of company dossier for locked content
 1. Add BizBaz model class
