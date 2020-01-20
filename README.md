@@ -8,6 +8,7 @@ Guides for our best practices for processes, languages and tools.
 - [Development Workflow](https://github.com/labzero/guides/blob/master/process/development_workflow.md)
 - [Testing Strategy](https://github.com/labzero/guides/blob/master/process/testing_strategy.md)
 - [Git Commit Guide](https://github.com/labzero/guides/blob/master/process/commit_guide.md)
+- [README Guide](https://github.com/labzero/guides/blob/master/process/readme_guide.md)
 - [Definition of Done](https://github.com/labzero/guides/blob/master/process/dod.md)
 - [Sprint Demo Guide](https://github.com/labzero/guides/blob/master/process/demo_guide.md)
 

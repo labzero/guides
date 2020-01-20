@@ -1,17 +1,19 @@
 # Writing a README
 All code repos should include a README that gives a summary of what the code does and provides necessary instructions for setup and use.
 
+Check out [Lunch](https://github.com/labzero/lunch) or another one of our active repositories for an example of a well-documented README.
+
 ## Formatting
 A README file should generally be written in [github-flavored Markdown](https://help.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github), unless it will be presented somewhere other than GitHub. Markdown files can be previewed in editors such as [VS code](https://code.visualstudio.com/docs/languages/markdown) and [Macdown](https://macdown.uranusjr.com/), or by searching for an online Markdown editor.
 
-Information should be split into sections that make the instructions easy to follow. Use formatting options correctly to ensure accessibility. Header levels should appropriately divide sections and subsections, and there should be a single `h1` top-level header. In general, keep in mind guidelines and best practices for writing [accesible content](https://developers.google.com/style/accessibility).
+Information should be split into sections that make the instructions clear and straightforward. Use formatting options correctly to ensure accessibility. Header levels should appropriately divide sections and subsections, and there should be a single `h1` top-level header. In general, keep in mind guidelines and best practices for writing [accessible content](https://developers.google.com/style/accessibility).
 
 Avoid adding so much information that the README loses focus or becomes difficult to follow. Additional docs can be useful when a detailed explanation of the code or concepts is necessary. When referencing third-party software, it's generally good practice to include a link to the relevant overview or download page for that software.
 
 ## Relevant sections
 A README should provide enough information for a new user to run the code. This includes requirements and prerequisites as well as code commands.
 
-The following sections are commonly used and can serve as a starting point for a README. Documentation can grow with the codebase, and it's better to not add sections that aren't needed.
+The following sections are commonly used and can serve as a starting point for a README. Documentation can grow with the codebase, and it's better to not add sections that aren't currently necessary.
 
 ### Overview
 The README should start with a brief overview that summarizes the use or purpose of the repository. If your introduction is not self-explanatory to a new user, consider adding reference links to any related third-party libraries or other concepts that might be unfamiliar.
