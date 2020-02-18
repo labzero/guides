@@ -11,6 +11,8 @@ Guides for our best practices for processes, languages and tools.
 - [README Guide](https://github.com/labzero/guides/blob/master/process/readme_guide.md)
 - [Definition of Done](https://github.com/labzero/guides/blob/master/process/dod.md)
 - [Sprint Demo Guide](https://github.com/labzero/guides/blob/master/process/demo_guide.md)
+- [Design Review Best Practices](https://github.com/labzero/guides/blob/master/process/design-review-best-practices.md)
+- [Best Practices for Giving and Receiving Feedbac](https://github.com/labzero/guides/blob/master/process/giving-and-receiving-design-feedback.md)
 
 ## Language Guides
 
