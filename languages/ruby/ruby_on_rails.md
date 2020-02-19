@@ -16,12 +16,13 @@ Please delete the Rails boilerplate one when starting a new app and start plumbi
 Anything beyond the über-basics should be documented on the Github wiki pages.  Some examples of this might be “Deployment Anatomy,” “Search Architecture,” “Importing + Refreshing Application Content,” etc…
 
 ## Code Comments
-Generally these are to be avoided only because they tend to be out of date if used too heavily.  You should favor using descriptive variable and method names.  Rather, please use inline code comments when:
-The following lines of code might use some syntax-fu (a.k.a. anything sufficiently clever)
-You’re working around a bug in a 3rd party library/api/model that we can’t control, i.e. when we have to write something that seems bad in order to use an external/immutable dependency.
-Magic numbers: Explain your units and why the number exists.
-Class documentation: Consider documenting the controller or model to give the big picture so that folks can find their bearing.
-In your Gemfile and you’re locking a gem down to a specific version: Please document why we must use that version. This makes it easier to know when it is safe/reasonable to upgrade the gem.
+Generally these are to be avoided only because they tend to be out of date if used too heavily.  You should favor using descriptive variable and method names.  
+Rather, please use inline code comments when:
+* The following lines of code might use some syntax-fu (ie. anything overly-clever)
+* You’re working around a bug in a 3rd party library/api/model that we can’t control, i.e. when we have to write something that seems bad in order to use an external/immutable dependency.
+* Magic numbers: Explain your units and why the number exists.
+* Class documentation: Consider documenting the controller or model to give the big picture so that folks can find their bearings.
+* In the Gemfile when locking a gem to a specific version: Please document why we must use that version. This makes it easier to know when it is safe/reasonable to upgrade the gem.
  
 # Tests
 These should be the definition of what the app should do, especially with BDD with Rspec and Cucumber… 
