@@ -1,4 +1,4 @@
-# Lab Zero Best Practices Guides 
+# Lab Zero Best Practices Guides
 Guides for our best practices for processes, languages and tools.
 
 ## Process Guides
@@ -10,6 +10,7 @@ Guides for our best practices for processes, languages and tools.
 - [Git Commit Guide](https://github.com/labzero/guides/blob/master/process/commit_guide.md)
 - [README Guide](https://github.com/labzero/guides/blob/master/process/readme_guide.md)
 - [Definition of Done](https://github.com/labzero/guides/blob/master/process/dod.md)
+- [Definition of Ready](https://github.com/labzero/guides/blob/master/process/definition-of-ready.md)
 - [Sprint Demo Guide](https://github.com/labzero/guides/blob/master/process/demo_guide.md)
 - [Design Review Best Practices](https://github.com/labzero/guides/blob/master/process/design-review-best-practices.md)
 - [Best Practices for Giving and Receiving Feedback](https://github.com/labzero/guides/blob/master/process/giving-and-receiving-design-feedback.md)
