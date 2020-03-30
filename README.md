@@ -1,9 +1,16 @@
-# Lab Zero Best Practices Guides
-Guides for our best practices for processes, languages and tools.
+# Lab Zero Guides
+Ahoy! You are welcome to access Lab Zero's guides for our best practices for processes, playbooks, languages and tools.
 
-## Process Guides
-
+## Design Guides 
 - [How to Write Design Principles](https://github.com/labzero/guides/blob/master/process/writing_design_principles.md)
+- [Design Review Best Practices](https://github.com/labzero/guides/blob/master/process/design-review-best-practices.md)
+- [Best Practices for Giving and Receiving Feedback](https://github.com/labzero/guides/blob/master/process/giving-and-receiving-design-feedback.md)
+
+## Playbooks
+- Coming soon: Lab Zero Customer Development Playbook
+
+## Developer Process Guides
+
 - [How to Write User Stories](https://github.com/labzero/guides/blob/master/process/how_we_write_user_stories.md)
 - [Development Workflow](https://github.com/labzero/guides/blob/master/process/development_workflow.md)
 - [Testing Strategy](https://github.com/labzero/guides/blob/master/process/testing_strategy.md)
@@ -12,10 +19,8 @@ Guides for our best practices for processes, languages and tools.
 - [Definition of Done](https://github.com/labzero/guides/blob/master/process/dod.md)
 - [Definition of Ready](https://github.com/labzero/guides/blob/master/process/definition-of-ready.md)
 - [Sprint Demo Guide](https://github.com/labzero/guides/blob/master/process/demo_guide.md)
-- [Design Review Best Practices](https://github.com/labzero/guides/blob/master/process/design-review-best-practices.md)
-- [Best Practices for Giving and Receiving Feedback](https://github.com/labzero/guides/blob/master/process/giving-and-receiving-design-feedback.md)
 
-## Language Guides
+## Developer Language Guides
 
 - [iOS](https://github.com/labzero/guides/blob/master/languages/ios)
 - [Ruby on Rails](https://github.com/labzero/guides/blob/master/languages/ruby/ruby_on_rails.md)
