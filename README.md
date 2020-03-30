@@ -9,7 +9,7 @@ Ahoy! You are welcome to access Lab Zero's guides for our best practices for pro
 ## Playbooks
 - Coming soon: Lab Zero Customer Development Playbook
 
-## Developer Process Guides
+## Delivery Process Guides
 
 - [How to Write User Stories](https://github.com/labzero/guides/blob/master/process/how_we_write_user_stories.md)
 - [Development Workflow](https://github.com/labzero/guides/blob/master/process/development_workflow.md)
