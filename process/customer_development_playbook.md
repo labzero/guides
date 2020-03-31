@@ -1,6 +1,4 @@
-# Lab Zero Customer Development Playbook
-
-###### By Clayton Hopkins, Product Designer at [Lab Zero](https://labzero.com/) 
+# Lab Zero Customer Development Playbook 
 
 ## Table of Contents  
 
@@ -40,7 +38,7 @@ Think back to the last time you had to sign up for healthcare. Maybe it was thro
 
 American health insurance and HR websites make it hard to compare plans side by side, especially as you compare more than two or three plans. Costs are hard to calculate, such as premiums vs. co-pays for specific procedures. These sites notoriously focus on business needs over the needs of everyday people like you and me. As a customer, I need to compare plans, see what I can afford, see what my options are with preexisting conditions… *the list goes on and on*. Yet I can barely understand what I’m buying. 
 
-At [Lab Zero](https://labzero.com/), we don’t want our customers to have this kind of an experience. That’s why we advocate for talking to customers about their needs. When we talk about customer development, we are talking about stepping away from our desks to test hypotheses with customers. It’s a subset of user research, and is our umbrella term for iteratively clarifying who our target customer segments are. 
+At Lab Zero, we don’t want our customers to have this kind of an experience. That’s why we advocate for talking to customers about their needs. When we talk about customer development, we are talking about stepping away from our desks to test hypotheses with customers. It’s a subset of user research, and is our umbrella term for iteratively clarifying who our target customer segments are. 
 
 #### Example #2: Email surveys
 
@@ -54,7 +52,7 @@ This playbook can be used at all stages of a product development cycle. Teams of
 
 ### How to use this playbook
 
-In this playbook, we share some of [Lab Zero](https://labzero.com/)’s strategies for setting up hypotheses and learning goals, conducting interviews with customers, and making sense of insights.  
+In this playbook, we share some of Lab Zero’s strategies for setting up hypotheses and learning goals, conducting interviews with customers, and making sense of insights.  
 
 There are two main sections: 
 
@@ -86,7 +84,7 @@ Talking with customers can be light, flexible, and an ongoing priority to keep t
 
 ## Process at a glance
 
-At [Lab Zero](https://labzero.com/), talking to customers is a critical part of our product design and development process. It is an ongoing, foundational part of all projects and requires the whole team’s support to be of any value. 
+At Lab Zero, talking to customers is a critical part of our product design and development process. It is an ongoing, foundational part of all projects and requires the whole team’s support to be of any value. 
 
 1. Set Up   
 
@@ -305,13 +303,9 @@ Next, we share top insights with the team to demonstrate the value of customer d
 
 We understand that nobody wants to read a lengthy research report. People want highlights that validate the hypothesis, so our goal is to make research as visible, insightful and efficient as possible across the team and organization. 
 
-## Summary
-
-Customer development is critical for delivering valuable products and services to our customers. Our team at [Lab Zero](https://labzero.com/) focuses on customer development activities to help learn and to stay on track at all stages of the product development cycle. Leaving our desks to talk with customers can be a lightweight, weekly effort; the alternative may lead our team to waste resources building something that is of little value to customers.  
+## Resources
 
 We hope this helps. If you have questions about your customers and want to talk about how to build a better product, we would love to talk with you. Contact us at [labzero.com/contact](https://labzero.com/contact). 
-
-## Resources
 
 This playbook is inspired by many authors and practitioners in the product design space, including the following. 
 
