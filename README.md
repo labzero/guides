@@ -7,7 +7,7 @@ Ahoy! You are welcome to access Lab Zero's guides for our best practices for pro
 - [Best Practices for Giving and Receiving Feedback](https://github.com/labzero/guides/blob/master/process/giving-and-receiving-design-feedback.md)
 
 ## Playbooks
-- Coming soon: Lab Zero Customer Development Playbook
+- [Customer Development Playbook](https://github.com/labzero/guides/blob/master/process/customer_development_playbook.md)
 
 ## Delivery Process Guides
 
