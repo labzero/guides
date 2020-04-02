@@ -213,6 +213,8 @@ Interview trackers are great because they can easily be shared as a link and pin
 
 Access Lab Zero's [Interview Tracker Template here](https://docs.google.com/spreadsheets/d/1uoYfEy3_ZuFTikcwnyiLfMiU3ZPwogwx5cW6rWpkx2w/edit?usp=sharing).
 
+![Example Interview Tracker](images/interview_tracker_sample.png)
+
 ### Create an interview template for note taking and documentation  
 
 Next, we recommend creating a template for note taking so that we can copy and paste a new document as we schedule interviews. We like putting placeholders for ‘next steps’, ‘open questions’ and key insights’ above the raw note. 
@@ -283,7 +285,7 @@ When insights are uncovered, the entire team needs to rally behind new insights,
 - Ideas for “How might we’s”.
 - Information that challenges previous assumptions.
 - Changed context. 
-- Conflicing information within or between interviews.
+- Conflicting information within or between interviews.
 - New information about the customer journey.
 - Possible solutions that come to mind in response to the customer’s pain.
 
