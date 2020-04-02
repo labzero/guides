@@ -277,20 +277,15 @@ As we synthesize our findings, we consider the following:
 
 When insights are uncovered, the entire team needs to rally behind new insights, learn from them, and make better-informed decisions to achieve and maintain product-market fit. An insight might be one of the following: 
 
-- Highlights from the interview 
-- Quotes
-- “Ah-ha” moments
-- Themes
-- Things that seem important 
-- Learning more about the customer or what is most relevant to the customer  
-- Ideas for “How might we’s”
-- Corrections for previous assumptions
-- Changed context 
-- Realizations about the customer and our product offering
-- Something that generates an idea
-- Similarities or contradictions from other interviews
-- New information we did not previously know 
-- Possible solutions that come to mind in response to the customer’s pain
+- Themes that tie together multiple interviews or questions.
+- A clue to the customer's mindset or mental model.
+- Learning more about the customer or what is most relevant to the customer.  
+- Ideas for “How might we’s”.
+- Information that challenges previous assumptions.
+- Changed context. 
+- Conflicing information within or between interviews.
+- New information about the customer journey.
+- Possible solutions that come to mind in response to the customer’s pain.
 
 ## Step 6: Determine Next Steps
 
