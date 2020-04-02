@@ -40,7 +40,7 @@ American health insurance and HR websites make it hard to compare plans side by 
 
 At Lab Zero, we don’t want our customers to have this kind of an experience. That’s why we advocate for talking to customers about their needs. When we talk about customer development, we are talking about stepping away from our desks to test hypotheses with customers. It’s a subset of user research, and is our umbrella term for iteratively clarifying who our target customer segments are. 
 
-![Example #2: Email survey from banks](images/bad_survey_example.png)
+![Example: Survey emailed to customers from banks](images/bad_survey_example.png)
 
 #### Example #2: Email surveys
 
@@ -224,6 +224,8 @@ Access Lab Zero’s [Interview Notes Template here](https://docs.google.com/docu
 Once our customer development plan is set up, we are ready to coordinate interviews with our targets. We add names of target customers to the interview tracker and determine their contact information, or if we need an introduction. We then establish who can work on which customers, by assigning who will lead the conversation and who can join to take notes. This is a great time to invite silent participants, too, if helpful. From there, we start reaching out to target customers to schedule an interview.  
 
 It is important to set context. Customers will likely not accept the invitation if they do not understand the purpose of this interview. After we confirm an interview, we send a calendar invitation with logistics such as the dial in number or meeting location. Finally, we like to send a reminder to the customer the day before the interview to confirm the time. 
+
+![Sample email to request an interview with a customer](images/email_invitation_sample.png)
 
 ## Step 4: Interview Customers 
 
