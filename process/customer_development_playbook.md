@@ -40,6 +40,8 @@ American health insurance and HR websites make it hard to compare plans side by 
 
 At Lab Zero, we don’t want our customers to have this kind of an experience. That’s why we advocate for talking to customers about their needs. When we talk about customer development, we are talking about stepping away from our desks to test hypotheses with customers. It’s a subset of user research, and is our umbrella term for iteratively clarifying who our target customer segments are. 
 
+![Example #2: Email survey from banks](images/bad_survey_example.png)
+
 #### Example #2: Email surveys
 
 In this second example, companies like banks notoriously email generic surveys to customers to ask for feedback. These surveys typically ask for the customer to rate the bank on a scale from '1 to 10'. At best, the bank can look for quantitative trends. But it's very difficult to get to the root cause of a customer satisfaction rating using a survey. Survey respondents don’t like to answer open-ended questions. Knowing what questions to ask often depends on observing a person’s tone of voice or body language. With the right learning goals and set of questions, the bank can learn more by talking directly with customers. 
