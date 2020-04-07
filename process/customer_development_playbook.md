@@ -104,6 +104,8 @@ At Lab Zero, talking to customers is a critical part of our product design and d
 
 First, we like to assess our existing and potential customers. We start by deciding team roles and responsibilities, assessing where we are today with customer development, and stating our team’s internal learning goals. The following set up activities do not have to be done in a certain order. Set up depends on what we know and what gaps we have. 
 
+Access Lab Zero’s [Set Up Template here](https://docs.google.com/document/d/1yoLB8Dv2Jj1l8IxjUy8HqaPy1aK_QlbF9TP8t9F7HFE/edit?usp=sharing).
+
 ### Organize roles
 
 These tasks are geared towards smaller teams of 2 to 5 contributors, but are applicable to solo contributors and larger teams. Remember, it’s best if the full team participates and has clear ownership of these tasks: 
