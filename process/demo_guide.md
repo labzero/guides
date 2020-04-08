@@ -8,7 +8,7 @@ Take notes to use during the demo so that you can cruise through the delivered w
 
 The main trick is to try to tell the audience about as much work done on a screen as you can while still keeping the story simple.
 
-We often do a pre-demo meeting for 15-30 minutes where the product owner and dev team meets to review the work for for the "release". This is a great place for the demoer to do their homework with the other devs and product owner there to answer questions on how to demo things.
+We often do a pre-demo meeting for 15-30 minutes where the product owner and dev team meets to review the work for the "release". This is a great place for the demoer to do their homework with the other devs and product owner there to answer questions on how to demo things.
 
 # Connect with the audience
 The demo is the time to show the value that has been delivered. Tell a story and assume that folks need more context than you and your teammates would use.
