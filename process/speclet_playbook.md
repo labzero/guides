@@ -1,6 +1,6 @@
 # Lab Zero Speclet Playbook
 
-You can find a speclet template on Lab Zero’s GitHub Repo [here](https://github.com/labzero/guides/blob/master/speclet_template.md).
+You can find a speclet template on Lab Zero’s GitHub Repo here: [View Speclet Template](https://github.com/labzero/guides/blob/master/process/speclet_template.md).
 
 ## What is a ‘speclet’?
 
@@ -50,4 +50,4 @@ Drafting a speclet can be as simple as writing down what you observe happening t
 
 ## Ready to write your own speclet? 
 
-You can find a speclet template on Lab Zero’s GitHub Repo [here](https://github.com/labzero/guides/blob/master/speclet_template.md).
+You can find a speclet template on Lab Zero’s GitHub Repo here: [View Speclet Template](https://github.com/labzero/guides/blob/master/process/speclet_template.md).
