@@ -1,5 +1,5 @@
 # Lab Zero Speclet Template
-To learn more about speclets, view the playbook on Lab Zero’s GitHub Repo here (Link coming soon).
+To learn more about speclets, [view the playbook](https://github.com/labzero/guides/blob/master/process/speclet_playbook.md).
 
 ## Summary
 This is your space to clarify who the primary customer is, what their core problems/goals are and why the business believes the effort is a worthy investment. 
