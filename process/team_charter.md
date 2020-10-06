@@ -22,23 +22,6 @@ Kate Bennet | Product Manager | kate@labzero.com |
 Ned Holets | Tech Lead | ned@labzero.com | 
 César Idrovo | Agility Coach | cesar@labzero.com | 
 
-## Project Expectations (Internal Only)
-List any commitments made to the client so the entire team is aware:  
-* What’s the budget?
-* What are the billable hour limits?
-* Artifact promised to deliver? 
-* Milestone dates? 
-* Are we timeboxed in any way? 
-* When does the SOW get renewed?
-
-Here's an example: 
-
-Teammate | Role | Start Date | End Date | Work Days | Hours/Day | Notes
------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-Jean-Carlos | Product | 2020.10.01 | 2020.12.31 | 50 | 7 | 
-Clayton | Design | 2020.10.01 | 2020.12.31 | 50 | 7 |
-Ned | Development | 2020.10.01 | 2020.12.31 | 55 | 5 | 
-
 ## Project Timeline
 Are there key meetings, milestones or cycles?  List them here.  A table or bulleted list — use the format that communicates it best. Are there scheduled team meetings such as stand-ups, design reviews, product demos? What is the cadence of those?
 
@@ -97,6 +80,8 @@ Agile coaching |  |  |  |  |  | responsible
 Final delivery |  | responsible | assists | assists |  | 
 
 ## Team Collaboration Tools
+
+List the key tools 
 
 Tool | Location / Notes 
 ------------ | ------------- 
