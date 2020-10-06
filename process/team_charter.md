@@ -81,7 +81,7 @@ Final delivery |  | responsible | assists | assists |  |
 
 ## Team Collaboration Tools
 
-List the key tools 
+List the key tools to be used on the project. If there are any tools that should be avoided, consider noting that below the table.
 
 Tool | Location / Notes 
 ------------ | ------------- 
@@ -96,17 +96,9 @@ Harvest | Project for Harvest tracking
 Source Code | GitHub
 Client Tools | Are there any client tools we are required to use?
 
-## Tools to Avoid
-Tools not approved by client to be avoided.
-
-Tool | Reason 
------------- | ------------- 
-Evernote | No cloud based tools
-Invision | Stakeholder only wants to use Apple products
-
 ## Open questions/FAQ
 
-List anything that we are not sure about or questions that frequently arise.  As we get answers, we’ll list them here.
+List anything that we are not sure about or questions that frequently arise.  As we get answers, we can list them here.
 
 Q. For example, this has come up several times during discussions.
 
