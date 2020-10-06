@@ -12,6 +12,7 @@ Ahoy! You are welcome to access Lab Zero's guides for our best practices for pro
 
 ## Delivery Process Guides
 
+- [How to Write a Project Charter](https://github.com/labzero/guides/blob/master/process/project_charter.md)
 - [How to Write User Stories](https://github.com/labzero/guides/blob/master/process/how_we_write_user_stories.md)
 - [Development Workflow](https://github.com/labzero/guides/blob/master/process/development_workflow.md)
 - [Testing Strategy](https://github.com/labzero/guides/blob/master/process/testing_strategy.md)
