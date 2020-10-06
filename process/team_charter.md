@@ -1,4 +1,6 @@
-# [Project] Team Charter Template
+# [Project] Charter Template
+
+The following template is useful when kicking off a new project with our client-partners. Typically, sub-teams like design or engineering also create charters specific to their skillsets and responsibilities. 
 
 ## Summary & Objectives
 Link to [speclet](https://github.com/labzero/guides/blob/master/process/speclet_template.md).
