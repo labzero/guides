@@ -1,6 +1,6 @@
 # [Project] Charter Template
 
-The following template is useful when kicking off a new project with our client-partners for new projects.
+The following template is useful for cross-functional teams when kicking off a new project with our client-partners.
 
 ## Summary & Objectives
 Link to [speclet](https://github.com/labzero/guides/blob/master/process/speclet_template.md).
