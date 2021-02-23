@@ -29,6 +29,11 @@ If you're not convinced by this guide, see our [Blog Post](https://404.noblogpos
   * Paste this entire Markdown document into the text area on the left.
   * After reviewing the preview pane, click the `Insert` button.
   * Click `Save` button in the lower left corner.
+  * Extra Credit: Create a Table of Contents on the left side, which will allow for quicker navigation to the desired section (especially helpful in an urgent situation):
+    * Click `Page Layout` icon, then click `Two column section with right side-bar` icon.
+    * Type `Table of Contents` at the top of the left column as a heading.
+    * Below that, type `{Table of Contents` and hit enter. The `Table of Contents` macro element should appear.
+    * Click `Update` in the lower left corner.
   * Subsequently, when creating a new `Runbook`, you can select your user created `Runbook Template`.
 * Customize the template to account for proprietary business requirements or project nuances. Then remove this instruction as well as any instructions irrellevant to your team.
 * When using the template to create new `Runbooks`, remove this entire `Runbook Guide and Template` section such that the `Runbook` begins with the `Overview` section.
