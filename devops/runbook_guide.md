@@ -16,25 +16,10 @@ The existence of a `Runbook` is part of the definition of done for a "production
 NOW! Create the `Runbook` for your system **early** and modify the `Runbook` **often**. We have found the best results from this approach. The earlier the team is aware that the `Runbook` exists and is a shared living document which is intended to be the overall document for the system, the better the likelihood of success. This, coupled with the best practice of reviewing and modifying the `Runbook` with every change to the system, will increase efficiency, velocity, and uptime and reduce confusion, friction, and stress within your team.
 
 ### Where is a Runbook?
-Wherever your team stores their documentation is where the `Runbook` should exist. Likely this will be in a wiki. See our instructions in the following section  for importing this Markdown document into an Atlassian Confluence wiki. Possibly you will store the Markdown as is within your code repository, depending on the makeup of the team. The goal here is that anyone who needs to consume the document will have easy access to it.
+Wherever your team stores their documentation is where the `Runbook` should exist. This could be in a wiki or within your code repository, depending on the makeup of the team. The goal here is that anyone who needs to consume the document will have easy access to it.
 
 ### How To Use This Guide
-* Import this document into your wiki or other document management system as a template. Then remove this instruction. If you're using Atlassian Confluence, follow these steps to import this Markdown and use it to generate a template:
-  * Click the `...` to the right of `Create` in the top nav.
-  * Click `Add or customize templates for the selected space` in the resulting modal.
-  * Next to `User Created Templates`, click the `Create New Template` button.
-  * Add `Runbook Template` as the Template title.
-  * On the blank Template page, click the `+v` button to expose more options and click the `Markup` menu item.
-  * Next to `Insert` select `Markdown` instead of `Confluence wiki`.
-  * Paste this entire Markdown document into the text area on the left.
-  * After reviewing the preview pane, click the `Insert` button.
-  * Click `Save` button in the lower left corner.
-  * Extra Credit: Create a Table of Contents on the left side, which will allow for quicker navigation to the desired section (especially helpful in an urgent situation):
-    * Click `Page Layout` icon, then click `Two column section with right side-bar` icon.
-    * Type `Table of Contents` at the top of the left column as a heading.
-    * Below that, type `{Table of Contents` and hit enter. The `Table of Contents` macro element should appear.
-    * Click `Update` in the lower left corner.
-  * Subsequently, when creating a new `Runbook`, you can select your user created `Runbook Template`.
+* Import this document into your wiki or other document management system as a template. Then remove this instruction. 
 * Customize the template to account for proprietary business requirements or project nuances. Then remove this instruction as well as any instructions irrellevant to your team.
 * When using the template to create new `Runbooks`, remove this entire `Runbook Guide and Template` section such that the `Runbook` begins with the `Overview` section.
 * Conform to a naming convention of your determination, possibly starting the name of each `Runbook` with the word "`Runbook`."
@@ -42,10 +27,32 @@ Wherever your team stores their documentation is where the `Runbook` should exis
 * Create an index of `Runbooks` for your organization if it doesn't exist. Ensure your new `Runbook` is added to the index.
 * Share your thoughts with us! We'd love to know how it works for you and how we can improve upon this guide and template going forward. Who knows, maybe together with you we can convince the entire software community to adopt this standard.
 
+### How to Import Into Atlassian Confluence
+If you're using Atlassian Confluence, follow these steps to import this Markdown and use it to generate a template:
+* Click the `...` to the right of `Create` in the top nav.
+* Click `Add or customize templates for the selected space` in the resulting modal.
+* Next to `User Created Templates`, click the `Create New Template` button.
+* Add `Runbook Template` as the Template title.
+* On the blank Template page, click the `+v` button to expose more options and click the `Markup` menu item.
+* Select `Markdown` in the dropdown list next to `Insert`
+* Copy and paste this entire Markdown document into the text area on the left.
+* After reviewing the preview pane, click the `Insert` button.
+* Click `Save` button in the lower left corner.
+
+_Optional:_ Create a Table of Contents on the right side, which will allow for quicker navigation to the desired section (especially helpful in an urgent situation):
+* Click `Page Layout` icon, then click `Two column section with right side-bar` icon.
+* Type `Table of Contents` at the top of the left column as a heading.
+* Below that, type `{Table of Contents` and hit enter. The `Table of Contents` macro element should appear.
+* Click `Update` in the lower left corner.
+
+Subsequently, when creating a new `Runbook`, you can select this new `Runbook Template`.
+
 ### Best Practices
 * **Add** sections that should be in the template but are not there.
 * **Delete** sections that are not relevant to your team or the project.
 * **Refresh** this document as often as you make changes to the system.
+* **Make it yours** with whatever changes make the template and individual `Runbooks` work for **your team**.
+* **Evangelize it** within your project team and organization if it works for you.
 
 * * *
 
