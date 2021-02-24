@@ -4,46 +4,13 @@
     - [Everyone Uses the Runbook](#everyone-uses-the-runbook)
     - [Do You Need a Runbook?](#do-you-need-a-runbook)
     - [Runbook Early, Runbook Often](#runbook-early-runbook-often)
-    - [Front and Center](#front-and-center)
+    - [Keep 'em Front and Center](#keep-em-front-and-center)
     - [Create Your Runbook Template](#create-your-runbook-template)
     - [Use Your Runbook Template](#use-your-runbook-template)
     - [Import Confluence Template](#import-confluence-template)
     - [Best Practices](#best-practices)
 - [Runbook Template](#runbook-template)
-  - [Overview](#overview)
-    - [Description](#description)
-    - [Architecture](#architecture)
-    - [Maintainers](#maintainers)
-    - [Business Impact](#business-impact)
-    - [Stakeholders](#stakeholders)
-  - [Observability](#observability)
-  - [Onboarding](#onboarding)
-    - [Repositories](#repositories)
-  - [Admin Tasks](#admin-tasks)
-  - [Deployment / CI/CD](#deployment--cicd)
-  - [Server Details](#server-details)
-    - [Endpoints and IPs](#endpoints-and-ips)
-    - [Ports and Security](#ports-and-security)
-    - [Connecting to Service](#connecting-to-service)
-  - [Logging](#logging)
-  - [Services](#services)
-    - [Stopping and Starting](#stopping-and-starting)
-    - [Checking Status](#checking-status)
-    - [Rebooting](#rebooting)
-  - [Configuration](#configuration)
-    - [Infastructure as Code Details](#infastructure-as-code-details)
-    - [Server Configuration Files](#server-configuration-files)
-  - [Certificates](#certificates)
-    - [Location on Server](#location-on-server)
-    - [Related Guides](#related-guides)
-  - [Backups](#backups)
-    - [Backups Pruning](#backups-pruning)
-    - [Backups Monitoring](#backups-monitoring)
-  - [License Renewal](#license-renewal)
-  - [Further Documentation](#further-documentation)
-  - [Known Failure Scenarios](#known-failure-scenarios)
-  - [Future Considerations](#future-considerations)
-  
+
 # Runbook Guide
 
 ### Runbooks: A Jumping-Off Point
@@ -59,10 +26,10 @@ Everyone? Well, anyone on the team who maintains the system, responds to inciden
 Yes. The existence of a `Runbook` is an important part of DoD (Definition of Done) for a "production ready" system or service. A `Runbook` ensures that every element of a system is addressed and documented in a central location, allowing for expedient maturity. Trying to run a system without a `Runbook` results in divergent and compartmentalized knowledge within a team, which causes communication breakdowns during crucial moments. Don't let that happen to your team; use this guide as a template for generating a `Runbook`.
 
 ### Runbook Early, Runbook Often
-Create the `Runbook` for your system **early** and modify the `Runbook` **often**. The earlier this document exists, the more traction it has within the team. Review and modify the `Runbook` with every change to the system. This will increase efficiency, velocity, and uptime and reduce confusion, friction, and stress within your team. It is a shared living document which is intended to be the record of the system. Create it at the inception of a project, and keep it up to date.
+Create the `Runbook` for your system **early** and modify the `Runbook` **often**. The earlier this document exists, the more traction it has within the team. Review and modify the `Runbook` with every change to the system. This increases efficiency, velocity, and uptime and reduces confusion, friction, and stress within your team. It is a shared living document which is the record of the system. Create it at the inception of a project, and keep it up to date.
 
-### Front and Center
-`Runbooks` are to be stored wherever your team regularly looks for information. This could be in a wiki, a code repository, or any other centralized document store that supports revision history, depending on your organization and team. The goal here is that anyone who needs to consume the document will have easy access to it, and changes are tracked.
+### Keep 'em Front and Center
+`Runbooks` are to be stored wherever your team regularly looks for information. This could be in a wiki, a code repository, or any other centralized document store that supports revision history, depending on your organization and team. The goal here is that anyone who needs to consume the document has easy access to it, and changes are tracked.
 
 ### Create Your Runbook Template
 * Import this document into your system as a template. _Details provided below for Atlassian Confluence._
@@ -100,7 +67,7 @@ Subsequently, when creating a new `Runbook`, select this new `Runbook Template`.
 * **Refresh** this document as often as you make changes to the system.
 * **Make it yours** with whatever changes make the template and individual `Runbooks` work for **your team**.
 * **Evangelize it** within your project team and organization if it works for you.
-* **Share your thoughts** with us! We'd love to know how it works for you and how we can improve upon this guide and template going forward. Who knows, maybe together with you we can convince the entire software community to adopt this standard.
+* **Share your thoughts** with us! We'd love to know how it works for you and how we can improve upon this guide and template going forward. Who knows? Maybe together with you we can convince the entire software community to adopt this standard!
 
 * * *
 
