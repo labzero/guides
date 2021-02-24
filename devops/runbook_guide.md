@@ -80,8 +80,16 @@ Here it is! Everything below this point is the template to generate a new `Runbo
 ### Description
 Replace this text with a description of the functionality that the component provides for the overall system.
 
+> Example: 
+> 
+> LZ Bookstore (Lab Zero Bookstore) provides users with a platform for purchasing ebooks written by Lab Zero authors for the edification of users worldwide.
+
 ### Architecture
 Replace this with an architecture diagram or a description of the architecture.
+
+> Example: 
+> 
+> LZ Bookstore consists of a Node.js front-end, a Ruby on Rails back-end API, a PostgreSQL database, and a Redis cache. These are hosted in LZ Cloud's ZKS (Zero Kubernetes Service) platform behind a ZLB (Zero Load Balancer).
 
 ### Maintainers
 Replace this text with the maintainers of the code. If your team uses a directory, link to the directory as well as providing contact details. List the team or individuals. Subject matter experts should be called out individually.
@@ -92,8 +100,19 @@ Replace this text with the maintainers of the code. If your team uses a director
 | Jane Doe | Backend Engineer | Replace With Jane's Team Name |
 | Jo Doe | QA Engineer | Replace With Jo's Team Name |
 
+> Example: 
+> | Name | Role | Team |
+> | --- | --- | --- |
+> | Kate Bennet | Director of Products | Product |
+> | Ned Holets | Director of Engineering | Engineering |
+> | Drew Adams | Senior DevOps Engineer | Engineering |
+
 ### Business Impact
 Replace this text with information about how degradation or downtime affects the business. If there are any SLA (Service Level Agreement) details regarding uptime or maintenance windows to be documented or linked here, provide them.
+
+> Example:
+> 
+> If this application encounters an outage, LZ Bookstore users worldwide will lose their ability to purchase LZ Books. This is a 24/7 application and any outage is considered a P1 incident.
 
 ### Stakeholders
 Replace this text with a list of individuals or teams that have a legitimate business interest in how this component functions. These people can typically be identified by thinking about where feature requests for this component come from or who is most impacted when this component is misbehaving.
@@ -103,6 +122,13 @@ Replace this text with a list of individuals or teams that have a legitimate bus
 | Jane Doe | Corporate Sponsor | Replace With Jane's Team Name |
 | John Doe | Product Owner | Replace With John's Team Name |
 | Jo Doe | Technical Project Manager | Replace With Jo's Team Name |
+
+> Example:
+> | Name | Role | Team |
+> | --- | --- | --- |
+> | Chris Greacen | Chief Executive Officer | Product |
+> | Dean Baker | Chief Design Officer | Design |
+> | Matt Wilson | Chief Technology Officer | Engineering |
 
 * * *
 
@@ -119,8 +145,8 @@ Replace this text and the boilerplate list below with any relevant monitoring, g
 Replace this text with details about how new users are onboarded.
 
 ### Repositories
-*   [repository link 1](http://gihublink.com) Replace this text with summary of what is in this repo
-*   [repository link 2](http://gihublink.com) Replace this text with summary of what is in this repo
+* [repository link 1](http://gihublink.com) Replace this text with summary of what is in this repo
+* [repository link 2](http://gihublink.com) Replace this text with summary of what is in this repo
 
 * * *
 
