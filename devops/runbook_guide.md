@@ -14,7 +14,7 @@
 # Runbook Guide
 
 ### Runbooks: A Jumping-Off Point
-A `Runbook` documents how to run your system. It is a jumping-off point which provides an overview and then outlines pathways to dive into the supporting subsystems and documentation. This document is the source of truth for your application. Though it has the word "book" in it, a `Runbook` is more akin to a table of contents, in that relevant external systems and documents are linked from within the `Runbook`. This avoids duplication and keeps the `Runbook` clear and concise.
+A `Runbook` documents how to run your application, service, or subsystem. It is a jumping-off point which provides an overview and then outlines pathways to dive into the supporting subsystems and documentation. This document is the source of truth for your application. Though it has the word "book" in it, a `Runbook` is more akin to a table of contents, in that relevant external systems and documents are linked from within the `Runbook`. This avoids duplication and keeps the `Runbook` clear and concise.
 
 ### Playbooks and Runbooks are Different
 Our implementation of a `Runbook` is not a list of play-by-play steps, which we consider to be a `Playbook`. Relevant `Playbooks` are linked from a `Runbook`. While there is not a clear standard within the software community regarding the use of the words `Runbook` and `Playbook`, [Lab Zero](https://labzero.com)'s definition of these terms is shared among others in the field and has successfully facilitated efficiency within our client teams.
@@ -34,10 +34,10 @@ Create the `Runbook` for your system **early** and modify the `Runbook` **often*
 ### Create Your Runbook Template
 * Import this document into your system as a template. _Details provided below for Atlassian Confluence._
 * Customize the template to account for proprietary business requirements or project nuances. Remove anything that is irrelevant to your team.
-* Remove this entire `Runbook Guide and Template` section such that your `Runbook` template begins with the `Overview` section.
+* Remove this entire `Runbook Guide` section such that your `Runbook` template begins with the `Overview` after the `Runbook Template` header below.
 
 ### Use Your Runbook Template
-* Conform to a naming convention when you create a new `Runbook` from this template. Start the name of each `Runbook` with the word "`Runbook`," ie: `Runbook - Application Server`
+* Conform to a naming convention when you create a new `Runbook` from this template. Start the name of each `Runbook` with the word `Runbook`, ie: "`Runbook - Application Server`"
 * Remove and replace each section's details with concise relevant content as instructed inline. For the sake of clarity and conciseness, do not retain the inline instructions; you can always refer back to this document or your modified template.
 * Create a single index of `Runbooks` for your organization. Ensure your new `Runbook` is added to the index.
 
