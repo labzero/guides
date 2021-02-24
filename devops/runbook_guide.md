@@ -1,4 +1,50 @@
-# Runbook Guide and Template
+- [Runbook Guide](#runbook-guide)
+    - [Runbooks: A Jumping-Off Point](#runbooks-a-jumping-off-point)
+    - [Playbooks and Runbooks are Different](#playbooks-and-runbooks-are-different)
+    - [Everyone Uses the Runbook](#everyone-uses-the-runbook)
+    - [Do You Need a Runbook?](#do-you-need-a-runbook)
+    - [Runbook Early, Runbook Often](#runbook-early-runbook-often)
+    - [Front and Center](#front-and-center)
+    - [Create Your Runbook Template](#create-your-runbook-template)
+    - [Use Your Runbook Template](#use-your-runbook-template)
+    - [Import Confluence Template](#import-confluence-template)
+    - [Best Practices](#best-practices)
+- [Runbook Template](#runbook-template)
+  - [Overview](#overview)
+    - [Description](#description)
+    - [Architecture](#architecture)
+    - [Maintainers](#maintainers)
+    - [Business Impact](#business-impact)
+    - [Stakeholders](#stakeholders)
+  - [Observability](#observability)
+  - [Onboarding](#onboarding)
+    - [Repositories](#repositories)
+  - [Admin Tasks](#admin-tasks)
+  - [Deployment / CI/CD](#deployment--cicd)
+  - [Server Details](#server-details)
+    - [Endpoints and IPs](#endpoints-and-ips)
+    - [Ports and Security](#ports-and-security)
+    - [Connecting to Service](#connecting-to-service)
+  - [Logging](#logging)
+  - [Services](#services)
+    - [Stopping and Starting](#stopping-and-starting)
+    - [Checking Status](#checking-status)
+    - [Rebooting](#rebooting)
+  - [Configuration](#configuration)
+    - [Infastructure as Code Details](#infastructure-as-code-details)
+    - [Server Configuration Files](#server-configuration-files)
+  - [Certificates](#certificates)
+    - [Location on Server](#location-on-server)
+    - [Related Guides](#related-guides)
+  - [Backups](#backups)
+    - [Backups Pruning](#backups-pruning)
+    - [Backups Monitoring](#backups-monitoring)
+  - [License Renewal](#license-renewal)
+  - [Further Documentation](#further-documentation)
+  - [Known Failure Scenarios](#known-failure-scenarios)
+  - [Future Considerations](#future-considerations)
+  
+# Runbook Guide
 
 ### Runbooks: A Jumping-Off Point
 A `Runbook` documents how to run your system. It is a jumping-off point which provides an overview and then outlines pathways to dive into the supporting subsystems and documentation. This document is the source of truth for your application. Though it has the word "book" in it, a `Runbook` is more akin to a table of contents, in that relevant external systems and documents are linked from within the `Runbook`. This avoids duplication and keeps the `Runbook` clear and concise.
@@ -28,7 +74,7 @@ Create the `Runbook` for your system **early** and modify the `Runbook` **often*
 * Remove and replace each section's details with concise relevant content as instructed inline. For the sake of clarity and conciseness, do not retain the inline instructions; you can always refer back to this document or your modified template.
 * Create a single index of `Runbooks` for your organization. Ensure your new `Runbook` is added to the index.
 
-### How to Import Into Atlassian Confluence
+### Import Confluence Template
 If you're using Atlassian Confluence, follow these steps to import this Markdown and use it to generate a template:
 * Click the `...` to the right of `Create` in the top nav.
 * Click `Add or customize templates for the selected space` in the resulting modal.
@@ -55,6 +101,11 @@ Subsequently, when creating a new `Runbook`, select this new `Runbook Template`.
 * **Make it yours** with whatever changes make the template and individual `Runbooks` work for **your team**.
 * **Evangelize it** within your project team and organization if it works for you.
 * **Share your thoughts** with us! We'd love to know how it works for you and how we can improve upon this guide and template going forward. Who knows, maybe together with you we can convince the entire software community to adopt this standard.
+
+* * *
+
+# Runbook Template
+Here it is! Everything below this point is the template to generate a new `Runbook`.
 
 * * *
 
