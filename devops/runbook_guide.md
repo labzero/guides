@@ -25,7 +25,6 @@ Wherever your team stores their documentation is where the `Runbook` should exis
 * Conform to a naming convention of your determination, possibly starting the name of each `Runbook` with the word "`Runbook`."
 * Remove and replace each section's details with concise relevant content as instructed inline. For the sake of clarity and conciseness, do not retain the inline instructions; you can always refer back to this document or your modified template.
 * Create an index of `Runbooks` for your organization if it doesn't exist. Ensure your new `Runbook` is added to the index.
-* Share your thoughts with us! We'd love to know how it works for you and how we can improve upon this guide and template going forward. Who knows, maybe together with you we can convince the entire software community to adopt this standard.
 
 ### How to Import Into Atlassian Confluence
 If you're using Atlassian Confluence, follow these steps to import this Markdown and use it to generate a template:
@@ -53,6 +52,7 @@ Subsequently, when creating a new `Runbook`, you can select this new `Runbook Te
 * **Refresh** this document as often as you make changes to the system.
 * **Make it yours** with whatever changes make the template and individual `Runbooks` work for **your team**.
 * **Evangelize it** within your project team and organization if it works for you.
+* **Share your thoughts** with us! We'd love to know how it works for you and how we can improve upon this guide and template going forward. Who knows, maybe together with you we can convince the entire software community to adopt this standard.
 
 * * *
 
