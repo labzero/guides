@@ -1,10 +1,10 @@
 # Runbook Guide and Template
 
 ### What is a Runbook?
-A `Runbook` documents how to run your system. Relevant external systems and documents should be linked from within the `Runbook`. This avoids duplication and keeps the `Runbook` clear and concise.
+A `Runbook` documents how to run your system. It is a jumping-off point which provides an overview and then outlines pathways to dive into the supporting subsystems and documentation. Essentially, this document is the source of truth for your application. Though it has the word "book" in it, a `Runbook` is more akin to a table of contents, in that relevant external systems and documents are linked from within the `Runbook`. This avoids duplication and keeps the `Runbook` clear and concise.
 
 ### What is NOT a Runbook?
-Our implementation of a `Runbook` is not a list of play-by-play steps, which we consider to be a `Playbook`. Relevant `Playbooks` should be linked from a `Runbook`. While there is not a clear standard within the software community regarding the use of the words `Runbook` and `Playbook`, [Lab Zero](https://labzero.com)'s definition of these terms is shared among others in the field and has successfully facilitated efficiency within our client teams.
+Our implementation of a `Runbook` is not a list of play-by-play steps, which we consider to be a `Playbook`. Relevant `Playbooks` are linked from a `Runbook`. While there is not a clear standard within the software community regarding the use of the words `Runbook` and `Playbook`, [Lab Zero](https://labzero.com)'s definition of these terms is shared among others in the field and has successfully facilitated efficiency within our client teams.
 
 ### Who Uses a Runbook?
 Teams who maintain software services maintain a `Runbook` for each service. Whoever starts the project creates the `Runbook`. Subsequent edits require collaboration from members of a cross-functional team in order to complete the picture of the system. It is used by Systems Administrators, `DevOps` Engineers, `NOC` (Network Operations Center) Engineers, `SREs` (Site Reliability Engineers), Software Engineers, or anyone else on the team tasked with maintaining the system or responding to incidents.
