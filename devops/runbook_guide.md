@@ -1,30 +1,32 @@
 # Runbook Guide and Template
 
-### What is a Runbook?
-A `Runbook` documents how to run your system. It is a jumping-off point which provides an overview and then outlines pathways to dive into the supporting subsystems and documentation. Essentially, this document is the source of truth for your application. Though it has the word "book" in it, a `Runbook` is more akin to a table of contents, in that relevant external systems and documents are linked from within the `Runbook`. This avoids duplication and keeps the `Runbook` clear and concise.
+### Runbooks: A Jumping-Off Point
+A `Runbook` documents how to run your system. It is a jumping-off point which provides an overview and then outlines pathways to dive into the supporting subsystems and documentation. This document is the source of truth for your application. Though it has the word "book" in it, a `Runbook` is more akin to a table of contents, in that relevant external systems and documents are linked from within the `Runbook`. This avoids duplication and keeps the `Runbook` clear and concise.
 
-### What is NOT a Runbook?
+### Playbooks and Runbooks are Different
 Our implementation of a `Runbook` is not a list of play-by-play steps, which we consider to be a `Playbook`. Relevant `Playbooks` are linked from a `Runbook`. While there is not a clear standard within the software community regarding the use of the words `Runbook` and `Playbook`, [Lab Zero](https://labzero.com)'s definition of these terms is shared among others in the field and has successfully facilitated efficiency within our client teams.
 
-### Who Uses a Runbook?
-Teams who maintain software services maintain a `Runbook` for each service. Whoever starts the project creates the `Runbook`. Subsequent edits require collaboration from members of a cross-functional team in order to complete the picture of the system. It is used by Systems Administrators, `DevOps` Engineers, `NOC` (Network Operations Center) Engineers, `SREs` (Site Reliability Engineers), Software Engineers, or anyone else on the team tasked with maintaining the system or responding to incidents.
+### Everyone Uses the Runbook
+Everyone? Well, anyone on the team who maintains the system, responds to incidents, or requires knowledge of the system uses a `Runbook` for each service. It is a reference guide for anyone on the team, and essentially this means "everyone." The `Runbook` is created by whoever starts the project. Team members across functional units make subsequent edits in order to complete the picture of the system.
 
-### Why Use a Runbook? Why Use This Guide?
-The existence of a `Runbook` is part of the definition of done for a "production ready" system or service. This guide provides a complete template for generating a `Runbook`, which helps ensure that your team won't leave out any important pieces.
+### Do You Need a Runbook?
+Yes. The existence of a `Runbook` is an important part of DoD (Definition of Done) for a "production ready" system or service. A `Runbook` ensures that every element of a system is addressed and documented in a central location, allowing for expedient maturity. Trying to run a system without a `Runbook` results in divergent and compartmentalized knowledge within a team, which causes communication breakdowns during crucial moments. Don't let that happen to your team; use this guide as a template for generating a `Runbook`.
 
-### When to Use This Guide
-NOW! Create the `Runbook` for your system **early** and modify the `Runbook` **often**. We have found the best results from this approach. The earlier the team is aware that the `Runbook` exists and is a shared living document which is intended to be the overall document for the system, the better the likelihood of success. This, coupled with the best practice of reviewing and modifying the `Runbook` with every change to the system, will increase efficiency, velocity, and uptime and reduce confusion, friction, and stress within your team.
+### Runbook Early, Runbook Often
+Create the `Runbook` for your system **early** and modify the `Runbook` **often**. The earlier this document exists, the more traction it has within the team. Review and modify the `Runbook` with every change to the system. This will increase efficiency, velocity, and uptime and reduce confusion, friction, and stress within your team. It is a shared living document which is intended to be the record of the system. Create it at the inception of a project, and keep it up to date.
 
-### Where is a Runbook?
-Wherever your team stores their documentation is where the `Runbook` should exist. This could be in a wiki or within your code repository, depending on the makeup of the team. The goal here is that anyone who needs to consume the document will have easy access to it.
+### Front and Center
+`Runbooks` are to be stored wherever your team regularly looks for information. This could be in a wiki, a code repository, or any other centralized document store that supports revision history, depending on your organization and team. The goal here is that anyone who needs to consume the document will have easy access to it, and changes are tracked.
 
-### How To Use This Guide
-* Import this document into your wiki or other document management system as a template. Then remove this instruction. 
-* Customize the template to account for proprietary business requirements or project nuances. Then remove this instruction as well as any instructions irrellevant to your team.
-* When using the template to create new `Runbooks`, remove this entire `Runbook Guide and Template` section such that the `Runbook` begins with the `Overview` section.
-* Conform to a naming convention of your determination, possibly starting the name of each `Runbook` with the word "`Runbook`."
+### Create Your Runbook Template
+* Import this document into your system as a template. _Details provided below for Atlassian Confluence._
+* Customize the template to account for proprietary business requirements or project nuances. Remove anything that is irrelevant to your team.
+* Remove this entire `Runbook Guide and Template` section such that your `Runbook` template begins with the `Overview` section.
+
+### Use Your Runbook Template
+* Conform to a naming convention when you create a new `Runbook` from this template. Start the name of each `Runbook` with the word "`Runbook`," ie: `Runbook - Application Server`
 * Remove and replace each section's details with concise relevant content as instructed inline. For the sake of clarity and conciseness, do not retain the inline instructions; you can always refer back to this document or your modified template.
-* Create an index of `Runbooks` for your organization if it doesn't exist. Ensure your new `Runbook` is added to the index.
+* Create a single index of `Runbooks` for your organization. Ensure your new `Runbook` is added to the index.
 
 ### How to Import Into Atlassian Confluence
 If you're using Atlassian Confluence, follow these steps to import this Markdown and use it to generate a template:
@@ -38,17 +40,17 @@ If you're using Atlassian Confluence, follow these steps to import this Markdown
 * After reviewing the preview pane, click the `Insert` button.
 * Click `Save` button in the lower left corner.
 
-_Optional:_ Create a Table of Contents on the right side, which will allow for quicker navigation to the desired section (especially helpful in an urgent situation):
+_Optional:_ Create a Table of Contents on the right side of your Confluence template, which will allow for quicker navigation to the desired section (especially helpful in an urgent situation):
 * Click `Page Layout` icon, then click `Two column section with right side-bar` icon.
 * Type `Table of Contents` at the top of the left column as a heading.
-* Below that, type `{Table of Contents` and hit enter. The `Table of Contents` macro element should appear.
+* Below that, type `{Table of Contents` and hit enter. The `Table of Contents` macro element will appear.
 * Click `Update` in the lower left corner.
 
-Subsequently, when creating a new `Runbook`, you can select this new `Runbook Template`.
+Subsequently, when creating a new `Runbook`, select this new `Runbook Template`.
 
 ### Best Practices
-* **Add** sections that should be in the template but are not there.
-* **Delete** sections that are not relevant to your team or the project.
+* **Add** missing sections that will benefit your team or project.
+* **Delete** irrelevant sections. Every team and project is different.
 * **Refresh** this document as often as you make changes to the system.
 * **Make it yours** with whatever changes make the template and individual `Runbooks` work for **your team**.
 * **Evangelize it** within your project team and organization if it works for you.
