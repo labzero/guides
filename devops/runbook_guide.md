@@ -1,24 +1,24 @@
 # Runbook Guide and Template
 
-### Who Uses a Runbook?
-Teams who maintain software services should maintain a `Runbook` for each service. It may be created by a `DevOps` Engineer, and likely will require input from Software Architects or Engineers and Product Owners. It can be maintained by anyone with the necessary information to complete the picture of the system. It is generally used by Systems Administrators, `DevOps` Engineers, `NOC` (Network Operations Center) Engineers, `SREs` (Site Reliability Engineers), or anyone else on the team tasked with maintaining the system or responding to incidents.
-
 ### What is a Runbook?
-In support of DevOps practices, a `Runbook` documents how to run your system. Relevant external systems and documents should be linked from within the `Runbook`. This avoids duplication and keeps the `Runbook` clear and concise.
+A `Runbook` documents how to run your system. Relevant external systems and documents should be linked from within the `Runbook`. This avoids duplication and keeps the `Runbook` clear and concise.
 
 ### What is NOT a Runbook?
-Our implementation of a `Runbook` is not a list of play by play steps, which we consider to be a `Playbook`. Relevant `Playbooks` can and should certainly be linked from a `Runbook`. While there is not a clear standard within the DevOps community regarding the use of the words `Runbook` and `Playbook`, [Lab Zero](https://labzero.com)'s definition of these terms is shared among others in the field and has successfully facilitated efficiency within our client teams.
+Our implementation of a `Runbook` is not a list of play-by-play steps, which we consider to be a `Playbook`. Relevant `Playbooks` should be linked from a `Runbook`. While there is not a clear standard within the software community regarding the use of the words `Runbook` and `Playbook`, [Lab Zero](https://labzero.com)'s definition of these terms is shared among others in the field and has successfully facilitated efficiency within our client teams.
 
-### Where is a Runbook?
-Wherever your team stores their documentation is where the `Runbook` should exist. Likely this will be in a wiki, possibly with in a `DevOps` space. See our instructions in the How To section below for importing this Markdown document into a Confluence wiki. Possibly you will store the Markdown as is within your code repository, depending on the makeup of the team. The goal here is that anyone who needs to consume the document will have easy access to it.
+### Who Uses a Runbook?
+Teams who maintain software services maintain a `Runbook` for each service. Whoever starts the project creates the `Runbook`. Subsequent edits require collaboration from members of a cross-functional team in order to complete the picture of the system. It is used by Systems Administrators, `DevOps` Engineers, `NOC` (Network Operations Center) Engineers, `SREs` (Site Reliability Engineers), Software Engineers, or anyone else on the team tasked with maintaining the system or responding to incidents.
+
+### Why Use a Runbook? Why Use This Guide?
+The existence of a `Runbook` is part of the definition of done for a "production ready" system or service. This guide provides a complete template for generating a `Runbook`, which helps ensure that your team won't leave out any important pieces.
 
 ### When to Use This Guide
 NOW! Create the `Runbook` for your system **early** and modify the `Runbook` **often**. We have found the best results from this approach. The earlier the team is aware that the `Runbook` exists and is a shared living document which is intended to be the overall document for the system, the better the likelihood of success. This, coupled with the best practice of reviewing and modifying the `Runbook` with every change to the system, will increase efficiency, velocity, and uptime and reduce confusion, friction, and stress within your team.
 
-### Why Use a Runbook? Why Use This Guide?
-If you're not convinced by this guide, see our [Blog Post](https://404.noblogpostyet.labzero.com) on the subject.
+### Where is a Runbook?
+Wherever your team stores their documentation is where the `Runbook` should exist. Likely this will be in a wiki. See our instructions in the following section  for importing this Markdown document into an Atlassian Confluence wiki. Possibly you will store the Markdown as is within your code repository, depending on the makeup of the team. The goal here is that anyone who needs to consume the document will have easy access to it.
 
-### How to Use This Guide
+### How To Use This Guide
 * Import this document into your wiki or other document management system as a template. Then remove this instruction. If you're using Atlassian Confluence, follow these steps to import this Markdown and use it to generate a template:
   * Click the `...` to the right of `Create` in the top nav.
   * Click `Add or customize templates for the selected space` in the resulting modal.
@@ -40,9 +40,12 @@ If you're not convinced by this guide, see our [Blog Post](https://404.noblogpos
 * Conform to a naming convention of your determination, possibly starting the name of each `Runbook` with the word "`Runbook`."
 * Remove and replace each section's details with concise relevant content as instructed inline. For the sake of clarity and conciseness, do not retain the inline instructions; you can always refer back to this document or your modified template.
 * Create an index of `Runbooks` for your organization if it doesn't exist. Ensure your new `Runbook` is added to the index.
-* Share your thoughts with us! We'd love to know how it works for you and how we can improve upon this guide and template going forward. Who knows, maybe together with you we can convince the entire DevOps community to adopt this standard.
+* Share your thoughts with us! We'd love to know how it works for you and how we can improve upon this guide and template going forward. Who knows, maybe together with you we can convince the entire software community to adopt this standard.
 
-
+### Best Practices
+* **Add** sections that should be in the template but are not there.
+* **Delete** sections that are not relevant to your team or the project.
+* **Refresh** this document as often as you make changes to the system.
 
 * * *
 
@@ -58,9 +61,9 @@ Replace this text with the maintainers of the code. If your team uses a director
 
 | Name | Role | Team |
 | --- | --- | --- |
-| John Doe | Product Owner | Team1 |
-| Jane Doe | Backend Engineer | Team2 |
-| Jo Doe | QA Engineer | Team3 |
+| John Doe | Product Owner | Replace With John's Team Name |
+| Jane Doe | Backend Engineer | Replace With Jane's Team Name |
+| Jo Doe | QA Engineer | Replace With Jo's Team Name |
 
 ### Business Impact
 Replace this text with information about how degradation or downtime affects the business. If there are any SLA (Service Level Agreement) details regarding uptime or maintenance windows to be documented or linked here, provide them.
@@ -70,9 +73,9 @@ Replace this text with a list of individuals or teams that have a legitimate bus
 
 | Name | Role | Team |
 | --- | --- | --- |
-| Jane Doe | Corporate Sponsor | Team1 |
-| John Doe | Product Owner | Team2 |
-| Jo Doe | Technical Project Manager | Team3 |
+| Jane Doe | Corporate Sponsor | Replace With Jane's Team Name |
+| John Doe | Product Owner | Replace With John's Team Name |
+| Jo Doe | Technical Project Manager | Replace With Jo's Team Name |
 
 * * *
 
