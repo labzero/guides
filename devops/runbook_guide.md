@@ -82,14 +82,19 @@ Replace this text with a description of the functionality that the component pro
 
 > Example: 
 > 
-> LZ Bookstore (Lab Zero Bookstore) provides users with a platform for purchasing ebooks written by Lab Zero authors for the edification of users worldwide.
+> Lunch is an app for groups to decide on nearby lunch options.
 
 ### Architecture
 Replace this with an architecture diagram or a description of the architecture.
 
 > Example: 
 > 
-> LZ Bookstore consists of a Node.js front-end, a Ruby on Rails back-end API, a PostgreSQL database, and a Redis cache. These are hosted in LZ Cloud's ZKS (Zero Kubernetes Service) platform behind a ZLB (Zero Load Balancer).
+> Lunch is react > 
+redux
+isomorphic
+lunch
+websocket
+google-maps
 
 ### Maintainers
 Replace this text with the maintainers of the code. If your team uses a directory, link to the directory as well as providing contact details. List the team or individuals. Subject matter experts should be called out individually.
@@ -103,16 +108,14 @@ Replace this text with the maintainers of the code. If your team uses a director
 > Example: 
 > | Name | Role | Team |
 > | --- | --- | --- |
-> | Kate Bennet | Director of Products | Product |
-> | Ned Holets | Director of Engineering | Engineering |
-> | Drew Adams | Senior DevOps Engineer | Engineering |
+> | Jeffrey Carl Faden | Software Engineer | Engineering |
 
 ### Business Impact
 Replace this text with information about how degradation or downtime affects the business. If there are any SLA (Service Level Agreement) details regarding uptime or maintenance windows to be documented or linked here, provide them.
 
 > Example:
 > 
-> If this application encounters an outage, LZ Bookstore users worldwide will lose their ability to purchase LZ Books. This is a 24/7 application and any outage is considered a P1 incident.
+> If this application encounters an outage, teams cannot collaborate on lunch plans without speaking to eachother.
 
 ### Stakeholders
 Replace this text with a list of individuals or teams that have a legitimate business interest in how this component functions. These people can typically be identified by thinking about where feature requests for this component come from or who is most impacted when this component is misbehaving.
@@ -126,9 +129,7 @@ Replace this text with a list of individuals or teams that have a legitimate bus
 > Example:
 > | Name | Role | Team |
 > | --- | --- | --- |
-> | Chris Greacen | Chief Executive Officer | Product |
-> | Dean Baker | Chief Design Officer | Design |
-> | Matt Wilson | Chief Technology Officer | Engineering |
+> | Jeffrey Carl Faden | Software Engineer | Engineering |
 
 * * *
 
@@ -144,10 +145,17 @@ Replace this text and the boilerplate list below with any relevant monitoring, g
 ## Onboarding
 Replace this text with details about how new users are onboarded.
 
-### Repositories
-* [repository link 1](http://gihublink.com) Replace this text with summary of what is in this repo
-* [repository link 2](http://gihublink.com) Replace this text with summary of what is in this repo
+> Example: 
+> 
+> Follow the [Lunch Setup](https://github.com/labzero/lunch) to get on the Lunch train.
 
+### Repositories
+* [repository link 1](http://gihublink.com) : Replace this text with summary of what is in this repo
+* [repository link 2](http://gihublink.com) : Replace this text with summary of what is in this repo
+
+> Example:
+> 
+> * [Lunch on GitHub](https://github.com/labzero/lunch) : `git clone git@github.com:labzero/lunch.git`
 * * *
 
 ## Admin Tasks
@@ -159,6 +167,10 @@ Replace this text with details regarding common administration tasks.
 Replace this text with details about how a deployment of this component is handled. List or link to deployment dependencies should be documented here along with any links to relevant CI/CD jobs
 
 *   [CI/CD job](http://circlejenkins.com) Replace this text with a brief description if necessary.
+
+> Example:
+> 
+> [CircleCI Config](https://github.com/labzero/lunch/blob/develop/.circleci/config.yml)
 
 * * *
 
@@ -212,6 +224,7 @@ Replace this text with details on where the manifests, dockerfiles, configuratio
   * `/path/to/file/conf.conf`
   * Created by CM from [REPLACE\ME template](https://githublocation.com/thefile) (GitHub)
 
+
 * * *
 
 ## Certificates
@@ -222,6 +235,10 @@ Replace this text if appropriate with details about where certificates reside on
 /path/to/key.pem
 etc.
 ```
+
+> Example:
+> 
+> [Certs](https://github.com/labzero/lunch/tree/develop/cert)
 
 ### Related Guides
 Replace this text with links to guides related to generating or maintaining certicates for your service.
