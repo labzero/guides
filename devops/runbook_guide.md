@@ -9,6 +9,7 @@
     - [Use Your Runbook Template](#use-your-runbook-template)
     - [Import Confluence Template](#import-confluence-template)
     - [Best Practices](#best-practices)
+    - [Conventions](#conventions)
 - [Runbook Template](#runbook-template)
 
 # Runbook Guide
@@ -69,6 +70,27 @@ Subsequently, when creating a new `Runbook`, select this new `Runbook Template`.
 * **Evangelize it** within your project team and organization if it works for you.
 * **Share your thoughts** with us! We'd love to know how it works for you and how we can improve upon this guide and template going forward. Who knows? Maybe together with you we can convince the entire software community to adopt this standard!
 
+### Conventions
+Conventions used in the below template. 
+
+Examples. Each section contains an example. Each example is a block quote starting with the word Example in italics. The remainder of the block quote is a fictional example of the type of content to be replaced for a given section. Any code snippets are formatted as code blocks. If something is shown, it does not necessarily mean it is applicable to your runbook. What follows is an example of an example. When making use of these examples, add, remove, or change content and formatting to suit your needs.
+> _Example:_
+> 
+> Example text
+> 
+> * example text
+> ```
+> example code snippet
+> ```
+> * more example text
+> 
+> Example table:
+> 
+> | Column 1 | Column 2 | Column 3 |
+> | --- | --- | --- |
+> | Example data | Example data | Example data |
+> | Example data | Example data | Example data |
+
 * * *
 
 # Runbook Template
@@ -94,11 +116,13 @@ Replace this with an architecture diagram or a description of the architecture.
 ### Maintainers
 Replace this text with the maintainers of the code. If your team uses a directory, link to the directory as well as providing contact details. List the team or individuals. Subject matter experts should be called out individually.
 
-| Name | Role | Team |
-| --- | --- | --- |
-| John Doe | Product Owner | Replace With John's Team Name |
-| Jane Doe | Backend Engineer | Replace With Jane's Team Name |
-| Jo Doe | QA Engineer | Replace With Jo's Team Name |
+> _Example:_
+> 
+> | Name | Role | Team |
+> | --- | --- | --- |
+> | John Doe | Product Owner | Product |
+> | Jane Doe | Backend Engineer | Engineering |
+> | Jo Doe | QA Engineer | Quality Assurance |
 
 ### Business Impact
 Replace this text with information about how degradation or downtime affects the business. If there are any SLA (Service Level Agreement) details regarding uptime or maintenance windows to be documented or linked here, provide them.
@@ -110,24 +134,43 @@ Replace this text with information about how degradation or downtime affects the
 ### Stakeholders
 Replace this text with a list of individuals or teams that have a legitimate business interest in how this component functions. These people can typically be identified by thinking about where feature requests for this component come from or who is most impacted when this component is misbehaving.
 
-| Name | Role | Team |
-| --- | --- | --- |
-| Jane Doe | Corporate Sponsor | Replace With Jane's Team Name |
-| John Doe | Product Owner | Replace With John's Team Name |
-| Jo Doe | Technical Project Manager | Replace With Jo's Team Name |
+> _Example:_
+> 
+> | Name | Role | Team |
+> | --- | --- | --- |
+> | Janie Doe | Corporate Sponsor | Product |
+> | John Doe | Product Owner | Product |
+> | Jonie Doe | Technical Project Manager | Product |
 
 * * *
 
 ## Observability
 Replace this text and the boilerplate list below with any relevant monitoring, graphing, anaylitics, log aggregation links, etc. Add a description, if possible.
 
-* [monitoring link](http://monitoringlink.com) todo: replace with description
-* [graphing link](http://graphinglink.com) todo: replace with description
-* [analytics or insights link](http://analyticsorinsightslink.com) todo: replace with description
+> _Example:_
+> 
+> * [NewRelic](https://example.com) : Application metrics
+> * [Grafana](https://example.com) : Graphs of system level Prometheus metrics
+> * [Matomo](https://example.com) : Site traffic analysis
+> * [Icinga](https://example.com) : Self hosted VM system monitors
+
+### Logging
+Replace this text with information about logging. Add details such as library used in the component for logging, where logs are stored, how they can be accessed. Add links when possible.
 
 > _Example:_
 > 
-> [GenericWebApp NewRelic Monitor](https://genericwebcompany.newrelic.com/genericwebapp)
+> In this case, we are presuming both internal and external log aggregation. 
+> 
+> * [Splunk](https://example.com) : log aggregation and dashboards
+> * [ELK / Logstash](https://example.com) : log aggregation and dashboards for sensitive systems
+> * Tail front-end logs
+> ```
+> kubectl logs -f -l app=frontend
+> ```
+> * Tail back-end logs
+> ```
+> kubectl logs -f -l app=backend
+> ```
 
 * * *
 
@@ -136,23 +179,23 @@ Replace this text with details about how new users are onboarded.
 
 > _Example:_ 
 > 
-> Follow the [GenericWebApp Setup Guide](https://genericwebapp.genericwebcompany.com/setup) to configure your dev environment.
+> Follow the [GenericWebApp Setup Guide](https://example.com) to configure your dev environment.
 
 ### Repositories
-* [repository link 1](http://gihublink.com) : Replace this text with summary of what is in this repo
-* [repository link 2](http://gihublink.com) : Replace this text with summary of what is in this repo
+* [repository link 1](https://example.com) : Replace this text with summary of what is in this repo
+* [repository link 2](https://example.com) : Replace this text with summary of what is in this repo
 
 > _Example:_
 > 
-> * [GenericWebApp FrontEnd on GitHub](https://github.com/genericwebcompany/GWA_Frontend)
+> * [GenericWebApp FrontEnd on GitHub](https://example.com)
 > ```
 > git clone git@github.com:genericwebcompany/GWA_Frontend.git
 > ```
-> * [GenericWebApp BackEnd on GitHub](https://github.com/genericwebcompany/GWA_Backend)
+> * [GenericWebApp BackEnd on GitHub](https://example.com)
 > ```
 > git clone git@github.com:genericwebcompany/GWA_Backend.git
 > ```
-> * [GenericWebApp Terraform on GitHub](https://github.com/genericwebcompany/GWA_Terraform)
+> * [GenericWebApp Terraform on GitHub](https://example.com)
 > ```
 > git clone git@github.com:genericwebcompany/GWA_Terraform.git
 > ```
@@ -174,11 +217,9 @@ Replace this text with details regarding common administration tasks.
 ## Deployment / CI/CD
 Replace this text with details about how a deployment of this component is handled. List or link to deployment dependencies should be documented here along with any links to relevant CI/CD jobs
 
-*   [CI/CD job](http://circlejenkins.com) Replace this text with a brief description if necessary.
-
 > _Example:_
 > 
-> [GenericWebApp Jenkins MultiBranch Pipeline Job](https://jenkins.genericwebcompany.com/jobs/GenericWebApp)
+> [Jenkins MultiBranch Pipeline Job](https://example.com) - TODO: Add overview of how pipeline works.
 
 * * *
 
@@ -190,7 +231,7 @@ Replace this text with the endpoints, commands, or other techniques to query det
 > 
 > * Get all resources
 > ```
-> kubectl api-resources
+> kubectl get all
 > ```
 > * Describe a resource (services for example)
 > ```
@@ -219,32 +260,19 @@ Replace this text with instructions on how to connect to the pods, containers, s
 
 * * *
 
-## Logging
-Replace this text with information about logging. Add details such as library used in the component for logging, where logs are stored, how they can be accessed. Add links when possible.
+## Services
+### Stopping and Starting
+Replace this text with a description and examples of how to stop and start the services manually outside the context of the CI/CD job.
 
 > _Example:_
 > 
-> Tail front-end logs
+> Stop and start Apache
+> 
 > ```
-> kubectl logs -f -l app=frontend
+> ssh user@example.com
+> sudo service apache2 stop
+> sudo service apache2 start
 > ```
-> Tail back-end logs
-> ```
-> kubectl logs -f -l app=backend
-> ```
-
-* * *
-
-## Services
-### Stopping and Starting
-Replace this text with a description and examples of how to stop and start the services manually outside the context of the CI/CD job. Examples:
-```
-sudo systemctl stop <servicename>
-sudo systemctl start <servicename>
-kubectl delete pod ...
-```
-
-> _Example:_
 > 
 > Cycle front-end pods
 > ```
@@ -257,13 +285,14 @@ kubectl delete pod ...
 
 
 ### Checking Status
-Replace this text with instructions for checking the status of the servers or services. Examples:
-```
-sudo systemctl status <servicename>
-kubectl get pods ...
-```
+Replace this text with instructions for checking the status of the servers or services. 
+
 > _Example:_
 > 
+> Check Apache status
+> ```
+> sudo service apache2 status
+> ```
 > Get front-end pods
 > ```
 > kubectl get pods -l app=frontend
@@ -276,27 +305,42 @@ kubectl get pods ...
 ### Rebooting
 Replace this text if appropriate with instructions on rebooting.
 
+> Example:
+> 
+> SSH into the server and reboot.
+> ```
+> ssh user@example.com
+> sudo su -
+> reboot -h 0
+> (enter name of host as requested by mollyguard)
+> ```
+
 * * *
 
 ## Configuration
 ### Infastructure as Code Details
-Replace this text with details on where the manifests, dockerfiles, configuration management, etc are stored.
-
-### Server Configuration Files
-* REPLACE\ME (Category or Service):
-  * `/path/to/file/conf.conf`
-  * Created by CM from [REPLACE\ME template](https://githublocation.com/thefile) (GitHub)
-* REPLACE\ME (Category or Service):
-  * `/path/to/file/conf.conf`
-  * Created by CM from [REPLACE\ME template](https://githublocation.com/thefile) (GitHub)
+Replace this text with details on where the Terraform plans, Kubernetes manifests, Dockerfiles, Chef cookbooks, etc are stored.
 
 > Example:
 > 
-> * Ruby On Rails Application Configuration
+> * [Terraform on GitHub](https://example.com)
+> ```
+> git clone git@github.com:example.com/terraform.git
+> ```
+> * [Chef on GitHub](https://example.com)
+> ```
+> git clone git@github.com:example.com/chef.git
+> ```
+
+### Server Configuration Files
+
+> Example:
+> 
+> * Backend Ruby On Rails Application Configuration
 > ```
 > config/application.rb
 > ```
-> * Node.js Configuration
+> * Frontend Node.js Configuration
 > ```
 > config/default.json
 > ```
@@ -306,19 +350,21 @@ Replace this text with details on where the manifests, dockerfiles, configuratio
 ## Certificates
 ### Location on Server
 Replace this text if appropriate with details about where certificates reside on the system.
-```
-/path/to/certificate.crt
-/path/to/key.pem
-etc.
-```
+
+> _Example:_
+> 
+> ```
+> /path/to/certificate.crt
+> /path/to/key.pem
+> ```
 
 ### Related Guides
 Replace this text with links to guides related to generating or maintaining certicates for your service.
 
 > _Example:_
 > 
-> * [Playbook: Scale Pods](https://wiki.genericwebcompany.com/PlaybookScalePods)
-> * [Playbook: Busybox Troubleshooting](https://wiki.genericwebcompany.com/BusyboxTroubleshooting)
+> * [Playbook: Scale Pods](https://example.com) - How to scale pods up when alerted about resource thresholds
+> * [Playbook: Busybox Troubleshooting](https://example.com) - How to spin up a busybox pod for troubleshooting issues
 
 * * *
 
@@ -327,7 +373,10 @@ Replace this text with details about when backups are generated and where they a
 
 > _Example:_
 > 
-> Hourly backups are stored in `backups.genericwebcompany.com:/Backups/GenericWebApp` 
+> Hourly backups are stored here: 
+> ```
+> example.com:/Backups/GenericWebApp
+> ```
 
 ### Backups Pruning
 Replace this text with details about how backups are pruned and where any pruning scripts are found.
@@ -344,30 +393,26 @@ Replace this text with links to monitors for the recency, quantity, and size of 
 
 > _Example:_
 > 
-> [Backups Monitoring Group - Icinga](https://icinga.genericwebcompany.com/GenericWebAppBackups)
+> [Backups Monitoring Group - Icinga](https://example.com) - This monitoring group contains separate monitors to ensure the backups are recent, there are the expected number of backups, and they within an expected size range
 
 * * *
 
 ## License Renewal
-Replace this text with details on how to renew any related licenses. Conversely, provide type of open source license being used or provided.
+Replace this text with details on how to renew any related licenses.
 
 > _Example:_
 > 
-> We are using [GNU General Public License v3](https://www.gnu.org/licenses/gpl-3.0.html).
+> TODO: Add better details about how to renew a licence, for example a Jira license.
 
 * * *
 
 ## Further Documentation
 Replace this text and the boilerplate list below with any relevant documentation links. Add a description for each link.
 
-* [https://wikilink1.com](http://wikilink1.com) - Brief description of document
-* [https://READMElink1.com](http://READMElink1.com) - Brief description of document
-* [https://boxlink1.com](http://boxlink1.com) (Box) - Brief description of document
-
 > _Example:_
 > 
-> * [Playbook: Competitive Analysis](https://wiki.genericwebcompany.com/GenericWebAppCompetitiveAnalysis)
-> * [Playbook: Project Charter](https://wiki.genericwebcompany.com/GenericWebAppProjectCharter)
+> * [Playbook: Competitive Analysis](https://example.com) - Analysis of competitive landscape
+> * [Playbook: Project Charter](https://example.com) - Charter that was developed at the inception of this project
 
 * * *
 
@@ -376,7 +421,7 @@ Replace this text with links to `Playbooks` which address known or common failur
 
 > _Example:_
 > 
-> * [Playbook: Pod Scheduling Delay](https://wiki.genericwebcompany.com/PlaybookPodSchedulingDelay)
+> * [Playbook: Pod Scheduling Delay](https://example.com) - What to do when scheduled pods are not created in a timely manner
 
 * * *
 
@@ -385,8 +430,8 @@ Replace this text with details about future considerations, with links to epics,
 
 > _Example:_
 > 
-> * [JIRA: Helm Chart Templates](https://jira.genericwebcompany.com/issues/GWA-101)
-> * [JIRA: Horizontal Pod Autoscaling](https://jira.genericwebcompany.com/issues/GWA-102)
+> * [JIRA: Helm Chart Templates](https://example.com) - Ticket in the backlog for templatizing our Kubernetes manifests
+> * [JIRA: Horizontal Pod Autoscaling](https://example.com) - Ticket in the backlog for implementing autoscaling
 
 
 * * *
