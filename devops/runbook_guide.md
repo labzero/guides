@@ -80,21 +80,16 @@ Here it is! Everything below this point is the template to generate a new `Runbo
 ### Description
 Replace this text with a description of the functionality that the component provides for the overall system.
 
-> Example: 
+> _Example:_
 > 
-> Lunch is an app for groups to decide on nearby lunch options.
+> GenericWebApp does generic things on the web.
 
 ### Architecture
 Replace this with an architecture diagram or a description of the architecture.
 
-> Example: 
+> _Example:_
 > 
-> Lunch is react > 
-redux
-isomorphic
-lunch
-websocket
-google-maps
+> GenericWebApp consists of a Node frontend, a Ruby On Rails backend, and a PostgreSQL database.
 
 ### Maintainers
 Replace this text with the maintainers of the code. If your team uses a directory, link to the directory as well as providing contact details. List the team or individuals. Subject matter experts should be called out individually.
@@ -105,17 +100,12 @@ Replace this text with the maintainers of the code. If your team uses a director
 | Jane Doe | Backend Engineer | Replace With Jane's Team Name |
 | Jo Doe | QA Engineer | Replace With Jo's Team Name |
 
-> Example: 
-> | Name | Role | Team |
-> | --- | --- | --- |
-> | Jeffrey Carl Faden | Software Engineer | Engineering |
-
 ### Business Impact
 Replace this text with information about how degradation or downtime affects the business. If there are any SLA (Service Level Agreement) details regarding uptime or maintenance windows to be documented or linked here, provide them.
 
-> Example:
+> _Example:_
 > 
-> If this application encounters an outage, teams cannot collaborate on lunch plans without speaking to eachother.
+> If this application encounters an outage, generic things cannot happen on the web. GenericWebApp needs to be running 24/7 and any outages are considered P1 incidents.
 
 ### Stakeholders
 Replace this text with a list of individuals or teams that have a legitimate business interest in how this component functions. These people can typically be identified by thinking about where feature requests for this component come from or who is most impacted when this component is misbehaving.
@@ -126,11 +116,6 @@ Replace this text with a list of individuals or teams that have a legitimate bus
 | John Doe | Product Owner | Replace With John's Team Name |
 | Jo Doe | Technical Project Manager | Replace With Jo's Team Name |
 
-> Example:
-> | Name | Role | Team |
-> | --- | --- | --- |
-> | Jeffrey Carl Faden | Software Engineer | Engineering |
-
 * * *
 
 ## Observability
@@ -140,26 +125,40 @@ Replace this text and the boilerplate list below with any relevant monitoring, g
 * [graphing link](http://graphinglink.com) todo: replace with description
 * [analytics or insights link](http://analyticsorinsightslink.com) todo: replace with description
 
+> _Example:_
+> 
+> [GenericWebApp NewRelic Monitor](https://genericwebcompany.newrelic.com/genericwebapp)
+
 * * *
 
 ## Onboarding
 Replace this text with details about how new users are onboarded.
 
-> Example: 
+> _Example:_ 
 > 
-> Follow the [Lunch Setup](https://github.com/labzero/lunch) to get on the Lunch train.
+> Follow the [GenericWebApp Setup Guide](https://genericwebapp.genericwebcompany.com/setup) to configure your dev environment.
 
 ### Repositories
 * [repository link 1](http://gihublink.com) : Replace this text with summary of what is in this repo
 * [repository link 2](http://gihublink.com) : Replace this text with summary of what is in this repo
 
-> Example:
+> _Example:_
 > 
-> * [Lunch on GitHub](https://github.com/labzero/lunch) : `git clone git@github.com:labzero/lunch.git`
+> * [GenericWebApp on GitHub](https://github.com/genericwebcompany/genericwebapp)
+> ```
+> git clone git@github.com:genericwebcompany/genericwebapp.git
+> ```
 * * *
 
 ## Admin Tasks
 Replace this text with details regarding common administration tasks.
+
+> _Example:_
+> 
+> Check the status of the pods.
+> ```
+> kubectl get pods
+> ```
 
 * * *
 
@@ -168,9 +167,9 @@ Replace this text with details about how a deployment of this component is handl
 
 *   [CI/CD job](http://circlejenkins.com) Replace this text with a brief description if necessary.
 
-> Example:
+> _Example:_
 > 
-> [CircleCI Config](https://github.com/labzero/lunch/blob/develop/.circleci/config.yml)
+> [GenericWebApp Jenkins MultiBranch Pipeline Job](https://jenkins.genericwebcompany.com/jobs/GenericWebApp)
 
 * * *
 
@@ -178,16 +177,52 @@ Replace this text with details about how a deployment of this component is handl
 ### Endpoints and IPs
 Replace this text with the endpoints, commands, or other techniques to query details about the containers or servers. If it is a system with static details, provide the names and IPs of the servers.
 
+> _Example:_
+> 
+> * Get all resources
+> ```
+> kubectl api-resources
+> ```
+> * Describe a resource (services for example)
+> ```
+> kubectl describe services
+> ```
+
 ### Ports and Security
 Replace this text with the ports on which the services are listening, as well as any security groups.
 
+> _Example:_
+> 
+> * The service listens on port `443` and load balances between the front-end pods.
+> * The Node.js pods are labeled `frontend` and listen on port `3000`
+> * The Ruby On Rails pods are labled `backend` and listen on port `3000`
+> * The PostgreSQL pod is backed by a persistent volume claim and listens on port `5432`
+
 ### Connecting to Service
 Replace this text with instructions on how to connect to the pods, containers, servers, or services.
+
+> _Example:_
+> 
+> Connect to pods
+> ```
+> kubectl exec -it <pod_name> sh
+> ```
 
 * * *
 
 ## Logging
 Replace this text with information about logging. Add details such as library used in the component for logging, where logs are stored, how they can be accessed. Add links when possible.
+
+> _Example:_
+> 
+> Tail front-end logs
+> ```
+> kubectl logs -f -l app=frontend
+> ```
+> Tail back-end logs
+> ```
+> kubectl logs -f -l app=backend
+> ```
 
 * * *
 
@@ -200,12 +235,34 @@ sudo systemctl start <servicename>
 kubectl delete pod ...
 ```
 
+> _Example:_
+> 
+> Cycle front-end pods
+> ```
+> kubectl delete pods -l app=frontend
+> ```
+> Cycle back-end pods
+> ```
+> kubectl delete pods -l app=backend
+> ```
+
+
 ### Checking Status
 Replace this text with instructions for checking the status of the servers or services. Examples:
 ```
 sudo systemctl status <servicename>
 kubectl get pods ...
 ```
+> _Example:_
+> 
+> Get front-end pods
+> ```
+> kubectl get pods -l app=frontend
+> ```
+> Get back-end pods
+> ```
+> kubectl get pods -l app=backend
+> ```
 
 ### Rebooting
 Replace this text if appropriate with instructions on rebooting.
@@ -224,6 +281,16 @@ Replace this text with details on where the manifests, dockerfiles, configuratio
   * `/path/to/file/conf.conf`
   * Created by CM from [REPLACE\ME template](https://githublocation.com/thefile) (GitHub)
 
+> Example:
+> 
+> * Ruby On Rails Application Configuration
+> ```
+> config/application.rb
+> ```
+> * Node.js Configuration
+> ```
+> config/default.json
+> ```
 
 * * *
 
@@ -236,29 +303,48 @@ Replace this text if appropriate with details about where certificates reside on
 etc.
 ```
 
-> Example:
-> 
-> [Certs](https://github.com/labzero/lunch/tree/develop/cert)
-
 ### Related Guides
 Replace this text with links to guides related to generating or maintaining certicates for your service.
 
+> _Example:_
+> 
+> * [Playbook: Scale Pods](https://wiki.genericwebcompany.com/PlaybookScalePods)
+> * [Playbook: Busybox Troubleshooting](https://wiki.genericwebcompany.com/BusyboxTroubleshooting)
 
 * * *
 
 ## Backups
 Replace this text with details about when backups are generated and where they are stored.
 
+> _Example:_
+> 
+> Hourly backups are stored in `backups.genericwebcompany.com:/Backups/GenericWebApp` 
+
 ### Backups Pruning
 Replace this text with details about how backups are pruned and where any pruning scripts are found.
 
+> _Example:_
+> 
+> * Nightly pruning keeps only the last complete backup of the day.
+> * Weekly pruning retains only the last complete backup of each Friday.
+> * Monthly pruning retains only the last complete backup of the month.
+
+
 ### Backups Monitoring
 Replace this text with links to monitors for the recency, quantity, and size of the backups, as well as where the configuration for this monitoring is stored.
+
+> _Example:_
+> 
+> [Backups Monitoring Group - Icinga](https://icinga.genericwebcompany.com/GenericWebAppBackups)
 
 * * *
 
 ## License Renewal
 Replace this text with details on how to renew any related licenses. Conversely, provide type of open source license being used or provided.
+
+> _Example:_
+> 
+> We are using [GNU General Public License v3](https://www.gnu.org/licenses/gpl-3.0.html).
 
 * * *
 
@@ -269,14 +355,29 @@ Replace this text and the boilerplate list below with any relevant documentation
 * [https://READMElink1.com](http://READMElink1.com) - Brief description of document
 * [https://boxlink1.com](http://boxlink1.com) (Box) - Brief description of document
 
+> _Example:_
+> 
+> * [Playbook: Competitive Analysis](https://wiki.genericwebcompany.com/GenericWebAppCompetitiveAnalysis)
+> * [Playbook: Project Charter](https://wiki.genericwebcompany.com/GenericWebAppProjectCharter)
+
 * * *
 
 ## Known Failure Scenarios
 Replace this text with links to `Playbooks` which address known or common failure scenarios, examples on how to troubleshoot them, and how to resolve them.
 
+> _Example:_
+> 
+> * [Playbook: Pod Scheduling Delay](https://wiki.genericwebcompany.com/PlaybookPodSchedulingDelay)
+
 * * *
 
 ## Future Considerations
 Replace this text with details about future considerations, with links to epics, stories, chores, or project plans if they exist.
+
+> _Example:_
+> 
+> * [JIRA: Helm Chart Templates](https://jira.genericwebcompany.com/issues/GWA-101)
+> * [JIRA: Horizontal Pod Autoscaling](https://jira.genericwebcompany.com/issues/GWA-102)
+
 
 * * *
