@@ -144,10 +144,19 @@ Replace this text with details about how new users are onboarded.
 
 > _Example:_
 > 
-> * [GenericWebApp on GitHub](https://github.com/genericwebcompany/genericwebapp)
+> * [GenericWebApp FrontEnd on GitHub](https://github.com/genericwebcompany/GWA_Frontend)
 > ```
-> git clone git@github.com:genericwebcompany/genericwebapp.git
+> git clone git@github.com:genericwebcompany/GWA_Frontend.git
 > ```
+> * [GenericWebApp BackEnd on GitHub](https://github.com/genericwebcompany/GWA_Backend)
+> ```
+> git clone git@github.com:genericwebcompany/GWA_Backend.git
+> ```
+> * [GenericWebApp Terraform on GitHub](https://github.com/genericwebcompany/GWA_Terraform)
+> ```
+> git clone git@github.com:genericwebcompany/GWA_Terraform.git
+> ```
+
 * * *
 
 ## Admin Tasks
