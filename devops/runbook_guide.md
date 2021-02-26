@@ -182,20 +182,18 @@ Replace this text with details about how new users are onboarded.
 > Follow the [GenericWebApp Setup Guide](https://example.com) to configure your dev environment.
 
 ### Repositories
-* [repository link 1](https://example.com) : Replace this text with summary of what is in this repo
-* [repository link 2](https://example.com) : Replace this text with summary of what is in this repo
 
 > _Example:_
 > 
-> * [GenericWebApp FrontEnd on GitHub](https://example.com)
+> * [GenericWebApp FrontEnd on GitHub](https://example.com) : Node.js application code
 > ```
 > git clone git@github.com:genericwebcompany/GWA_Frontend.git
 > ```
-> * [GenericWebApp BackEnd on GitHub](https://example.com)
+> * [GenericWebApp BackEnd on GitHub](https://example.com) : Ruby On Rails application code
 > ```
 > git clone git@github.com:genericwebcompany/GWA_Backend.git
 > ```
-> * [GenericWebApp Terraform on GitHub](https://example.com)
+> * [GenericWebApp Terraform on GitHub](https://example.com) : Terraform infrastructure as code
 > ```
 > git clone git@github.com:genericwebcompany/GWA_Terraform.git
 > ```
