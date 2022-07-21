@@ -9,6 +9,7 @@ Ahoy! You are welcome to access Lab Zero's guides for our best practices for pro
 ## Playbooks
 - [Customer Development Playbook](https://github.com/labzero/guides/blob/master/process/customer_development_playbook.md)
 - [Speclet Playbook](https://github.com/labzero/guides/blob/master/process/speclet_playbook.md) + [Template](https://github.com/labzero/guides/blob/master/process/speclet_template.md)
+- [Team Norms Playbook](https://github.com/labzero/guides/blob/master/process/team_norms_playbook.md)
 
 ## Delivery Process Guides
 
