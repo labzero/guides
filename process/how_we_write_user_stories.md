@@ -41,7 +41,7 @@ Consider trying the “Given-When-Then” formula, a template intended to guide 
 * When [some action is carried out]
 * Then [a particular change or set of changes you expect due to the specified action]
 
-Here's an example of a login in story.
+Here's an example of a login story.
 >_Feature: As a user I want to sign in and see my orders_  
 >
 >__Scenario: User supplies correct username and password__  
@@ -50,7 +50,7 @@ Here's an example of a login in story.
 >_And click 'Sign in'_  
 >_Then I am taken to my dashboard showing my orders_  
 >
->__Scenario: User does NOT supplies correct username and password__  
+>__Scenario: User does NOT supply correct username and password__  
 >_Given that I am on the log in page_  
 >_When I enter my username and password incorrectly_  
 >_And click 'Sign in'_  
