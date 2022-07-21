@@ -35,11 +35,26 @@ Describe the outcome the user achieves.
 
 The description in your story should provide additional context and clarify what will be tested when the story is delivered.
 
-Consider trying the “Given-When-Then” formula, a template intended to guide the writing of acceptance tests. It is likely that the developer will write automated tests based on your story, some tests may match the criteria you use to accept the work. 
+Consider trying the “Given-When-Then” formula, a template intended to guide the writing of acceptance tests ([Gherkin](https://cucumber.io/docs/gherkin/)). It is likely that the developer will write automated tests based on your story, some tests may match the criteria you use to accept the work. 
 
 * Given [some context, this is the pre-condition to the activity]
 * When [some action is carried out]
 * Then [a particular change or set of changes you expect due to the specified action]
+
+Here's an example of a login in story.
+>_Feature: As a user I want to sign in and see my orders_  
+>
+>__Scenario: User supplies correct username and password__  
+>_Given that I am on the log in page_  
+>_When I enter my username and password correctly_  
+>_And click 'Sign in'_  
+>_Then I am taken to my dashboard showing my orders_  
+>
+>__Scenario: User does NOT supplies correct username and password__  
+>_Given that I am on the log in page_  
+>_When I enter my username and password incorrectly_  
+>_And click 'Sign in'_  
+>_Then I see an error message ‘Sorry, incorrect user name or password.”_  
 
 To clarify the standard for completion for all stories in the backlog, define your team’s technical “Definition of Done” in a visible place at the beginning a project. For example, at Lab Zero, completing a story requires not only implementing it and fulfilling the acceptance criteria, but also writing tests, running test suites and using pull requests to merge code. 
 
@@ -79,7 +94,7 @@ Team partnership and peer review is essential to achieve strong alignment and bu
 
 An effective user story stands on its own but is strengthened by the context you already know about the project. Whether you’re a designer working on an epic, or a developer working on an interaction story, do not work on a story that is unclear. Find time to clarify the task with the right person before moving forward.
 
-Delivering: a story should be marked as delivered after it’s been merged to the proper environment and the test suite has completed.
+Delivering: a story should be marked as delivered after it’s been merged to the proper environment and the test suite passes.
 
 ## Accepting user stories
 
