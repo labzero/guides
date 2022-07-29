@@ -34,9 +34,9 @@ Work on a story usually begins by using GitFlow in Tower (or on the git command 
 
  
 
-In most cases, all the code for a given story is contained in a single commit. (As an exception, when including an unrelated refactoring or other code change in a story, it usually makes sense to add an additional commit.) The same commit includes tests that use rspec to cover every line of controller and model code. Additional rspecs may be needed to cover any calls to underlying service layers or APIs. If the feature or bug contains a testable UI change, we also write a cucumber test to exercise it.
+In most cases, all the code for a given story is contained in a single commit. (As an exception, when including an unrelated refactoring or other code change in a story, it usually makes sense to add an additional commit.) The same commit includes new tests that cover the added code. If the feature or bug contains a testable UI change, we also write a cucumber test to exercise it.  Unit tests ensure the base logic works as intended.  Functional tests ensure the application works as intended.
 
-We use usually use brakeman to enforce code coverage. If brakeman code coverage or quality issues arise when running foreman run rake ci:build, it’s helpful to open coverage/index.html to see what lines of code are triggering the brakeman error.
+Use code quality scanners, such as [brakeman](https://brakemanscanner.org/) to ensure new code does not introduce vulnerabilities.  Use a code coverage tool, such as [simplecov](https://github.com/simplecov-ruby/simplecov) to ensure new code is appropriately tested.
 
 Once a feature or bug fix is working with local dummy data, it’s a also a good idea to test it manually, if possible, in a development playground environment. If one exists, it usually has access to real(ish) development data but also allows developers to circumvent the build pipeline and deploy code to it quickly and easily. The process of testing in the development playground helps flesh out problems before the code moves through the pipeline and into the actual development, test and production environments. 
 
@@ -46,7 +46,7 @@ Once we’ve verified that our changes work locally and, if applicable, in the d
 
 1. Pull a feature branch off of a develop branch for any change
 
-    1. branch name should be in the format: feature/<feature_name>.<ticket_id>
+    1. branch name should be in the format: feature/<ticket_id>.<feature_name>
 
     2. feature branches should be short-lived, ideally less than a day or two
 
@@ -56,7 +56,7 @@ Once we’ve verified that our changes work locally and, if applicable, in the d
 
     4. Should be code reviewed by teammate before merge acceptance
 
-At this juncture, we move our agile stories from "In Progress" to “Merge Requested” to indicate that they’re ready for review.
+At this juncture, we move our agile stories from "In Progress" to “In Review” to indicate that they’re ready for review.
 
 ## Committing Quality Changes
 
@@ -102,7 +102,7 @@ Good commit log:
 
 The main reason we open code change requests is so that other team members have a chance to review the code before it makes it to the main branch. Reviewing a request takes time and effort away from at least one other member of the team, so it is important to respect that and optimize the process as much as possible. Keeping requests as small as reasonably possible is a good way to ensure that a developer can quickly grok the change without having to spend significant time getting up to speed on what was done. A good bar to aim for is to have one commit per PR, and one feature per PR. Sometimes there will of course be a situation where a large number of files needs to be changed, or multiple stories may need to be accepted together, but these should both be rare exceptions. The important thing is that a pull request be realistically reviewable in only a few minutes. The larger a pull request is, the less likely it is to get a good code review. Remember that another person will be reviewing the work, so it’s important to be respectful of his or her time by not forcing a review of 13 commits and 63 modified files in order to approve the change.
 
-Just because there were three or four sort-of-related things that could be done at once does not mean they should be lumped into one PR. The problem that arises in this situation is that one of the multiple changes is blocked for some reason, and since the changes are all now linked together, all changes are effectively blocked.
+Just because there were three or four sort-of-related things that could be done at once does not mean they should be lumped into one PR. The potential for one of the changes to block the other changes in the PR increases.  This is why we try our best to break stories into individual chunks of work.  As such, changes should be as small individual chunks of change.
 
 Like with commit messages, the change request title should clearly and concisely define what change was made, often the change request title will simply be the commit message text. Any special context that is helpful for the reviewer to know should also be noted in the request description. This could include things like configuration changes that should be made, or initial conditions in the data that would be helpful for testing locally.
 
@@ -114,13 +114,12 @@ Peer review is one of a handful of preconditions for getting a pull request on G
 
 Often a PR will fail during a run of the PR builder. That can happen for legitimate reasons, e.g. a failing or flickering rspec or cucumber or code coverage issue. However, oftentimes it fails for reasons unrelated to changes in the PR. Some of those reasons include: failure connecting to Sauce Labs (for running cucumbers remotely), the disk running out of free space on the Jenkins server, necessary feature flags being flipped off (if a feature flipper is in play), password changes or locked accounts on service users, third-party services going offline, etc.
 
-Because of the frequency of these "illegitimate" failure cases, we often type retest this please into the comments of a failed PR at least once without even checking the reason for failure. If it fails again, we usually follow the link from github into Jenkins and check the console output of the build. After determining the cause of failure and correcting it, we then retest the PR.
-
+It's good practice to look at the console output to identify the root cause of the failure before before resubmitting the Jenkins job.
 ## Delivering a Story
 
-After a PR goes green, any developer (other than the author/owner of the PR) squashes and merges the branch and deletes it (to avoid cluttering up the origin with orphaned branches). At this point, Jenkins will trigger a build to dev, test (or both). After inspecting the Jenkins pipeline to ensure that our PR has been deployed, developers go to either dev or test to verify that the PR functions as designed.
+After a PR goes green, any developer (other than the author/owner of the PR) squashes and merges the branch and deletes it (to avoid cluttering up the origin with orphaned branches). At this point, Jenkins will trigger a build to dev, test (or both). After Jenkins finishes deploying the changes, verify the changes in the deployed environment.
 
-When that final step has been completed, developers move the agile story to the "Delivered" column where the story will remain until accepted or rejected by the product owner or a designer.
+Finally, move the story to the "Delivered" column where the story will remain until accepted or rejected by the product owner or designer.
 
 ## Demoing Stories
 
@@ -140,7 +139,7 @@ To release code to production the lead developer typically follows these steps:
 
 	
 
-As this point the QA team (if there is one) verifies the contents of the release in test. Once verified, the lead developer follows these steps to move the changes into production:
+At this point the QA team (if there is one) verifies the contents of the release in test. Once verified, the lead developer follows these steps to move the changes into production:
 
 1. Create an RFC with the customer (if required)
 
