@@ -10,7 +10,9 @@ We use [Jest](https://jestjs.io/) as our testing framework. We make use of Jest'
 
 We use Jest to write unit tests for code outside of React components, such as API routes and helpers. We also use Jest to write integration tests with the help of React Testing Library.
 
-We often strive toward 100% code coverage when reasonable. If necessary due to JSDOM limitations, third-party code which is hard to partially mock, or Jest's inability to pass tests with uncaught errors, we tell Istanbul, Jest's code coverage tool, to `istanbul ignore` particular lines, followed by a descriptive comment explaining why.
+### Code coverage
+
+We often strive toward 100% code coverage when reasonable. In some cases, there might be JSDOM limitations, third-party code which is hard to partially mock, or Jest's inability to pass tests with uncaught errors. If so, we tell Istanbul, Jest's code coverage tool, to `istanbul ignore` particular lines, followed by a descriptive comment explaining why.
 
 ## Rendering: React Testing Library
 
