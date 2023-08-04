@@ -3,34 +3,38 @@
 # Overview
 This document is a living doc shared by all developers at Lab Zero.  We as developers at Lab Zero believe that following these principles produces higher quality software.  It’s a pact that we share.  Please read and add to it as we find things on our projects that we’d like to make standard for our engineering practice.
 
-# Like Camping
+# Like Camping ⛺
 When camping there is a rule to leave your campsite cleaner than it was when you got there.  The same is true when writing code.  Each commit should be refactoring the minutia as you go such that each commit leaves the code base cleaner than when you started.
 
 # Documentation
-There are many things that we will need to communicate and share with others developers during and after we’re done.  Please document the basics that help folks know how to install, configure and deploy the app.  We are committed to updating these documents when things change to keep the docs useful.  Given that that’s a hard task, please use documentation wisely.  Too much and it’s unusable and all out of date.  If a dragon hides in the system, write about it.  There are three places that we’ll likely want to send folks: the app’s README, the repo’s Github wiki, and inline code comments. 
+There are many things that we will need to communicate and share with others developers during and after we’re done.  Please document the basics that help folks know how to install, configure and deploy the app.  We are committed to updating these documents when things change to keep the docs useful.  Given that that’s always going to be an ongoing task, please use documentation wisely.  Too much and it’s unusable and ends up out of date.  If a dragon hides in the system, write about it.  This starts with the repo's README.md but doesn't end there.  In some organizations a wiki may also be appropriate.  The integration tests especially can serve as a  
 
 ## READMEs
-Please delete the Rails boilerplate one when starting a new app and start plumbing it with the what’s-where basics.  This page is what’s shown on the Github homepage for the project and is a good launching point to other pages on the wiki. Use Markdown when appropriate to improve formatting.
+Please delete the Rails boilerplate one when starting a new app and start plumbing it with the what’s-where basics.  This page is what’s shown on the Github homepage for the project and is a good launching point to other pages on the wiki. Use Markdown when appropriate to improve formatting.  Always aim for a balance between "enough to handle common tasks" and "too long to effectively find what I need".
 
-## Github Wiki
-Anything beyond the über-basics should be documented on the Github wiki pages.  Some examples of this might be “Deployment Anatomy,” “Search Architecture,” “Importing + Refreshing Application Content,” etc…
+## Wiki's
+This can be a Github wiki or whatever tool is commonly used in the organization.  Anything beyond the über-basics should be documented on these technical wiki pages.  Some examples of this might be “Deployment Anatomy,” “Search Architecture,” “Importing + Refreshing Application Content,” etc…  
 
 ## Code Comments
-Generally these are to be avoided only because they tend to be out of date if used too heavily.  You should favor using descriptive variable and method names.  
+Generally these are to be avoided only because they tend to be out of date if used too heavily.  You should favor using **descriptive variable and method names**.  
 Rather, please use inline code comments when:
 * The following lines of code might use some syntax-fu (ie. anything overly-clever)
 * You’re working around a bug in a 3rd party library/api/model that we can’t control, i.e. when we have to write something that seems bad in order to use an external/immutable dependency.
 * Magic numbers: Explain your units and why the number exists.
-* Class documentation: Consider documenting the controller or model to give the big picture so that folks can find their bearings.
+* Class documentation: Consider documenting service and library classes.  They often can interact together in ways that might not be immediately obvious from just the names.  Model classes that are especially meaty can also benefit from documentation, especially as new team members come on-board.
 * In the Gemfile when locking a gem to a specific version: Please document why we must use that version. This makes it easier to know when it is safe/reasonable to upgrade the gem.
+
+Remember that easy to read code is easier to maintain and easier for new teammates to jump into.
  
 # Tests
-These should be the definition of what the app should do, especially with BDD with Rspec and Cucumber… 
+These should be the definition of what the app should do, especially with BDD with Rspec and Capybara.  By reading the integration test names we should be able to get a good idea of what features are present in the app.  Likewise, when reading just the names of the unit tests we should be able to get a good understanding of what the class or module does.
+
+Additionally, when solving a bug its always a good idea to first reproduce it with a test and then check the test in to prevent regressions.
 
 # Code Style
 For sensible suggestions, see https://github.com/bbatsov/ruby-style-guide and https://github.com/bbatsov/rails-style-guide
 
-We enforce some of these guidelines using Rubocop (see https://github.com/labzero/guides/blob/master/languages/ruby/ruby-style-quality-rules.md) 
+We enforce some of these guidelines using Rubocop (see https://github.com/labzero/guides/blob/master/languages/ruby/ruby-style-quality-rules.md).  The defaults can be a little stifling so use the rules that work for the team.
 
 ## Variable Naming
 * Spend a few moments to choose an appropriate word.
@@ -41,7 +45,7 @@ We enforce some of these guidelines using Rubocop (see https://github.com/labzer
 
 ## Formatting
 Don’t use tabs, ever. Use two spaces.
-Max width is 120 chars max.
+Max width is 120 chars.
 Be consistent.
 
 ## Method Length
@@ -51,10 +55,13 @@ If you have a method more than 10 lines long it’s time to consider refactoring
 See our CSS guide at: https://github.com/labzero/guides/blob/master/languages/css
 
 ## Beyond MVC
-### Models vs lib
-There are things like concerns that is neither model nor lib candidates.  In a case like that you might use a folder app/models/concern or app/controllers/concern.
+### Models vs libs
+Use Model and Controller concerns to share common functionality across models or controllers.  Even if you're not sure whether some functionality is going to be re-used, if it makes OOP sense to pull some functionality out, go for it.
 
 You should use lib when the logic is a candidate for gemming up…
+
+### Services 
+Use Services to handle specific interactions between players within the M&C.  Examples include: Processing & handling an API fetch or modeling complex interactions between multiple other classes.  Adaptor and Mediator patterns are also sometimes a good fit.
 
 ### Design Patterns
 Think in terms of design “patterns.” If you use one find the appropriate place for the implementations to go. 
@@ -106,9 +113,9 @@ extract value objects (and place in app/models)
 extract service objects (and place in app/services)
 extract form objects (and place in app/forms)
 extract query objects (and place in app/models)
-introduce view objects
-extract policy objects
+introduce view objects (helpers, ViewComponents and Decorators are all good directions to think in)
 extract decorators (consider using the draper gem)
+extract policy objects (there are a number of good gems for this)
 
 # Security
 
