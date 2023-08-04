@@ -99,6 +99,14 @@ Understand events, including how they 'bubble' and the features of the Event obj
 Play well with other scripts by avoiding global function and variable names.
 Work for the next developer by using self-explanatory variable and function names, creating logical and readable code, making dependencies obvious, and commenting any code that still might confuse.
 
+## Stimulus & Turbo (Hotwire)
+
+Depending on your product's needs these may or may not be unobtrusive.  Turbo Frames and Streams especially, can be complex to maintain if you also need to maintain a non-JS path.  It's easy to forget about the user experience when JS doesn't work, so consider adding tests for both the JS and non-JS paths through the app.
+
+Try to keep your Stimulus controllers general purpose; don't couple them tightly to a specific page or partial.  If you make good use of data attributes you can ensure that each controller is configurable and reusable.  Try not to re-build functionality that can be accomplished with CSS.  Use Stimulus to tie other JS libraries into the Turbo events life-cycle.
+
+Fetch HTML with Turbo rather than building and injecting it manually in Stimulus.  When determining which tool to use it can be best to consider them in the order of: HTML & CSS, Turbo Frames, Turbo Streams & finally Stimulus.  Avoid packs if using Stimulus.
+
 # OOP
 This is always the destination, but we often have to crossover from chaos and the simplest code to the code that could work to the best code we know how to write.
 
