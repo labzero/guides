@@ -127,14 +127,12 @@ extract policy objects (there are a number of good gems for this)
 
 # Security
 
-As a starting point, please read http://guides.rubyonrails.org/security.html and become familiar with the concepts.  We must adhere to all of the points mentioned there.
-
-Another useful, quick read is http://blog.codeclimate.com/blog/2013/03/27/rails-insecure-defaults/
+As a starting point, please read https://guides.rubyonrails.org/security.html and become familiar with the concepts.  We must adhere to all of the points mentioned there.
 
 ## Brakeman
 We include brakeman in our CI runs on both PRBuilder jobs and on commit-level jobs on develop when we can't use CodeClimate.
 
-The brakeman Jenkins job should be configured to fail if any new security vulnerabilities are found.
+The brakeman CI job should be configured to fail if any new security vulnerabilities are found.
 
 Remember to keep this gem updated to catch the latest list of vulnerabilities. 
 
