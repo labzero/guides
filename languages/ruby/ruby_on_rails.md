@@ -40,7 +40,7 @@ Additionally, when solving a bug its always a good idea to first reproduce it wi
 # Code Style
 For sensible suggestions, see https://github.com/bbatsov/ruby-style-guide and https://github.com/bbatsov/rails-style-guide
 
-We enforce some of these guidelines using Rubocop (see https://github.com/labzero/guides/blob/master/languages/ruby/ruby-style-quality-rules.md).  The defaults can be a little stifling so use the rules that work for the team.
+We enforce some of these guidelines using Rubocop (see [ruby-style-quality-rules.md](languages/ruby/ruby-style-quality-rules.md)).  The defaults can be a little stifling so use the rules that work for the team.
 
 ## Variable Naming
 * Spend a few moments to choose an appropriate word.
