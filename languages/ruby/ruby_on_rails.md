@@ -7,7 +7,7 @@ This document is a living doc shared by all developers at Lab Zero.  We as devel
 When camping there is a rule to leave your campsite cleaner than it was when you got there.  The same is true when writing code.  Each commit should be refactoring the minutia as you go such that each commit leaves the code base cleaner than when you started.
 
 # Documentation
-There are many things that we will need to communicate and share with others developers during and after we’re done.  Please document the basics that help folks know how to install, configure and deploy the app.  We are committed to updating these documents when things change to keep the docs useful.  Given that that’s always going to be an ongoing task, please use documentation wisely.  Too much and it’s unusable and ends up out of date.  If a dragon hides in the system, write about it.  This starts with the repo's README.md but doesn't end there.  In some organizations a wiki may also be appropriate.  The integration tests in particular can serve as a   
+There are many things that we will need to communicate and share with others developers during and after we’re done.  Please document the basics that help folks know how to install, configure and deploy the app.  We are committed to updating these documents when things change to keep the docs useful.  Given that that’s always going to be an ongoing task, please use documentation wisely.  Too much and it’s unusable and ends up out of date.  If a dragon hides in the system, write about it.  This starts with the repo's README.md but doesn't end there.  In some organizations a wiki may also be appropriate.  The integration tests can also serve as a guide to the app's features, past intents and edge-cases.
 
 ## READMEs
 Please delete the Rails boilerplate one when starting a new app and start plumbing it with the what’s-where basics.  This page is what’s shown on the Github homepage for the project and is a good launching point to other pages in the documentation. Use Markdown when appropriate to improve formatting.  Always aim for a balance between "enough to handle common tasks" and "too long to effectively find what I need".
@@ -19,6 +19,7 @@ If the organization has a commonly used wiki tool, that's usually a good choice,
 ## Code Comments
 Generally these are to be avoided only because they tend to be out of date if used too heavily.  You should favor using **descriptive variable and method names**.
 Rather, please use inline code comments when:
+
 * The following lines of code might use some syntax-fu (ie. anything overly-clever)
 * You’re working around a bug in a 3rd party library/api/model that we can’t control, i.e. when we have to write something that seems bad in order to use an external/immutable dependency.
 * Magic numbers: Explain your units and why the number exists.
