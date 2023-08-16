@@ -95,7 +95,10 @@ When you’re adding new gems or updating some of them try updating others while
 
 For Ruby and/or Rails we should be on the latest patch level (tiny) for the version.
 
-# Unobtrusive Javascript
+# Javascript
+
+## Unobtrusive JS 
+
 [main principles shamelessly stolen from Wikipedia]
 Do not make any assumptions: Defensive programming techniques should allow for the possibilities that JavaScript may not run, the browser may not support expected methods, the HTML may have changed, unexpected input devices may be in use and other scripts may either not be present or may be encroaching on the global namespace.
 Find your hooks and relationships, such as IDs and other aspects of the expected HTML.
@@ -107,9 +110,9 @@ Work for the next developer by using self-explanatory variable and function name
 
 ## Stimulus & Turbo (Hotwire)
 
-Depending on your product's needs these may or may not be unobtrusive.  Turbo Frames and Streams especially, can be complex to maintain if you also need to maintain a non-JS path.  It's easy to forget about the user experience when JS doesn't work, so consider adding tests for both the JS and non-JS paths through the app.
+Tailoring to your product's needs, you might opt for Rails's default JS stack, Hotwire. If your team elects to utilize this, particularly its Turbo Frames or Streams features, it's crucial to determine whether you'll support it as unobtrusive JS. Turbo Frames and Streams can introduce maintenance challenges if a non-JS pathway is also required. Given the tendency to overlook user experience in scenarios where JavaScript is non-functional, it's often prudent to implement tests for both JS and non-JS routes within the app.
 
-Try to keep your Stimulus controllers general purpose; don't couple them tightly to a specific page or partial.  If you make good use of data attributes you can ensure that each controller is configurable and reusable.  Try not to re-build functionality that can be accomplished with CSS.  Use Stimulus to tie other JS libraries into the Turbo events life-cycle.
+Try to keep Stimulus controllers general purpose; don't couple them tightly to a specific page or partial.  If you make good use of data attributes you can ensure that each controller is configurable and reusable.  Try not to re-build functionality that can be accomplished with CSS.  Use Stimulus to tie other JS libraries into the Turbo events life-cycle.
 
 Fetch HTML with Turbo rather than building and injecting it manually in Stimulus.  When determining which tool to use it can be best to consider them in the order of: HTML & CSS, Turbo Frames, Turbo Streams & finally Stimulus.  Avoid packs if using Stimulus.
 
