@@ -122,14 +122,16 @@ This is a fancy way of saying that your views and controller code is not the pla
 ## Smells to watch for:
 Controller actions that set attributes on a variety of objects, i.e. your controller should not understand how one model relates to another and how they should be orchestrated.
 Controller actions that are longer than 10 lines of code (there’s no magic number here, but consider that when you see long actions.
+
 7 Patterns to Refactor Fat ActiveRecord Models include:
-extract value objects (and place in app/models)
-extract service objects (and place in app/services)
-extract form objects (and place in app/forms)
-extract query objects (and place in app/models)
-introduce view objects (helpers, ViewComponents and Decorators are all good directions to think in)
-extract decorators (consider using the draper gem)
-extract policy objects (there are a number of good gems for this)
+
+- extract value objects (and place in app/models)
+- extract service objects (and place in app/services)
+- extract form objects (and place in app/forms)
+- extract query objects (and place in app/models)
+- introduce view objects (helpers, ViewComponents and Decorators are all good directions to think in)
+- extract decorators (consider using the draper gem)
+- extract policy objects (there are a number of good gems for this)
 
 # Security
 
