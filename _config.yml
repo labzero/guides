@@ -5,3 +5,8 @@ search_enabled: true
 theme: minima
 # color_scheme: custom
 logo: "/assets/images/lz-logo.svg"
+
+header_pages:
+  - languages/index.md
+  - process/speclet_playbook.md
+  - process/testing_strategy.md
