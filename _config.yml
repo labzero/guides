@@ -1,0 +1,7 @@
+description: "our best practices for processes, playbooks, languages and tools"
+
+# Theme settings
+search_enabled: true
+theme: minima
+# color_scheme: custom
+logo: "/assets/images/lz-logo.svg"
