@@ -1,7 +1,7 @@
 description: "our best practices for processes, playbooks, languages and tools"
 
 # Theme settings
-search_enabled: true
+search_enabled: false
 # theme: minima
 remote_theme: hydecorp/hydejack@v9.1.6
 # color_scheme: custom
