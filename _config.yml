@@ -3,7 +3,7 @@ description: "our best practices for processes, playbooks, languages and tools"
 # Theme settings
 search_enabled: true
 # theme: minima
-remote_theme: just-the-docs/just-the-docs
+remote_theme: hydecorp/hydejack@v9.1.6
 # color_scheme: custom
 logo: "/assets/images/lz-logo.svg"
 
