@@ -11,3 +11,6 @@ header_pages:
   - languages/index.md
   - process/speclet_playbook.md
   - process/testing_strategy.md
+
+
+favicon: /assets/images/favicon.ico
