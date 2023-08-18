@@ -2,7 +2,8 @@ description: "our best practices for processes, playbooks, languages and tools"
 
 # Theme settings
 search_enabled: true
-theme: minima
+# theme: minima
+remote_theme: just-the-docs/just-the-docs
 # color_scheme: custom
 logo: "/assets/images/lz-logo.svg"
 
