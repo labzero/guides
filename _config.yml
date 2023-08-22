@@ -3,8 +3,8 @@ title: Guides
 
 # Theme settings
 search_enabled: false
-# theme: minima
-remote_theme: hydecorp/hydejack@v9.1.6
+theme: minima
+# remote_theme: hydecorp/hydejack@v9.1.6
 # color_scheme: custom
 logo: "/assets/images/lz-logo.svg"
 
