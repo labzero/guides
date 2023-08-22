@@ -1,4 +1,4 @@
-## Ruby coding conventions / quality guidelines
+# Ruby coding conventions / quality guidelines
 
 We use Rubocop, which adheres to this Ruby style guide (https://github.com/bbatsov/ruby-style-guide). See also the related Rails style guide (https://github.com/bbatsov/rails-style-guide) for some good tips (some of which are enforced by Rubocop).
 We generally leave the Rubocop defaults alone, but we have made some changes.
@@ -41,4 +41,3 @@ These checks are run during our CI process. To avoid build failures during your 
 To do this, run `rubocop -R` at your project root.
 There are plugins for both Sublime Text (https://github.com/pderichs/sublime_rubocop)
 and RubyMine (you can install it via Preferences > Plugins > Browse in RubyMine), which will allow you to see violations as you make them.
-
