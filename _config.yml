@@ -16,3 +16,4 @@ header_pages:
 favicon: /assets/images/favicon.ico
 accent_image: /assets/images/lz_typing.jpg
 theme_color:  rgb(254,202,14)
+accent_color:  rgb(254,202,14)
