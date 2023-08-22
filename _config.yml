@@ -1,5 +1,5 @@
 description: "our best practices for processes, playbooks, languages and tools"
-title: Lab Zero Guides
+title: Guides
 
 # Theme settings
 search_enabled: false
@@ -23,17 +23,19 @@ accent_color:  rgb(254,202,14)
 legal:
   - title:             Contact us
     url:               https://labzero.com/contact
-  - title:             Website
+  - title:             labzero.com
     url:               https://labzero.com
+  - title:             Blog
+    url:               https://labzero.com/blog
 
 no_search:           true
 
 
 # sidebar (drawer links)
 menu:
-  - title:             Developer Language Guides
-    url:               /languages/
   - title:             Process Guides
     url:               /process/
+  - title:             Developer Language Guides
+    url:               /languages/
   - title:             labzero.com
     url:               https://labzero.com
