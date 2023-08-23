@@ -3,15 +3,10 @@ title: Guides
 
 # Theme settings
 search_enabled: false
-theme: minima
-# remote_theme: hydecorp/hydejack@v9.1.6
+# theme: minima
+remote_theme: hydecorp/hydejack@v9.1.6
 # color_scheme: custom
 logo: "/assets/images/lz-logo.svg"
-
-header_pages:
-  - languages/index.md
-  - process/speclet_playbook.md
-  - process/testing_strategy.md
 
 
 favicon: /assets/images/favicon.ico
@@ -39,3 +34,10 @@ menu:
     url:               /languages/
   - title:             labzero.com
     url:               https://labzero.com
+
+
+＃this feature is for minima and similar themes
+# header_pages:
+#   - languages/index.md
+#   - process/speclet_playbook.md
+#   - process/testing_strategy.md
