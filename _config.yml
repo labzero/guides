@@ -36,7 +36,9 @@ menu:
     url:               https://labzero.com
 
 
-＃this feature is for minima and similar themes
+#
+# this feature is for minima and similar themes
+#
 # header_pages:
 #   - languages/index.md
 #   - process/speclet_playbook.md
