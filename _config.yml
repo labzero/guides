@@ -1,6 +1,9 @@
 description: "our best practices for processes, playbooks, languages and tools"
 title: Guides
 
+# use Github Flavored Markdown so URLs are automatically linkified
+markdown: GFM
+
 # Theme settings
 search_enabled: false
 # theme: minima
@@ -36,6 +39,7 @@ menu:
   - title:             labzero.com
     url:               https://labzero.com
 
+# files to include that would ordinarily be exluded by jekyll
 include:
   - languages/ruby/.rubocop.yml
   - .rubocop.yml
