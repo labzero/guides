@@ -14,3 +14,12 @@ has_children: true
 {% for kern in site.collections %}
   <p>{{ kern | markdownify }}</p>
 {% endfor %}
+
+## all
+
+<pre>
+    site: {{ site | jsonify | escape }}
+    page: {{ page | jsonify | escape }}
+    layout: {{ layout | jsonify | escape }}
+    content: {{ content | jsonify | escape }}
+</pre>
