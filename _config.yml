@@ -1,7 +1,5 @@
 description: "our best practices for processes, playbooks, languages and tools"
 title: Guides
-# Update baseurl after merging back to LZ
-baseurl: /lzguides
 
 # Theme settings
 search_enabled: false
