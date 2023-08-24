@@ -1,7 +1,7 @@
-# Ruby coding conventions / quality guidelines
-
 * table of contents (auto inserted)
 {:toc}
+
+# Ruby coding conventions / quality guidelines
 
 We use Rubocop, which adheres to this Ruby style guide (https://github.com/bbatsov/ruby-style-guide). See also the related Rails style guide (https://github.com/bbatsov/rails-style-guide) for some good tips (some of which are enforced by Rubocop).
 We generally leave the Rubocop defaults alone, but we have made some changes.

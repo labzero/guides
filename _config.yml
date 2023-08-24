@@ -40,6 +40,11 @@ menu:
 include:
   - languages/ruby/.rubocop.yml
 
+
+# Ruby coding conventions / quality guidelines
+titles_from_headings:
+  enabled:     true
+  strip_title: true
 #
 # this feature is for minima and similar themes
 #
