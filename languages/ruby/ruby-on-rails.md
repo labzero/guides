@@ -1,3 +1,6 @@
+* table of contents
+{:toc}
+
 # Ruby on Rails Developer Guide
 
 # Overview
@@ -7,7 +10,7 @@ This document is a living doc shared by all developers at Lab Zero.  We as devel
 When camping there is a rule to leave your campsite cleaner than it was when you got there.  The same is true when writing code.  Each commit should be refactoring the minutia as you go such that each commit leaves the code base cleaner than when you started.
 
 # Documentation
-There are many things that we will need to communicate and share with others developers during and after we’re done.  Please document the basics that help folks know how to install, configure and deploy the app.  We are committed to updating these documents when things change to keep the docs useful.  Given that that’s a hard task, please use documentation wisely.  Too much and it’s unusable and all out of date.  If a dragon hides in the system, write about it.  There are three places that we’ll likely want to send folks: the app’s README, the repo’s Github wiki, and inline code comments. 
+There are many things that we will need to communicate and share with others developers during and after we’re done.  Please document the basics that help folks know how to install, configure and deploy the app.  We are committed to updating these documents when things change to keep the docs useful.  Given that that’s a hard task, please use documentation wisely.  Too much and it’s unusable and all out of date.  If a dragon hides in the system, write about it.  There are three places that we’ll likely want to send folks: the app’s README, the repo’s Github wiki, and inline code comments.
 
 ## READMEs
 Please delete the Rails boilerplate one when starting a new app and start plumbing it with the what’s-where basics.  This page is what’s shown on the Github homepage for the project and is a good launching point to other pages on the wiki. Use Markdown when appropriate to improve formatting.
@@ -16,21 +19,21 @@ Please delete the Rails boilerplate one when starting a new app and start plumbi
 Anything beyond the über-basics should be documented on the Github wiki pages.  Some examples of this might be “Deployment Anatomy,” “Search Architecture,” “Importing + Refreshing Application Content,” etc…
 
 ## Code Comments
-Generally these are to be avoided only because they tend to be out of date if used too heavily.  You should favor using descriptive variable and method names.  
+Generally these are to be avoided only because they tend to be out of date if used too heavily.  You should favor using descriptive variable and method names.
 Rather, please use inline code comments when:
 * The following lines of code might use some syntax-fu (ie. anything overly-clever)
 * You’re working around a bug in a 3rd party library/api/model that we can’t control, i.e. when we have to write something that seems bad in order to use an external/immutable dependency.
 * Magic numbers: Explain your units and why the number exists.
 * Class documentation: Consider documenting the controller or model to give the big picture so that folks can find their bearings.
 * In the Gemfile when locking a gem to a specific version: Please document why we must use that version. This makes it easier to know when it is safe/reasonable to upgrade the gem.
- 
+
 # Tests
-These should be the definition of what the app should do, especially with BDD with Rspec and Cucumber… 
+These should be the definition of what the app should do, especially with BDD with Rspec and Cucumber…
 
 # Code Style
 For sensible suggestions, see https://github.com/bbatsov/ruby-style-guide and https://github.com/bbatsov/rails-style-guide
 
-We enforce some of these guidelines using Rubocop (see https://github.com/labzero/guides/blob/master/languages/ruby/ruby-style-quality-rules.md) 
+We enforce some of these guidelines using Rubocop (see https://github.com/labzero/guides/blob/master/languages/ruby/ruby-style-quality-rules.md)
 
 ## Variable Naming
 * Spend a few moments to choose an appropriate word.
@@ -57,12 +60,12 @@ There are things like concerns that is neither model nor lib candidates.  In a c
 You should use lib when the logic is a candidate for gemming up…
 
 ### Design Patterns
-Think in terms of design “patterns.” If you use one find the appropriate place for the implementations to go. 
+Think in terms of design “patterns.” If you use one find the appropriate place for the implementations to go.
 
 # Extending 3rd Party Gems
-We have to patch 3rd-party gems from time to time, but we want to minimize the impact of ramping folks up on where those dragons lie.  
+We have to patch 3rd-party gems from time to time, but we want to minimize the impact of ramping folks up on where those dragons lie.
 
-As good open source citizens we should fork third-party gems and contribute back to them with pull-requests for our fixes and additions.  Let’s consider some scenarios when we should fork and when we should patch. 
+As good open source citizens we should fork third-party gems and contribute back to them with pull-requests for our fixes and additions.  Let’s consider some scenarios when we should fork and when we should patch.
 
 ## Forks vs Monkey patches
 ### Forking best practices:
@@ -78,7 +81,7 @@ Watch for your pull request to be released in a new release.  When it has been a
 * Monkey-patch in initializers, never anywhere else, e.g. config/initializers/paperclip_patch.rb
 
 # Updating Your Gems
-When you’re adding new gems or updating some of them try updating others while you’re at it so that we keep all of our gems moving forward.  There is a risk here that we might be bringing in unwanted changes which breaks the app, but use your best judgement on when this is appropriate.  Be sure to know the difference between Major, Minor, and Tiny versions when doing this so that you’re not inadvertently adding non-backward compatible changes.  
+When you’re adding new gems or updating some of them try updating others while you’re at it so that we keep all of our gems moving forward.  There is a risk here that we might be bringing in unwanted changes which breaks the app, but use your best judgement on when this is appropriate.  Be sure to know the difference between Major, Minor, and Tiny versions when doing this so that you’re not inadvertently adding non-backward compatible changes.
 
 For Ruby and/or Rails we should be on the latest patch level (tiny) for the version.
 
@@ -121,6 +124,4 @@ We include brakeman in our CI runs on both PRBuilder jobs and on commit-level jo
 
 The brakeman Jenkins job should be configured to fail if any new security vulnerabilities are found.
 
-Remember to keep this gem updated to catch the latest list of vulnerabilities. 
-
-
+Remember to keep this gem updated to catch the latest list of vulnerabilities.
