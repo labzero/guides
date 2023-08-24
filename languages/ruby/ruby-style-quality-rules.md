@@ -1,4 +1,5 @@
 ---
+title: Ruby coding conventions and quality guidelines
 ---
 
 * table of contents (auto inserted)

@@ -33,6 +33,5 @@ related_pages: none
 
 {% assign pages = site.pages | where_exp: "item", "item.dir == '/languages/ruby/'" %}
 {% for page in pages %}
-{{ page | jsonify |escape }}
 - [{{ page.title or page.name or page.url or 'asdf' }}]({{page.url}})
 {% endfor %}

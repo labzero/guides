@@ -1,4 +1,5 @@
 ---
+title: Ruby on Rails Developer Guide
 layout: default
 ---
 
