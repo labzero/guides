@@ -3,23 +3,36 @@ layout: default
 title: Programming Language Guides
 # nav_order: 15
 has_children: true
+related_pages: none
 ---
 
 # coding style and usage guides
 
-{% for page in site.pages.languages %}
-  <p>{{ page.title }}</p>
-{% endfor %}
 
 {% for kern in site.collections %}
-  <p>{{ kern | markdownify }}</p>
+  <pre>{{ kern | jsonify | escape }}</pre>
 {% endfor %}
 
 ## all
 
 <pre>
-    site: {{ site | jsonify | escape }}
-    page: {{ page | jsonify | escape }}
-    layout: {{ layout | jsonify | escape }}
-    content: {{ content | jsonify | escape }}
+    pages: {{ site.pages | jsonify | escape }}
 </pre>
+
+
+{% for page in site.pages %}
+```json
+  {{ page | jsonify |escape }}
+```
+{% endfor %}
+
+
+## auto nav
+
+### Ruby
+
+{% assign pages = site.pages | where_exp: "item", "item.dir == '/languages/ruby/'" %}
+{% for page in pages %}
+{{ page | jsonify |escape }}
+- [{{ page.title or page.name or page.url or 'asdf' }}]({{page.url}})
+{% endfor %}
