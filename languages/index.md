@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Coding Style and Usage Guides
 has_children: true
 related_pages: none
