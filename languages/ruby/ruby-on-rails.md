@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 * table of contents
 {:toc}
 
