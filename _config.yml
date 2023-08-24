@@ -39,6 +39,7 @@ menu:
 
 include:
   - languages/ruby/.rubocop.yml
+  - .rubocop.yml
 
 
 # Ruby coding conventions / quality guidelines
