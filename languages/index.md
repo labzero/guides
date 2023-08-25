@@ -9,13 +9,13 @@ related_pages: none
 
 {% assign pages = site.pages | where_exp: "item", "item.dir == '/languages/ruby/'" %}
 {% for page in pages %}
-- [{{ page.title or page.name or page.url or 'asdf' }}]({{page.url | relative_url }})
+- [{{ page.title or page.name or page.url }}]({{page.url | relative_url }})
 {% endfor %}
 
 ## JavaScript / TypeScript / ECMAScript
 {% assign pages = site.pages | where_exp: "item", "item.dir == '/languages/javascript/'" %}
 {% for page in pages %}
-- [{{ page.title or page.name or page.url or 'asdf' }}]({{page.url | relative_url }})
+- [{{ page.title or page.name or page.url }}]({{page.url | relative_url }})
 {% endfor %}
 
 ## CSS
