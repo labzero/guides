@@ -1,4 +1,4 @@
-> See the [main site page](../) for a better listing of these guides.
+This is an automatically generated index.  See the [main site page](../) for a better listing of these guides.
 
 ## Process and playbook guides
 <!---
