@@ -1,8 +1,10 @@
 description: "our best practices for processes, playbooks, languages and tools"
 title: Guides
 
-# use Github Flavored Markdown so URLs are automatically linkified
-markdown: GFM
+# GFM will make URLs into links automatically,
+# the default kramdown allows us to use the toc directive
+# markdown: GFM
+markdown: kramdown
 
 # Theme settings
 search_enabled: false

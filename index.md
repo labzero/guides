@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+
 # Lab Zero Guides
 Ahoy! You are welcome to access Lab Zero's guides for our best practices for processes, playbooks, languages and tools.
 
@@ -8,6 +13,8 @@ Ahoy! You are welcome to access Lab Zero's guides for our best practices for pro
 
 <!---
 The next line includes all the content from the process/index.md file.
+This way the content on http://site/process is the same as in this block.
+If you're adding a process & or playbook link, please put it in that file.
 -->
 {% include_relative process/index.md %}
 
