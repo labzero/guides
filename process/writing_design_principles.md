@@ -1,3 +1,5 @@
+# Writing Design Principles
+
 ## What are design principles?
 
 Design principles are concise guidelines to aid the ideation and evaluation of product designs. They focus and inspire creative thinking and align the team when making decisions. 
