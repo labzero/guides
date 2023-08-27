@@ -39,3 +39,4 @@ Ahoy! You are welcome to access Lab Zero's guides for our best practices for pro
 
 - [Securing Your Workspace](/process/securing_your_workspace.md)
 - [Meeting Etiquette](/process/Meeting-Etiquette.md)
+- [Accessibility Guide](/process/accessibility_guide.md)
