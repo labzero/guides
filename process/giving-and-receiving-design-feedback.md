@@ -60,6 +60,7 @@ If you feel like your discussion is getting off topic or you’re getting feedba
 
 ---
 **Sources**
+
 [Adam Connor and Aaron Irizarry, *Discussing Design* (O’Reilly, 2015.)](http://www.discussingdesign.com/)
 Available in handy cheat-sheet form: [http://www.discussingdesign.com/downloads/Critique_CheatSheet.pdf](http://www.discussingdesign.com/downloads/Critique_CheatSheet.pdf)
 
