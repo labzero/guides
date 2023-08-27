@@ -16,7 +16,7 @@ Ahoy! You are welcome to access Lab Zero's guides for our best practices for pro
 
 ## Delivery Process Guides
 
-- [Project Charter Template](/process/project_charter.md)
+- [Project Charter Template](/process/project_charter_template.md)
 - [How to Write User Stories](/process/how_we_write_user_stories.md)
 - [Development Workflow](/process/development_workflow.md)
 - [Testing Strategy](/process/testing_strategy.md)
