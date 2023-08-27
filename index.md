@@ -28,12 +28,12 @@ Ahoy! You are welcome to access Lab Zero's guides for our best practices for pro
 
 ## Developer Language Guides
 
-- [iOS](/languages/ios)
+- [iOS](languages/ios)
 - [Ruby on Rails](/languages/ruby/ruby_on_rails.md)
 - [Javascript](/languages/javascript/code-style-quality-rules.md)
 - [Testing React Applications](/languages/javascript/react-testing.md)
-- [CSS](/languages/css)
-- [Chef](/devops/chef)
+- [CSS](languages/css)
+- [Chef](devops/chef)
 
 ## Other
 
