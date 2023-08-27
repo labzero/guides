@@ -1,3 +1,5 @@
+# Git Commit Guide
+
 ## Delivering A Change
 We use a development workflow based off of the well-known git flow branching model. Although this may vary slightly from project to project, at a high level this means we follow the basic model of:
 
@@ -57,4 +59,3 @@ On some projects we trigger production deploys via pull requests back to master.
 1. Open a change requests against `master` branch to start a release.
 1. Acceptance of merge request to `master` triggers a release
 1. `master` branch is tagged with a release identifier
-
