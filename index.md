@@ -26,14 +26,18 @@ Ahoy! You are welcome to access Lab Zero's guides for our best practices for pro
 - [Definition of Ready](/process/definition-of-ready.md)
 - [Sprint Demo Guide](/process/demo_guide.md)
 
-## Developer Language Guides
+## Developer Guides & Languages
 
 - [iOS](languages/ios)
 - [Ruby on Rails](/languages/ruby/ruby_on_rails.md)
 - [Javascript](/languages/javascript/code-style-quality-rules.md)
 - [Testing React Applications](/languages/javascript/react-testing.md)
 - [CSS](languages/css)
+
+### Dev ops
+
 - [Chef](devops/chef)
+- [Dev Ops Runbook Guide](/devops/runbook_guide.md)
 
 ## Other
 
