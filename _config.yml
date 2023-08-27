@@ -34,8 +34,8 @@ no_search:           true
 
 # sidebar (drawer links)
 menu:
-  - title:             Process Guides
-    url:               /#process-and-playbook-guides
+  - title:             Process Guides & Playbooks
+    url:               /#playbooks
   - title:             Developer Language Guides
     url:               /languages/
   - title:             labzero.com
