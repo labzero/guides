@@ -2,7 +2,7 @@
 
 ## Overview
 
-We're old hands at React testing, having lived through the eras of Jasmine, Mocha, Chai, Sinon, Enzyme, et cetera. But testing has evolved mostly thanks to Jest and React Testing Library covering all of these cases of these older, smaller tools, and so have we!
+We're old hands at React testing, having lived through the eras of Jasmine, Mocha, Chai, Sinon, Enzyme, et cetera. Over time testing practices have evolved significantly, primarily with the emergence of Jest and React Testing Library, which now encompass the capabilities of these older, smaller tools. We too have evolved and embrace RTL and Jest as our standard test setup.
 
 ## Unit and integration testing: Jest
 
