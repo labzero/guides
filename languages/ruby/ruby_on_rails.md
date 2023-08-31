@@ -87,8 +87,9 @@ Watch for your pull request to be released in a new release.  When it has been a
 ### Monkey-patching best practices:
 * Try not to.
 * Do not ever monkey-patch base classes.
-* Use alias_method_chain when possible to preserve the actual implementations.
-* Monkey-patch in initializers, never anywhere else, e.g. config/initializers/paperclip_patch.rb
+* Use modules and inheritance to inject behavior.  [`prepend` a module with overrides](https://www.justinweiss.com/articles/rails-5-module-number-prepend-and-the-end-of-alias-method-chain/) if needed.
+* If you need to modify a base class, inherit from it then modify and change other classes to inherit from that.
+* Monkey-patch libraries in initializers, never anywhere else, e.g. config/initializers/paperclip_patch.rb
 
 # Updating Your Gems
 When you’re adding new gems or updating some of them try updating others while you’re at it so that we keep all of our gems moving forward.  There is a risk here that we might be bringing in unwanted changes which breaks the app, but use your best judgement on when this is appropriate.  Be sure to know the difference between Major, Minor, and Tiny versions when doing this so that you’re not inadvertently adding non-backward compatible changes.  
