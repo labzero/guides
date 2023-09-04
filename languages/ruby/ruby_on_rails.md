@@ -102,7 +102,7 @@ For Ruby and/or Rails we should be on the latest patch level (tiny) for the vers
 
 For new Rails (version 7+) apps, decide between a JS bundling tool and import maps. For apps requiring minimal JS use, import maps are efficient and easy. Transitioning to a bundler, later on if needed, is straightforward. 
 
-For JS-intensive apps, especially with React, Vue, or Angular, start with a bundler and consider using Typescript.  See also our JS guides.
+For JS-intensive apps, especially with React, Vue, or Angular, start with a bundler and consider using Typescript.  See also our JS guides and the [Rails guides](https://guides.rubyonrails.org/working_with_javascript_in_rails.html#choosing-between-import-maps-and-a-javascript-bundler).
 
 ## Stimulus & Turbo (Hotwire)
 
@@ -118,7 +118,7 @@ In today's digital landscape, many applications lean heavily on JavaScript, resu
 
 If engaged in a project that has adhered to unobtrusive JS principles, it's important to remain consistent. Leverage the UJS capabilities inherent in Rails as extensively as you can. Additionally, test both with and without JavaScript to validate that all pathways function as anticipated.
 
-Rails 7 still allows you to switch back to UJS from previous versions, however their recommendation is now to use Turbo.
+Rails 7 still allows you to [switch back to the UJS from previous versions](https://guides.rubyonrails.org/working_with_javascript_in_rails.html#replacements-for-rails-ujs-functionality), however their recommendation is now to use Turbo.
 
 # OOP
 This is always the destination, but we often have to crossover from chaos and the simplest code to the code that could work to the best code we know how to write.
