@@ -38,7 +38,7 @@ These should be the definition of what the app should do, especially with BDD wi
 Additionally, when solving a bug its always a good idea to first reproduce it with a test and then check the test in to prevent regressions.
 
 # Code Style
-For sensible suggestions, see https://github.com/bbatsov/ruby-style-guide and https://github.com/bbatsov/rails-style-guide
+For sensible suggestions, see [https://github.com/bbatsov/ruby-style-guide](https://github.com/bbatsov/ruby-style-guide) and [https://github.com/bbatsov/rails-style-guide](https://github.com/bbatsov/rails-style-guide) but note that the team is free to be more flexible in adopting rules.
 
 We enforce some of these guidelines using Rubocop (see [ruby-style-quality-rules.md](ruby-style-quality-rules.md)).  The defaults can be a little stifling so use the rules that work for the team.
 
@@ -58,7 +58,7 @@ Be consistent.
 If you have a method more than 10 lines long it’s time to consider refactoring it.  This isn’t to say that no method can be longer than 10 lines, but this should be a clue that your method may be doing too many things.
 
 ## CSS Guidelines
-See our CSS guide at: https://github.com/labzero/guides/blob/master/languages/css
+See our CSS guide at: [https://github.com/labzero/guides/blob/master/languages/css](https://github.com/labzero/guides/blob/master/languages/css)
 
 ## Beyond MVC
 ### Models vs libs
@@ -98,24 +98,27 @@ For Ruby and/or Rails we should be on the latest patch level (tiny) for the vers
 
 # Javascript
 
-## Unobtrusive JS 
+## Import maps vs. JS bundling
 
-[main principles shamelessly stolen from Wikipedia]
-Do not make any assumptions: Defensive programming techniques should allow for the possibilities that JavaScript may not run, the browser may not support expected methods, the HTML may have changed, unexpected input devices may be in use and other scripts may either not be present or may be encroaching on the global namespace.
-Find your hooks and relationships, such as IDs and other aspects of the expected HTML.
-Leave traversing individual DOM objects to the experts, such as to the CSS handler built into the browser where possible.
-Understand browsers and users, particularly how they fail, what assumptions they make, and unusual configurations or usages.
-Understand events, including how they 'bubble' and the features of the Event object that is passed to most event handlers.
-Play well with other scripts by avoiding global function and variable names.
-Work for the next developer by using self-explanatory variable and function names, creating logical and readable code, making dependencies obvious, and commenting any code that still might confuse.
+For new Rails (version 7+) apps, decide between a JS bundling tool and import maps. For apps requiring minimal JS use, import maps are efficient and easy. Transitioning to a bundler, later on if needed, is straightforward. 
+
+For JS-intensive apps, especially with React, Vue, or Angular, start with a bundler and consider using Typescript.  See also our JS guides.
 
 ## Stimulus & Turbo (Hotwire)
 
-Tailoring to your product's needs, you might opt for Rails's default JS stack, Hotwire. If your team elects to utilize this, particularly its Turbo Frames or Streams features, it's crucial to determine whether you'll support it as unobtrusive JS. Turbo Frames and Streams can introduce maintenance challenges if a non-JS pathway is also required. Given the tendency to overlook user experience in scenarios where JavaScript is non-functional, it's often prudent to implement tests for both JS and non-JS routes within the app.
+Try to keep Stimulus controllers general purpose; don't couple them tightly to a specific page or partial.  By making good use of data attributes you can ensure that each controller is configurable and reusable.  
 
-Try to keep Stimulus controllers general purpose; don't couple them tightly to a specific page or partial.  If you make good use of data attributes you can ensure that each controller is configurable and reusable.  Try not to re-build functionality that can be accomplished with CSS.  Use Stimulus to tie other JS libraries into the Turbo events life-cycle.
+When determining which tool to use it can be best to consider them in the order of: HTML & CSS, Turbo Frames, Turbo Streams & finally Stimulus. Try not to re-build functionality in Stimulus that can be accomplished with CSS.  Build pages first without Turbo, then upgrade them for better user experience as needed.  Prefer fetching partials with Turbo over generating HTML in Stimulus Controllers.
 
-Fetch HTML with Turbo rather than building and injecting it manually in Stimulus.  When determining which tool to use it can be best to consider them in the order of: HTML & CSS, Turbo Frames, Turbo Streams & finally Stimulus.  Avoid packs if using Stimulus.
+Consider also whether you need to maintain functionality when JS has not loaded or does not work.  See Unobtrusive JS below.
+
+## Unobtrusive JS 
+
+In today's digital landscape, many applications lean heavily on JavaScript, resulting in the unobtrusive JavaScript (UJS) approach becoming less prevalent than in the early days of Rails. When embarking on a new project, it's crucial to consider the demographics of your target users, the nature of their internet connections, and the browsers they prefer. This will help determine whether the added time and effort required to implement and test for UJS is justified. For applications with minimal JavaScript dependency, such as those utilizing import maps, integrating UJS is comparatively straightforward.
+
+If engaged in a project that has adhered to unobtrusive JS principles, it's important to remain consistent. Leverage the UJS capabilities inherent in Rails as extensively as you can. Additionally, test both with and without JavaScript to validate that all pathways function as anticipated.
+
+Rails 7 still allows you to switch back to UJS from previous versions, however their recommendation is now to use Turbo.
 
 # OOP
 This is always the destination, but we often have to crossover from chaos and the simplest code to the code that could work to the best code we know how to write.
