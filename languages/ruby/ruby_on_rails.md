@@ -14,7 +14,10 @@ We are committed to keeping documentation updated and relevant. The value of doc
 Furthermore, consider the names and structure of your integration tests. Well named tests can act as a form of documentation, providing insights into the systems features, shedding light on our original design intentions, and highlighting edge cases.
 
 ## READMEs
-Please delete the Rails boilerplate one when starting a new app and start plumbing it with the what’s-where basics.  This page is what’s shown on the Github homepage for the project and is a good launching point to other pages in the documentation. Use Markdown when appropriate to improve formatting.  Always aim for a balance between "enough to handle common tasks" and "too long to effectively find what I need".
+
+Please delete the Rails boilerplate one when starting a new app and start plumbing it with the what’s-where basics.  This page is what’s shown on the Github homepage for the project and is a good launching point to other pages in the documentation. Use Markdown when appropriate to improve formatting.  
+
+Always aim for a balance between "enough to handle common tasks" and "too long to effectively find what I need". At the very least, the page should include project setup and any description necessary to find the right repo.
 
 ## Wikis
 
@@ -117,7 +120,7 @@ In today's digital landscape, many applications lean heavily on JavaScript, resu
 
 If engaged in a project that has adhered to unobtrusive JS principles, it's important to remain consistent. Leverage the UJS capabilities inherent in Rails as extensively as you can. Additionally, test both with and without JavaScript to validate that all pathways function as anticipated.
 
-Rails 7 still allows you to [switch back to the UJS from previous versions](https://guides.rubyonrails.org/working_with_javascript_in_rails.html#replacements-for-rails-ujs-functionality), however their recommendation is now to use Turbo.
+Rails 7 still allows you to [switch back to UJS from previous versions](https://guides.rubyonrails.org/working_with_javascript_in_rails.html#replacements-for-rails-ujs-functionality), however their recommendation is now to use Turbo.
 
 # OOP
 This is always the destination, but we often have to crossover from chaos and the simplest code to the code that could work to the best code we know how to write.
