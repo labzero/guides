@@ -1,42 +1,16 @@
 {% if site.google_analytics %}
   <script>!function (w, d) {
+    /* this file can be removed once GA4 support is added upstream in hydejack */
+    /* See: https://github.com/hydecorp/hydejack/issues/310 */
+    /* This is a variation of the code in PR330 on hydejack */
+
+
     window.dataLayer = w.dataLayer || [];
     function gtag() {dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    function gtagConsentDefaultOff() {
-      gtag('consent', 'default', {
-        'ad_storage': 'denied',
-        'analytics_storage': 'denied'
-      });
-    };
-
-    function gtagConsentUpdateOn() {
-      gtag('consent', 'update', {
-        'ad_storage': 'granted',
-        'analytics_storage': 'granted'
-      });
-    };
-
-    /*{% if site.hydejack.cookies_banner %}*/
-      if (navigator.CookiesOK) {
-        /* CookiesOK is not part of the navigator spec, not sure when this is true (extensions?) */
-        /* noop - we activate below */
-      } else if (d.cookie.indexOf("hy--cookies-ok=true") > -1) {
-        /* if cookies are opt-in only and opted for */
-        gtagConsentUpdateOn();
-      } else {
-        /* consent required and not yet given */
-        gtagConsentDefaultOff();
-      }
-    /*{% endif %}*/
-
     /* start tracking, will respect consent if set */
     gtag('config', '{{ site.google_analytics }}');
-
-    d.addEventListener('hy--cookies-ok', function () {
-      gtagConsentUpdateOn();
-    });
 
     w.loadJSDeferred('https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}');
   }(window, document);</script>
