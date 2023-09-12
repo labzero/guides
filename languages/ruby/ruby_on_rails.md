@@ -1,3 +1,11 @@
+---
+title: Ruby on Rails Developer Guide
+layout: default
+---
+
+* table of contents
+{:toc}
+
 # Ruby on Rails Developer Guide
 
 # Overview
@@ -7,15 +15,15 @@ This document is a living doc shared by all developers at Lab Zero.  We as devel
 When camping there is a rule to leave your campsite cleaner than it was when you got there.  The same is true when writing code.  Each commit should be refactoring the minutia as you go such that each commit leaves the code base cleaner than when you started.
 
 # Documentation
-There are many things that we will need to communicate and share with others developers during and after we’re done.  Please document the basics that help folks know how to install, configure and deploy the app.  
+There are many things that we will need to communicate and share with others developers during and after we’re done.  Please document the basics that help folks know how to install, configure and deploy the app.
 
-We are committed to keeping documentation updated and relevant. The value of documentation diminishes with redundancy. Avoid excessive details that can render the documentation cluttered which increases the chance it will become outdated. Instead, focus on key information and unique system nuances – if there's a 'dragon' lurking in the system, make sure to document it.  Your first point of reference should be the repository's README.md, but the documentation shouldn't stop there. Depending on the organization, a wiki might also be a suitable medium for extended documentation. 
+We are committed to keeping documentation updated and relevant. The value of documentation diminishes with redundancy. Avoid excessive details that can render the documentation cluttered which increases the chance it will become outdated. Instead, focus on key information and unique system nuances – if there's a 'dragon' lurking in the system, make sure to document it.  Your first point of reference should be the repository's README.md, but the documentation shouldn't stop there. Depending on the organization, a wiki might also be a suitable medium for extended documentation.
 
 Furthermore, consider the names and structure of your integration tests. Well named tests can act as a form of documentation, providing insights into the systems features, shedding light on our original design intentions, and highlighting edge cases.
 
 ## READMEs
 
-Please delete the Rails boilerplate one when starting a new app and start plumbing it with the what’s-where basics.  This page is what’s shown on the Github homepage for the project and is a good launching point to other pages in the documentation. Use Markdown when appropriate to improve formatting.  
+Please delete the Rails boilerplate one when starting a new app and start plumbing it with the what’s-where basics.  This page is what’s shown on the Github homepage for the project and is a good launching point to other pages in the documentation. Use Markdown when appropriate to improve formatting.
 
 Always aim for a balance between "enough to handle common tasks" and "too long to effectively find what I need". At the very least, the page should include project setup and any description necessary to find the right repo.
 
@@ -34,7 +42,7 @@ Rather, please use inline code comments when:
 * In the Gemfile when locking a gem to a specific version: Please document why we must use that version. This makes it easier to know when it is safe/reasonable to upgrade the gem.
 
 Remember that easy to read code is easier to maintain and easier for new teammates to jump into.
- 
+
 # Tests
 These should be the definition of what the app should do, especially with BDD with Rspec and Capybara.  By reading the integration test names we should be able to get a good idea of what features are present in the app.  Likewise, when reading just the names of the unit tests we should be able to get a good understanding of what the class or module does.
 
@@ -69,16 +77,16 @@ Use Model and Controller concerns to share common functionality across models or
 
 You should use lib when the logic is a candidate for gemming up…
 
-### Services 
+### Services
 Use Services to handle specific interactions between players within the M&C.  Examples include: Processing & handling an API fetch or modeling complex interactions between multiple other classes.  Adaptor and Mediator patterns are also sometimes a good fit.
 
 ### Design Patterns
-Think in terms of design “patterns.” If you use one find the appropriate place for the implementations to go. 
+Think in terms of design “patterns.” If you use one find the appropriate place for the implementations to go.
 
 # Extending 3rd Party Gems
-We have to patch 3rd-party gems from time to time, but we want to minimize the impact of ramping folks up on where those dragons lie.  
+We have to patch 3rd-party gems from time to time, but we want to minimize the impact of ramping folks up on where those dragons lie.
 
-As good open source citizens we should fork third-party gems and contribute back to them with pull-requests for our fixes and additions.  Let’s consider some scenarios when we should fork and when we should patch. 
+As good open source citizens we should fork third-party gems and contribute back to them with pull-requests for our fixes and additions.  Let’s consider some scenarios when we should fork and when we should patch.
 
 ## Forks vs Monkey patches
 ### Forking best practices:
@@ -94,7 +102,7 @@ Watch for your pull request to be released in a new release.  When it has been a
 * Monkey-patch libraries in initializers, never anywhere else, e.g. config/initializers/paperclip_patch.rb
 
 # Updating Your Gems
-When you’re adding new gems or updating some of them try updating others while you’re at it so that we keep all of our gems moving forward.  There is a risk here that we might be bringing in unwanted changes which breaks the app, but use your best judgement on when this is appropriate.  Be sure to know the difference between Major, Minor, and Tiny versions when doing this so that you’re not inadvertently adding non-backward compatible changes.  
+When you’re adding new gems or updating some of them try updating others while you’re at it so that we keep all of our gems moving forward.  There is a risk here that we might be bringing in unwanted changes which breaks the app, but use your best judgement on when this is appropriate.  Be sure to know the difference between Major, Minor, and Tiny versions when doing this so that you’re not inadvertently adding non-backward compatible changes.
 
 For Ruby and/or Rails we should be on the latest patch level (tiny) for the version.
 
@@ -102,19 +110,19 @@ For Ruby and/or Rails we should be on the latest patch level (tiny) for the vers
 
 ## Import maps vs. JS bundling
 
-For new Rails (version 7+) apps, decide between a JS bundling tool and import maps. For apps requiring minimal JS use, import maps are efficient and easy. Transitioning to a bundler, later on if needed, is straightforward. 
+For new Rails (version 7+) apps, decide between a JS bundling tool and import maps. For apps requiring minimal JS use, import maps are efficient and easy. Transitioning to a bundler, later on if needed, is straightforward.
 
 For JS-intensive apps, especially with React, Vue, or Angular, start with a bundler and consider using Typescript.  See also our JS guides and the [Rails guides](https://guides.rubyonrails.org/working_with_javascript_in_rails.html#choosing-between-import-maps-and-a-javascript-bundler).
 
 ## Stimulus & Turbo (Hotwire)
 
-Try to keep Stimulus controllers general purpose; don't couple them tightly to a specific page or partial.  By making good use of data attributes you can ensure that each controller is configurable and reusable.  
+Try to keep Stimulus controllers general purpose; don't couple them tightly to a specific page or partial.  By making good use of data attributes you can ensure that each controller is configurable and reusable.
 
 When determining which tool to use it can be best to consider them in the order of: HTML & CSS, Turbo Frames, Turbo Streams & finally Stimulus. Try not to re-build functionality in Stimulus that can be accomplished with CSS.  Build pages first without Turbo, then upgrade them for better user experience as needed.  Prefer fetching partials with Turbo over generating HTML in Stimulus Controllers.
 
 Consider also whether you need to maintain functionality when JS has not loaded or does not work.  See Unobtrusive JS below.
 
-## Unobtrusive JS 
+## Unobtrusive JS
 
 In today's digital landscape, many applications lean heavily on JavaScript, resulting in the unobtrusive JavaScript (UJS) approach becoming less prevalent than in the early days of Rails. When embarking on a new project, it's crucial to consider the demographics of your target users, the nature of their internet connections, and the browsers they prefer. This will help determine whether the added time and effort required to implement and test for UJS is justified. For applications with minimal JavaScript dependency, such as those utilizing import maps, integrating UJS is comparatively straightforward.
 
@@ -151,6 +159,4 @@ We include brakeman in our CI runs on both PRBuilder jobs and on commit-level jo
 
 The brakeman CI job should be configured to fail if any new security vulnerabilities are found.
 
-Remember to keep this gem updated to catch the latest list of vulnerabilities. 
-
-
+Remember to keep this gem updated to catch the latest list of vulnerabilities.
