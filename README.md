@@ -29,17 +29,23 @@ The first `h1` or `#` will automatically become the page title.  You can overrid
 
 #### Links
 
-Use root relative links to other pages.  Don't use github based links.  In general internal links should start with `/`, not `http`.  External links should start with `https://`
+Use relative links to other pages.  Don't use github based links.  In general internal links should not start with `http`.  Instead they should either start with a directory or a file name.  External links should start with `https://`.  Links to other guides should end in `.md`, not `.html`.
+
+These rules ensure the links work from the both the github markdown side, and are properly converted to HTML links for the guides website.
 
 *Don't:*
 ```md
 - [How to Write User Stories](https://github.com/labzero/guides/blob/master/process/how_we_write_user_stories.md)
+- [How to conduct a presentation](process/presentation.html)
+- [File in the same directory](/languages/sibling-document.md)
 - [Our Website](labzero.com)
 ```
 
 Do:
 ```md'
-- [How to Write User Stories](/process/how_we_write_user_stories.md)
+- [How to Write User Stories](process/how_we_write_user_stories.md)
+- [How to conduct a presentation](process/presentation.md)
+- [File in the same directory](sibling-document.md)
 - [Our Website](https://labzero.com)
 ```
 
