@@ -1,6 +1,6 @@
 # Lab Zero Speclet Playbook
 
-Shortcut: [View the template](https://github.com/labzero/guides/blob/master/process/speclet_template.md) on Lab Zero’s GitHub Repo to get started.
+Shortcut: [View the template](/process/speclet_template.md).
 
 ## What is a ‘speclet’?
 
@@ -50,4 +50,4 @@ Drafting a speclet can be as simple as writing down what you observe happening t
 
 ## Ready to write your own speclet? 
 
-To jump start your next speclet, [view the template](https://github.com/labzero/guides/blob/master/process/speclet_template.md).
+To jump start your next speclet, [view the template](/process/speclet_template.md).

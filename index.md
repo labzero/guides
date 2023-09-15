@@ -16,7 +16,7 @@ Ahoy! You are welcome to access Lab Zero's guides for our best practices for pro
 
 ## Delivery Process Guides
 
-- [Project Charter Template](/process/project_charter.md)
+- [Project Charter Template](/process/project_charter_template.md)
 - [How to Write User Stories](/process/how_we_write_user_stories.md)
 - [Development Workflow](/process/development_workflow.md)
 - [Testing Strategy](/process/testing_strategy.md)
@@ -26,16 +26,21 @@ Ahoy! You are welcome to access Lab Zero's guides for our best practices for pro
 - [Definition of Ready](/process/definition-of-ready.md)
 - [Sprint Demo Guide](/process/demo_guide.md)
 
-## Developer Language Guides
+## Developer Guides & Languages
 
-- [iOS](/languages/ios)
+- [iOS](languages/ios)
 - [Ruby on Rails](/languages/ruby/ruby_on_rails.md)
 - [Javascript](/languages/javascript/code-style-quality-rules.md)
 - [Testing React Applications](/languages/javascript/react-testing.md)
-- [CSS](/languages/css)
-- [Chef](/devops/chef)
+- [CSS](languages/css)
+
+### Dev ops
+
+- [Chef](devops/chef)
+- [Dev Ops Runbook Guide](/devops/runbook_guide.md)
 
 ## Other
 
 - [Securing Your Workspace](/process/securing_your_workspace.md)
 - [Meeting Etiquette](/process/Meeting-Etiquette.md)
+- [Accessibility Guide](/process/accessibility_guide.md)

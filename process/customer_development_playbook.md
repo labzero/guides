@@ -2,27 +2,27 @@
 
 ## Table of Contents  
 
-[Introduction](#Introduction) 
+[Introduction](#introduction) 
 
-[Principles](#Principles)
+[Principles](#principles)
 
-[Process](#Process-at-a-glance)
+[Process](#process-at-a-glance)
 
-[Step 1: Set Up](#Step-1-Set-Up)
+[Step 1: Set Up](#step-1-set-up)
 
-[Step 2: Organize](#Step-2-Organize)
+[Step 2: Organize](#step-2-organize)
 
-[Step 3: Schedule Interviews](#Step-3-Schedule-Interviews)
+[Step 3: Schedule Interviews](#step-3-schedule-interviews)
 
-[Step 4: Interview Customers](#Step-4-Interview-Customers)
+[Step 4: Interview Customers](#step-4-interview-customers)
 
-[Step 5: Synthesize](#Step-5-Synthesize)
+[Step 5: Synthesize](#step-5-synthesize)
 
-[Step 6: Determine Next Steps](#Step-6-Determine-Next-Steps)
+[Step 6: Determine Next Steps](#step-6-determine-next-steps)
 
-[Summary](#Summary)
+[Summary](#summary)
 
-[Resources](#Resources)
+[Resources](#resources)
 
 ## Introduction 
 

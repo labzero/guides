@@ -1,11 +1,11 @@
 # Lab Zero Guides
 Ahoy! You are welcome to access Lab Zero's guides for our best practices for processes, playbooks, languages and tools.
 
-**If this is your first time here we recommend checking out the [Github Pages site](https://labzero.github.io/guides) or starting with [index.md](index.md).**
+**If this is your first time here we recommend checking out the [Github Pages site](https://guides.labzero.com) or starting with [index.md](index.md).**
 
 ## This README
 
-This README.md describes how to write for and update the Lab Zero Guides site.  If you're here to see site content, **we recommend [visiting the site directly](https://labzero.github.io/guides)**.  If you're here to update or add a guide, *welcome*, you're in the right place :-)
+This README.md describes how to write for and update the Lab Zero Guides site.  If you're here to see site content, **we recommend [visiting the site directly](https://guides.labzero.com)**.  If you're here to update or add a guide, *welcome*, you're in the right place :-)
 
 The Lab Zero Guides site is a Github Pages site.  It is automatically generated from the Markdown files in this (the guides) repository.
 
@@ -42,6 +42,7 @@ Do:
 - [How to Write User Stories](/process/how_we_write_user_stories.md)
 - [Our Website](https://labzero.com)
 ```
+
 
 For intra-page links to headings (e.g. `my-page#some-heading`).  Use the heading name in all lower case with dashes for spaces.
 
