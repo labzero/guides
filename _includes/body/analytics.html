@@ -1,0 +1,17 @@
+{% if site.google_analytics %}
+  <script>!function (w, d) {
+    /* this file can be removed once GA4 support is added upstream in hydejack */
+    /* See: https://github.com/hydecorp/hydejack/issues/310 */
+    /* This is a variation of the code in PR330 on hydejack */
+
+
+    window.dataLayer = w.dataLayer || [];
+    function gtag() {dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    /* start tracking, will respect consent if set */
+    gtag('config', '{{ site.google_analytics }}');
+
+    w.loadJSDeferred('https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}');
+  }(window, document);</script>
+{% endif %}
