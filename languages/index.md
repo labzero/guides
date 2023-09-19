@@ -21,7 +21,3 @@ related_pages: none
 ## CSS
 
 [CSS](css)
-
-## iOS
-
-[iOS](ios)
