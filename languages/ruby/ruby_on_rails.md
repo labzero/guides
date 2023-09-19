@@ -69,7 +69,8 @@ Be consistent.
 If you have a method more than 10 lines long it’s time to consider refactoring it.  This isn’t to say that no method can be longer than 10 lines, but this should be a clue that your method may be doing too many things.
 
 ## CSS Guidelines
-See our CSS guide at: [https://github.com/labzero/guides/blob/master/languages/css](https://github.com/labzero/guides/blob/master/languages/css)
+
+See our [CSS guide](../css).
 
 ## Beyond MVC
 ### Models vs libs
@@ -112,7 +113,7 @@ For Ruby and/or Rails we should be on the latest patch level (tiny) for the vers
 
 For new Rails (version 7+) apps, decide between a JS bundling tool and import maps. For apps requiring minimal JS use, import maps are efficient and easy. Transitioning to a bundler, later on if needed, is straightforward.
 
-For JS-intensive apps, especially with React, Vue, or Angular, start with a bundler and consider using Typescript.  See also our JS guides and the [Rails guides](https://guides.rubyonrails.org/working_with_javascript_in_rails.html#choosing-between-import-maps-and-a-javascript-bundler).
+For JS-intensive apps, especially with React, Vue, or Angular, start with a bundler and consider using Typescript.  See also our [JS guides](../index.md#javascript--typescript--ecmascript) and the official [Rails guides](https://guides.rubyonrails.org/working_with_javascript_in_rails.html#choosing-between-import-maps-and-a-javascript-bundler).
 
 ## Stimulus & Turbo (Hotwire)
 
