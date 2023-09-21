@@ -15,6 +15,7 @@ logo: "/assets/images/lz-logo.svg"
 
 
 favicon: /assets/images/favicon.ico
+apple_touch_icon: /assets/images/apple-touch-icon.png
 accent_image: /assets/images/lz_typing.jpg
 theme_color:  rgb(254,202,14)
 accent_color:  rgb(254,202,14)
