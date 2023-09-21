@@ -18,7 +18,7 @@
   1. Use `berks install` from the cookbook's directory to generate the Berksfile.lock from the Berksfile and metadata.json, as well as to download third party dependencies from the Supermarket.
   1. Use `berks upload` from the cookbook's directory to upload the new version of the cookbook and any dependency updates to the Chef server.
 
-![Berks Upload Flow](./images/BerksUploadFlow.svg "Berks Upload Flow")
+![Berks Upload Flow](images/BerksUploadFlow.svg "Berks Upload Flow")
 
 
 ## Testing
@@ -38,15 +38,14 @@
   1. Git flow is feasible for this work at the cookbook level, but needs to be approached with care from the standpoint of versioning of cookbooks, roles, and environments, as there is a high likelihood of conflicts.
 
 ## Style
-  1. See [Ruby Style Quality Rules](../../languages/ruby/ruby-style-quality-rules.md)
-  1. See [Ruby on Rails Guide](../../languages/ruby/ruby_on_rails.md)
+  1. See [Ruby Style Quality Rules](/languages/ruby/ruby-style-quality-rules.md)
+  1. See [Ruby on Rails Guide](/languages/ruby/ruby_on_rails.md)
 
 More Information / References
 =============================
 
   * [The Berkshelf Way ~ Jamie Winsor](http://www.getchef.com/blog/chefconf-talks/the-berkshelf-way-jamie-winsor/)
   * [Berkshelf Site](http://berkshelf.com/)
-  * [Chef Cookbook Anti Patterns](http://dougireton.com/blog/2013/02/16/chef-cookbook-anti-patterns/)
   * [Getting Started Writing Chef Cookbooks the Berkshelf Way](http://misheska.com/blog/2013/06/16/getting-started-writing-chef-cookbooks-the-berkshelf-way/)
-  * [Test Kitchen](http://kitchen.ci/)
-  * [ServerSpec](http://serverspec.org/)
+  * [Test Kitchen](https://kitchen.ci/)
+  * [ServerSpec](https://serverspec.org/)

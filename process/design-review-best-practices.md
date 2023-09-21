@@ -1,4 +1,4 @@
-# Design Review Best practices
+# Design Review Best Practices
 
 ### The goal of design reviews
 Design is an iterative and collaborative process. It takes many conversations to get from an initial idea to a complete product. Early conversations may be about getting alignment on the problem space. Other conversations may be about getting sign off to start building the design in code. For the purposes of this guide, we are looking at conversations we'll call "design reviews."
@@ -46,18 +46,18 @@ Be mindful of time and table or reschedule topics as needed.
 
 If possible, assign someone to take notes for you. This will allow you more headspace to engage in the conversation.
 
-For detailed tips on how to take part in a review, see our follow-up guide: best practices for giving and receiving feedback. 
+For detailed tips on how to take part in a review, see our follow-up guide: [best practices for giving and receiving feedback](giving-and-receiving-design-feedback.md). 
 
 ## Recap and prioritize 
 Once we’ve received feedback from a critique, we’ll need to process, prioritize, and follow up on what we’ve heard. This allows us to form clear next steps and preserve project momentum.
 
 * Document any outstanding questions and plans for how to get them resolved.
 * Make a list of the changes requested and prioritize by
-.* The relevance of feedback to product goals
-.* How soon the design element is needed
-.* The amount the group agrees on the feedback
-.* The knowledge and expertise of the person giving the feedback
-.* Identify feedback you won’t be acting on. Not all feedback merits a change to the design.
+  * The relevance of feedback to product goals
+  * How soon the design element is needed
+  * The amount the group agrees on the feedback
+  * The knowledge and expertise of the person giving the feedback
+  * Identify feedback you won’t be acting on. Not all feedback merits a change to the design.
 * Share this information, along with your notes from the critique, with the team. 
 
 Follow up with your team as you make progress on your next iteration. 
@@ -65,9 +65,9 @@ Follow up with your team as you make progress on your next iteration.
 
 ---
 
-Sources
-[Adam Connor and Aaron Irizarry, *Discussing Design* (O’Reilly, 2015.)](http://www.discussingdesign.com/)
-Available in hand cheat-sheet form: [http://www.discussingdesign.com/downloads/Critique_CheatSheet.pdf](http://www.discussingdesign.com/downloads/Critique_CheatSheet.pdf)
+#### Sources:
+
+[Adam Connor and Aaron Irizarry, *Discussing Design* (O’Reilly, 2015.)](http://www.discussingdesign.com/). Available in hand cheat-sheet form: [http://www.discussingdesign.com/downloads/Critique_CheatSheet.pdf](http://www.discussingdesign.com/downloads/Critique_CheatSheet.pdf)
 
 [Adam Connor, *Discussing Design without Losing Your Mind* (Slide Share, 2014.)](http://www.slideshare.net/adamconnor/discuss-design) 
 

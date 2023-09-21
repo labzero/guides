@@ -1,12 +1,14 @@
+# Meeting Etiquette
+
 ## We Are Prepared
 _If we're not early, we're late._
 
 * We show up to meetings early so we can dial in and start up conference lines before our meeting starts.
 * We create an agenda for meetings we organize.
 * When we share our screen:
- * We close out of, or minimize, any windows and tabs that are not pertinent to the meeting.
- * We close out of any messaging applications (Slack, Mail, etc), and put our OS X or Growl notifications into "Do Not Disturb" mode. Option-Click on the Notification Center icon in the menu bar will enable "Do Not Disturb" mode.
- * We perform any required A/V setup before the meeting starts (Connecting to G2M, Turning on TV, etc).
+  * We close out of, or minimize, any windows and tabs that are not pertinent to the meeting.
+  * We close out of any messaging applications (Slack, Mail, etc), and disable notifications or enable "Do Not Disturb" mode.
+  * We perform any required A/V setup before the meeting starts (Connecting to projectors, turning on TV, setting up screen sharing permissions, etc).
 
 ## We Are Productive
 _Productivity is never an accident. It is always the result of a commitment to excellence, intelligent planning, and focused effort._ - Paul Meyer

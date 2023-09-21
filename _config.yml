@@ -1,0 +1,65 @@
+description: "our best practices for processes, playbooks, languages and tools"
+title: Guides
+
+# GFM will make URLs into links automatically,
+# the default kramdown allows us to use the toc directive
+# markdown: GFM
+markdown: kramdown
+
+# Theme settings
+search_enabled: false
+# theme: minima
+remote_theme: hydecorp/hydejack@v9.1.6
+# color_scheme: custom
+logo: "/assets/images/lz-logo.svg"
+
+
+favicon: /assets/images/favicon.ico
+accent_image: /assets/images/lz_typing.jpg
+theme_color:  rgb(254,202,14)
+accent_color:  rgb(254,202,14)
+
+# TODO: google analytics key
+# google_analytics: UA-XXXXXXXX-X
+
+legal:
+  - title:             Contact us
+    url:               https://labzero.com/contact
+  - title:             labzero.com
+    url:               https://labzero.com
+  - title:             Blog
+    url:               https://labzero.com/blog
+
+no_search:           true
+
+# sidebar (drawer links)
+menu:
+  - title:             Process Guides & Playbooks
+    url:               /#playbooks
+  - title:             Developer Language Guides
+    url:               /languages/
+  - title:             labzero.com
+    url:               https://labzero.com
+
+# files to include that would ordinarily be exluded by jekyll
+include:
+  - .rubocop.yml
+  - .jscsrc
+  - .jshintrc
+
+related_posts: none
+
+# Ruby coding conventions / quality guidelines
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+#
+# this feature is for minima and similar themes
+#
+# header_pages:
+#   - languages/index.md
+#   - process/speclet_playbook.md
+#   - process/testing_strategy.md
+
+
+google_analytics: G-2NX5YFW46E

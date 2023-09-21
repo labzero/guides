@@ -60,10 +60,11 @@ If you feel like your discussion is getting off topic or you’re getting feedba
 
 ---
 **Sources**
+
 [Adam Connor and Aaron Irizarry, *Discussing Design* (O’Reilly, 2015.)](http://www.discussingdesign.com/)
 Available in handy cheat-sheet form: [http://www.discussingdesign.com/downloads/Critique_CheatSheet.pdf](http://www.discussingdesign.com/downloads/Critique_CheatSheet.pdf)
 
-[Adam Connor, *Discussing Design without Losing Your Mind* (Slide Share, 2014.)](http://www.slideshare.net/adamconnor/discuss-design) 
+[Adam Connor, *Discussing Design without Losing Your Mind* (Slide Share, 2014.)](https://www.slideshare.net/adamconnor/discuss-design) 
 
 Elaine Lin Hering, *Thanks for the Feedback: Skills for Receiving Feedback Well* (Meetup, 2017 based on the book [*Thanks for the Feedback: The Science and Art of Receiving Feedback Well* by Douglas Stone and Sheila Heen (Penguin Books, 2015))](https://www.penguinrandomhouse.com/books/313485/thanks-for-the-feedback-by-douglas-stone-and-sheila-heen/)
 
