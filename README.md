@@ -3,10 +3,6 @@ Ahoy! You are welcome to access Lab Zero's guides for our best practices for pro
 
 **If this is your first time here we recommend checking out the [Github Pages site](https://guides.labzero.com) or starting with [index.md](index.md).**
 
-## Playbooks
-- [Customer Development Playbook](https://github.com/labzero/guides/blob/master/process/customer_development_playbook.md)
-- [Speclet Playbook](https://github.com/labzero/guides/blob/master/process/speclet_playbook.md) + [Template](https://github.com/labzero/guides/blob/master/process/speclet_template.md)
-- [Team Norms Playbook](https://github.com/labzero/guides/blob/master/process/team_norms_playbook.md)
 
 ## This README
 
