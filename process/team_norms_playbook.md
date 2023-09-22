@@ -60,7 +60,7 @@ Write on the top of page 3:
 
 ### Notes for Remote Sessions 
 
-When working remotely, this activity can be run just as well using collaborative tools like Google Docs (or something similar). Prepare the document in advance and simply use ticks or emojis for voting.
+When working remotely, this activity can be run just as well using collaborative tools like Google Docs, Miro or FigJam. Prepare the document in advance and simply use ticks or emojis for voting.
 
 ### Video Summary of this Activity 
 
