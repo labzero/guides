@@ -62,10 +62,6 @@ Write on the top of page 3:
 
 When working remotely, this activity can be run just as well using collaborative tools like Google Docs, Miro or FigJam. Prepare the document in advance and simply use ticks or emojis for voting.
 
-### Video Summary of this Activity 
-
-To see more about team norms, we recommend this [2-minute YouTube video](https://www.youtube.com/watch?v=C-okYrvsWx8), which was put together by a friend of Lab Zero, Aaron Suedmeyer.
-
 ### Alternative Questions
 
 * Team vision and values: How do we know we're succeeding?
