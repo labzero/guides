@@ -18,7 +18,7 @@
   1. Use `berks install` from the cookbook's directory to generate the Berksfile.lock from the Berksfile and metadata.json, as well as to download third party dependencies from the Supermarket.
   1. Use `berks upload` from the cookbook's directory to upload the new version of the cookbook and any dependency updates to the Chef server.
 
-![Berks Upload Flow](images/BerksUploadFlow.svg "Berks Upload Flow")
+![Berks Upload Flow](/assets/images/BerksUploadFlow.svg "Berks Upload Flow")
 
 
 ## Testing
@@ -38,8 +38,8 @@
   1. Git flow is feasible for this work at the cookbook level, but needs to be approached with care from the standpoint of versioning of cookbooks, roles, and environments, as there is a high likelihood of conflicts.
 
 ## Style
-  1. See [Ruby Style Quality Rules](/languages/ruby/ruby-style-quality-rules.md)
-  1. See [Ruby on Rails Guide](/languages/ruby/ruby_on_rails.md)
+  1. See [Ruby Style Quality Rules](../../languages/ruby/ruby-style-quality-rules.md)
+  1. See [Ruby on Rails Guide](../../languages/ruby/ruby_on_rails.md)
 
 More Information / References
 =============================
