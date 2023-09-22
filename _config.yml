@@ -1,5 +1,5 @@
 description: "our best practices for processes, playbooks, languages and tools"
-title: Guides
+title: "Lab Zero Guides"
 
 # GFM will make URLs into links automatically,
 # the default kramdown allows us to use the toc directive
@@ -13,8 +13,17 @@ remote_theme: hydecorp/hydejack@v9.1.6
 # color_scheme: custom
 logo: "/assets/images/lz-logo.svg"
 
-
 favicon: /assets/images/favicon.ico
+apple_touch_icon: /assets/images/apple-touch-icon.png
+
+# these defaults can come from many sources and override theme and plugin defaults 
+# in this case these are added for opengraph/sharing tags
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/og_image.jpg
+
 accent_image: /assets/images/lz_typing.jpg
 theme_color:  rgb(254,202,14)
 accent_color:  rgb(254,202,14)
@@ -58,8 +67,8 @@ titles_from_headings:
 #   - process/speclet_playbook.md
 #   - process/testing_strategy.md
 
-
 google_analytics: G-2NX5YFW46E
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-seo-tag

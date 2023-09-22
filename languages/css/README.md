@@ -123,7 +123,7 @@ Pixel measurements are fine - they're great for heights, padding, margin, and ot
 Use [Stylelint](https://stylelint.io/) along with [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard).
 
 ## Resources
-- https://developer.mozilla.org/en-US/docs/Web/CSS
-- http://caniuse.com
-- https://css-tricks.com/
-- https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript
+- [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [http://caniuse.com](http://caniuse.com)
+- [https://css-tricks.com/](https://css-tricks.com/)
+- [https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript)
