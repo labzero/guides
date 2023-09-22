@@ -3,7 +3,6 @@ Ahoy! You are welcome to access Lab Zero's guides for our best practices for pro
 
 **If this is your first time here we recommend checking out the [Github Pages site](https://guides.labzero.com) or starting with [index.md](index.md).**
 
-
 ## This README
 
 This README.md describes how to write for and update the Lab Zero Guides site.  If you're here to see site content, **we recommend [visiting the site directly](https://guides.labzero.com)**.  If you're here to update or add a guide, *welcome*, you're in the right place :-)
