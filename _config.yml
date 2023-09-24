@@ -28,9 +28,6 @@ accent_image: /assets/images/lz_typing.jpg
 theme_color:  rgb(254,202,14)
 accent_color:  rgb(254,202,14)
 
-# TODO: google analytics key
-# google_analytics: UA-XXXXXXXX-X
-
 legal:
   - title:             Contact us
     url:               https://labzero.com/contact
@@ -73,4 +70,5 @@ titles_from_headings:
 google_analytics: G-2NX5YFW46E
 
 plugins:
+  - jekyll-redirect-from
   - jekyll-seo-tag
