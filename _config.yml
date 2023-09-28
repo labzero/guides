@@ -40,10 +40,16 @@ no_search:           true
 
 # sidebar (drawer links)
 menu:
-  - title:             Process Guides & Playbooks
-    url:               /#playbooks
+  - title:             Delivery Process Guides
+    url:               /#delivery-process-guides
+  - title:             Design Guides
+    url:               /#design-guides
   - title:             Developer Language Guides
-    url:               /languages/
+    url:               /#developer-guides--languages
+  - title:             Playbooks
+    url:               /#playbooks
+  - title:             Dev Ops
+    url:               /#dev-ops
   - title:             labzero.com
     url:               https://labzero.com
 
