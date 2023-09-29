@@ -22,7 +22,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/og_image.jpg
+      image: /assets/images/og_image.png
 
 accent_image: /assets/images/side_image.png
 accent_color:  rgb(254,202,14)
