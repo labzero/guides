@@ -22,11 +22,11 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/og_image.jpg
+      image: /assets/images/og_image.png
 
-accent_image: /assets/images/lz_typing.jpg
-theme_color:  rgb(254,202,14)
+accent_image: /assets/images/side_image.png
 accent_color:  rgb(254,202,14)
+theme_color:  rgb(94,105,119)
 
 legal:
   - title:             Contact us
