@@ -3,7 +3,9 @@ body .navbar > .content::before {
   box-shadow: none;
 }
 
-/* remove rounding on logo in sidebar */
+/* override built-in styles for side-bar logo */
 img.avatar {
   border-radius: 0;
+  height: 8rem;
+  width: auto;
 }
