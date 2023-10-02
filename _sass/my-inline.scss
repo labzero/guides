@@ -1,3 +1,9 @@
+/* remove box shadow where unused search field is */
 body .navbar > .content::before {
   box-shadow: none;
+}
+
+/* remove rounding on logo in sidebar */
+img.avatar {
+  border-radius: 0;
 }
