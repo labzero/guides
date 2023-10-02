@@ -3,17 +3,10 @@ layout: page
 ---
 
 # Lab Zero Guides
-Ahoy! You are welcome to access Lab Zero's guides for our best practices for processes, playbooks, languages and tools.
+Welcome to Lab Zero's resource library. These guides offer insights into our best practices for product development processes, playbooks, languages, and tools. They represent our evolving knowledge and expertise. By sharing them, we aim to provide others with the benefits of our experience and  a glimpse into what it's like to work with us.
 
-## Design Guides
-- [How to Write Design Principles](/process/writing_design_principles.md)
-- [Design Review Best Practices](/process/design-review-best-practices.md)
-- [Best Practices for Giving and Receiving Feedback](/process/giving-and-receiving-design-feedback.md)
+Feel free to explore, and if anything catches your attention or raises questions, we're here and eager for your feedback.
 
-## Playbooks
-- [Customer Development Playbook](/process/customer_development_playbook.md)
-- [Speclet Playbook](/process/speclet_playbook.md) + [Template](/process/speclet_template.md)
-- [Team Norms Playbook](/process/team_norms_playbook.md)
 
 ## Delivery Process Guides
 
@@ -26,6 +19,16 @@ Ahoy! You are welcome to access Lab Zero's guides for our best practices for pro
 - [Definition of Done](/process/dod.md)
 - [Definition of Ready](/process/definition-of-ready.md)
 - [Sprint Demo Guide](/process/demo_guide.md)
+
+## Design Guides
+- [How to Write Design Principles](/process/writing_design_principles.md)
+- [Design Review Best Practices](/process/design-review-best-practices.md)
+- [Best Practices for Giving and Receiving Feedback](/process/giving-and-receiving-design-feedback.md)
+
+## Playbooks
+- [Customer Development Playbook](/process/customer_development_playbook.md)
+- [Speclet Playbook](/process/speclet_playbook.md) + [Template](/process/speclet_template.md)
+- [Team Norms Playbook](/process/team_norms_playbook.md)
 
 ## Developer Guides & Languages
 
