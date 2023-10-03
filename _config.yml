@@ -75,4 +75,5 @@ google_analytics: G-2NX5YFW46E
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
   #  - jekyll-redirect-from - not currently using this
