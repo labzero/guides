@@ -106,6 +106,14 @@ layout: page
 
 The above sets the article title (the 1st `h1` if unset).  And it switches to the `page` layout.  The `page` layout does *not* display the "Pages" section with related pages at the bottom.
 
+#### index pages
+
+Our breadcrumbs necessitate an index.md file in each directory or users that click intermediary breadcrumbs will see a 404 page.  
+
+To avoid this, we have a simple script that lists out the files in a directory with their titles.  You can copy `index.md` from most sub-directories into any new subdirectory and it will work.  
+
+It relies on a partial in `_includes` which contains a small bit of liquid code.
+
 ## Technology
 
 This a Github Pages site built with Github's automatic Jekyll setup.
