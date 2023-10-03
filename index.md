@@ -16,6 +16,9 @@ Feel free to explore, and if anything catches your attention or raises questions
 - [Meeting Etiquette](/project_kickoff/meeting-etiquette.md)
 - [Securing Your Workspace](/project_kickoff/securing_your_workspace.md)
 
+## Vision & Roadmap
+- [Customer Development](/vision_and_roadmap/customer_development_playbook.md)
+- [Product Speclet](/vision_and_roadmap/speclet.md) + [Template](/vision_and_roadmap/speclet_template.md)
 
 ## Delivery Process Guides
 
@@ -32,8 +35,6 @@ Feel free to explore, and if anything catches your attention or raises questions
 - [Best Practices for Giving and Receiving Feedback](/process/giving-and-receiving-design-feedback.md)
 
 ## Playbooks
-- [Customer Development Playbook](/process/customer_development_playbook.md)
-- [Speclet Playbook](/process/speclet_playbook.md) + [Template](/process/speclet_template.md)
 
 ## Developer Guides & Languages
 
