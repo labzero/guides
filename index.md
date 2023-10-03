@@ -27,18 +27,14 @@ Feel free to explore, and if anything catches your attention or raises questions
 - [How to Write User Stories](/product_design/how_we_write_user_stories.md)
 - [Accessibility](/product_design/accessibility_guide.md)
 
+## Continuous Delivery
+- [Development Workflow](/continuous_delivery/development_workflow.md)
+- [Testing Strategy](/continuous_delivery/testing_strategy.md)
+- [Git Commit Guide](/continuous_delivery/commit_guide.md)
+- [README Guide](/continuous_delivery/readme_guide.md)
+- [Sprint Demo Guide](/continuous_delivery/demo_guide.md)
 
-## Delivery Process Guides
 
-- [Development Workflow](/process/development_workflow.md)
-- [Testing Strategy](/process/testing_strategy.md)
-- [Git Commit Guide](/process/commit_guide.md)
-- [README Guide](/process/readme_guide.md)
-- [Sprint Demo Guide](/process/demo_guide.md)
-
-## Design Guides
-
-## Playbooks
 
 ## Developer Guides & Languages
 
