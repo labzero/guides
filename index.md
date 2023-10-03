@@ -9,7 +9,7 @@ Feel free to explore, and if anything catches your attention or raises questions
 
 
 ## Project Kickoff
-- [Project Charter](/project_kickoff/project_charter_template.md)
+- [Project Charter](/project_kickoff/project_charter.md)
 - [Definition of Ready](/project_kickoff/definition-of-ready.md)
 - [Definition of Done](/project_kickoff/dod.md)
 - [Team Norms Playbook](/project_kickoff/team_norms.md)
