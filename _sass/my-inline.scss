@@ -1,3 +1,11 @@
+/* remove box shadow where unused search field is */
 body .navbar > .content::before {
   box-shadow: none;
+}
+
+/* override built-in styles for side-bar logo */
+img.avatar {
+  border-radius: 0;
+  height: 8rem;
+  width: auto;
 }
