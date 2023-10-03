@@ -40,7 +40,7 @@ American health insurance and HR websites make it hard to compare plans side by 
 
 At Lab Zero, we don’t want our customers to have this kind of an experience. That’s why we advocate for talking to customers about their needs. When we talk about customer development, we are talking about stepping away from our desks to test hypotheses with customers. It’s a subset of user research, and is our umbrella term for iteratively clarifying who our target customer segments are. 
 
-![Example: Survey emailed to customers from banks](images/bad_survey_example.png)
+![Example: Survey emailed to customers from banks](../assets/images/bad_survey_example.png)
 
 #### Example #2: Email surveys
 
@@ -215,7 +215,7 @@ Interview trackers are great because they can easily be shared as a link and pin
 
 Access Lab Zero's [Interview Tracker Template here](https://docs.google.com/spreadsheets/d/1uoYfEy3_ZuFTikcwnyiLfMiU3ZPwogwx5cW6rWpkx2w/edit?usp=sharing).
 
-![Example Interview Tracker](images/interview_tracker_sample.png)
+![Example Interview Tracker](../assets/images/interview_tracker_sample.png)
 
 ### Create an interview template for note taking and documentation  
 
@@ -229,7 +229,7 @@ Once our customer development plan is set up, we are ready to coordinate intervi
 
 It is important to set context. Customers will likely not accept the invitation if they do not understand the purpose of this interview. After we confirm an interview, we send a calendar invitation with logistics such as the dial in number or meeting location. Finally, we like to send a reminder to the customer the day before the interview to confirm the time. 
 
-![Sample email to request an interview with a customer](images/email_invitation_sample.png)
+![Sample email to request an interview with a customer](../assets/images/email_invitation_sample.png)
 
 ## Step 4: Interview Customers 
 
