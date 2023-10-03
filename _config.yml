@@ -26,7 +26,7 @@ defaults:
 
 accent_image: /assets/images/side_image.png
 accent_color:  rgb(254,202,14)
-theme_color:  rgb(94,105,119)
+theme_color:  rgb(92,100,114)
 
 legal:
   - title:             Contact us
