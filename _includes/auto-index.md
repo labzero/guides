@@ -1,9 +1,3 @@
----
-layout: page
-has_children: true
-related_pages: none
----
-
 {% comment %}
 This page automatically generates a listing of pages in its directory.
 {% endcomment %}
