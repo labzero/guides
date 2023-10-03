@@ -74,4 +74,4 @@ Follow up with your team as you make progress on your next iteration.
 Elaine Lin Hering, *Thanks for the Feedback: Skills for Receiving Feedback Well* (Meetup, 2017 based on the book [*Thanks for the Feedback: The Science and Art of Receiving Feedback Well* by Douglas Stone and Sheila Heen)](https://www.penguinrandomhouse.com/books/313485/thanks-for-the-feedback-by-douglas-stone-and-sheila-heen/)
 
 
-Tom Greever, [*Articulating Design Decisions: Communicate with Stakeholders, Keep Your Sanity, and Deliver the Best User Experience*](https://drive.google.com/open?id=1RSM99XN7-wVcGUAjGXOCHRrbLxZEIj1k) (O’Reilly, 2015.)
+Tom Greever, [*Articulating Design Decisions: Communicate with Stakeholders, Keep Your Sanity, and Deliver the Best User Experience*](https://www.oreilly.com/library/view/articulating-design-decisions/9781491921555/) (O’Reilly, 2015.)
