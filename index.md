@@ -8,16 +8,22 @@ Welcome to Lab Zero's resource library. These guides offer insights into our bes
 Feel free to explore, and if anything catches your attention or raises questions, we're here and eager for your feedback.
 
 
+## Project Kickoff
+- [Project Charter](/project_kickoff/project_charter_template.md)
+- [Definition of Ready](/project_kickoff/definition-of-ready.md)
+- [Definition of Done](/project_kickoff/dod.md)
+- [Team Norms Playbook](/project_kickoff/team_norms.md)
+- [Meeting Etiquette](/project_kickoff/meeting-etiquette.md)
+- [Securing Your Workspace](/project_kickoff/securing_your_workspace.md)
+
+
 ## Delivery Process Guides
 
-- [Project Charter Template](/process/project_charter_template.md)
 - [How to Write User Stories](/process/how_we_write_user_stories.md)
 - [Development Workflow](/process/development_workflow.md)
 - [Testing Strategy](/process/testing_strategy.md)
 - [Git Commit Guide](/process/commit_guide.md)
 - [README Guide](/process/readme_guide.md)
-- [Definition of Done](/process/dod.md)
-- [Definition of Ready](/process/definition-of-ready.md)
 - [Sprint Demo Guide](/process/demo_guide.md)
 
 ## Design Guides
@@ -28,7 +34,6 @@ Feel free to explore, and if anything catches your attention or raises questions
 ## Playbooks
 - [Customer Development Playbook](/process/customer_development_playbook.md)
 - [Speclet Playbook](/process/speclet_playbook.md) + [Template](/process/speclet_template.md)
-- [Team Norms Playbook](/process/team_norms_playbook.md)
 
 ## Developer Guides & Languages
 
@@ -44,6 +49,4 @@ Feel free to explore, and if anything catches your attention or raises questions
 
 ## Other
 
-- [Securing Your Workspace](/process/securing_your_workspace.md)
-- [Meeting Etiquette](/process/Meeting-Etiquette.md)
 - [Accessibility Guide](/process/accessibility_guide.md)
