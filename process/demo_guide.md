@@ -35,7 +35,7 @@ There are a handful of common things that a demoer can do and say that don't sho
 * Arrive 5-10 minutes early to setup your AV.
 * Turn on your computer's [Do Not Disturb](https://www.youtube.com/watch?v=KxHMpviBlaY) mode
 * Close all communication apps, like Slack, Messages, Email
-* [Draw a circle around navigation elements](http://cl.ly/0i3w1b1U143I) with your mouse before clicking to draw attention to where the action is happening and give the audience time to follow along.
+* Draw a circle around navigation elements with your mouse before clicking to draw attention to where the action is happening and give the audience time to follow along.
 * Zoom in (⌘ +) to a level that makes text readable to everybody. (Especially when showing things like a Pivotal backlog)
 
 ## Take turns
