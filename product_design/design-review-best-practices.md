@@ -46,7 +46,7 @@ Be mindful of time and table or reschedule topics as needed.
 
 If possible, assign someone to take notes for you. This will allow you more headspace to engage in the conversation.
 
-For detailed tips on how to take part in a review, see our follow-up guide: [best practices for giving and receiving feedback](giving-and-receiving-design-feedback.md). 
+For detailed tips on how to take part in a review, see our follow-up guide: [best practices for giving and receiving feedback](/product_design/giving-and-receiving-design-feedback.md). 
 
 ## Recap and prioritize 
 Once we’ve received feedback from a critique, we’ll need to process, prioritize, and follow up on what we’ve heard. This allows us to form clear next steps and preserve project momentum.

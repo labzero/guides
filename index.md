@@ -12,7 +12,7 @@ Feel free to explore, and if anything catches your attention or raises questions
 - [Project Charter](/project_kickoff/project_charter.md)
 - [Definition of Ready](/project_kickoff/definition-of-ready.md)
 - [Definition of Done](/project_kickoff/dod.md)
-- [Team Norms Playbook](/project_kickoff/team_norms.md)
+- [Team Norms](/project_kickoff/team_norms.md)
 - [Meeting Etiquette](/project_kickoff/meeting-etiquette.md)
 - [Securing Your Workspace](/project_kickoff/securing_your_workspace.md)
 
@@ -20,9 +20,16 @@ Feel free to explore, and if anything catches your attention or raises questions
 - [Customer Development](/vision_and_roadmap/customer_development_playbook.md)
 - [Product Speclet](/vision_and_roadmap/speclet.md) + [Template](/vision_and_roadmap/speclet_template.md)
 
+## Product Design
+- [Design Principles](/product_design/writing_design_principles.md)
+- [Design Review](/product_design/design-review-best-practices.md)
+- [Giving and Receiving Feedback](/product_design/giving-and-receiving-design-feedback.md)
+- [How to Write User Stories](/product_design/how_we_write_user_stories.md)
+- [Accessibility](/product_design/accessibility_guide.md)
+
+
 ## Delivery Process Guides
 
-- [How to Write User Stories](/process/how_we_write_user_stories.md)
 - [Development Workflow](/process/development_workflow.md)
 - [Testing Strategy](/process/testing_strategy.md)
 - [Git Commit Guide](/process/commit_guide.md)
@@ -30,9 +37,6 @@ Feel free to explore, and if anything catches your attention or raises questions
 - [Sprint Demo Guide](/process/demo_guide.md)
 
 ## Design Guides
-- [How to Write Design Principles](/process/writing_design_principles.md)
-- [Design Review Best Practices](/process/design-review-best-practices.md)
-- [Best Practices for Giving and Receiving Feedback](/process/giving-and-receiving-design-feedback.md)
 
 ## Playbooks
 
@@ -48,6 +52,3 @@ Feel free to explore, and if anything catches your attention or raises questions
 - [Chef](devops/chef)
 - [Dev Ops Runbook Guide](/devops/runbook_guide.md)
 
-## Other
-
-- [Accessibility Guide](/process/accessibility_guide.md)
