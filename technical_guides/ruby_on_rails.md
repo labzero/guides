@@ -70,7 +70,7 @@ If you have a method more than 10 lines long it’s time to consider refactoring
 
 ## CSS Guidelines
 
-See our [CSS guide](../css).
+See our [CSS guide](css.md).
 
 ## Beyond MVC
 ### Models vs libs
