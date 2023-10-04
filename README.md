@@ -106,6 +106,14 @@ layout: page
 
 The above sets the article title (the 1st `h1` if unset).  And it switches to the `page` layout.  The `page` layout does *not* display the "Pages" section with related pages at the bottom.
 
+### Working on github.com & using a Pull Request
+
+You can work directly on github.com to add & edit articles.  When you make your first change, github will direct you to open a Pull Request (PR). 
+
+![Commit Changes button](https://github.com/labzero/guides/assets/1916144/b55e0311-138a-4f5d-a120-d9c88b924e37)
+
+
+
 ## Technology
 
 This a Github Pages site built with Github's automatic Jekyll setup.
@@ -116,7 +124,7 @@ In short you're looking at:
 
 ### Deployment
 
-Deployment is automatic when a new commit is merged to the master branch.  It is performed by a Github action with no customization.
+Deployment is automatic when a new commit is merged into the master branch.  It is performed by a Github action with no customization.
 
 ### Config
 
