@@ -20,8 +20,6 @@
 
 [Step 6: Determine Next Steps](#step-6-determine-next-steps)
 
-[Summary](#summary)
-
 [Resources](#resources)
 
 ## Introduction 
