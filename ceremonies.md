@@ -3,7 +3,7 @@
 The following ceremonies/ meetings take place each week: 
 
 | What | Typical Attendance | Goal |
-|:--------|:-------:|--------:|
+|:--------|:-------|:--------|
 | Sprint Planning & Kickoff   | PDE team   | Confirm the sprint’s scope. Kick off the new sprint.   |
 | Daily standup   | PDE team   | Confirm the day’s focus and highlight any blockers.   |
 | Preview Stories   | PDE leads   | The Product Manager, Designer, and Lead Engineer review all stories before Storytime and estimation.   |
@@ -20,7 +20,7 @@ The following ceremonies/ meetings take place each week:
 We usually follow this cadence for weekly sprints:
 
 | Thursday | Friday | Monday | Tuesday | Wednesday |
-|:--------|:-------:|--------:|:-------:|--------:|
+|:--------|:-------|:--------|:-------|:--------|
 | Sprint Planning & Kickoff   | Daily Standup | Daily Standup | Daily Standup | Daily Standup Product Sync. Retrospective. | 
 | Preview Stories |  | Storytime | Product/ Design Prioritization | Demo|
 |  |  |  |  | Product Sync |
