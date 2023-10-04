@@ -1,4 +1,4 @@
-# Lab Zero Speclet Playbook
+# Lab Zero Speclets
 
 Shortcut: [View the template](speclet_template.md).
 
