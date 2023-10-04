@@ -1,4 +1,4 @@
-# Lab Zero Customer Development Playbook 
+# Customer Development Playbook 
 
 ## Table of Contents  
 
