@@ -46,7 +46,7 @@ Be mindful of time and table or reschedule topics as needed.
 
 If possible, assign someone to take notes for you. This will allow you more headspace to engage in the conversation.
 
-For detailed tips on how to take part in a review, see our follow-up guide: [best practices for giving and receiving feedback](giving-and-receiving-design-feedback.md). 
+For detailed tips on how to take part in a review, see our follow-up guide: [best practices for giving and receiving feedback](/product_design/giving-and-receiving-design-feedback.md). 
 
 ## Recap and prioritize 
 Once we’ve received feedback from a critique, we’ll need to process, prioritize, and follow up on what we’ve heard. This allows us to form clear next steps and preserve project momentum.
@@ -74,4 +74,4 @@ Follow up with your team as you make progress on your next iteration.
 Elaine Lin Hering, *Thanks for the Feedback: Skills for Receiving Feedback Well* (Meetup, 2017 based on the book [*Thanks for the Feedback: The Science and Art of Receiving Feedback Well* by Douglas Stone and Sheila Heen)](https://www.penguinrandomhouse.com/books/313485/thanks-for-the-feedback-by-douglas-stone-and-sheila-heen/)
 
 
-Tom Greever, [*Articulating Design Decisions: Communicate with Stakeholders, Keep Your Sanity, and Deliver the Best User Experience*](https://drive.google.com/open?id=1RSM99XN7-wVcGUAjGXOCHRrbLxZEIj1k) (O’Reilly, 2015.)
+Tom Greever, [*Articulating Design Decisions: Communicate with Stakeholders, Keep Your Sanity, and Deliver the Best User Experience*](https://www.oreilly.com/library/view/articulating-design-decisions/9781491921555/) (O’Reilly, 2015.)

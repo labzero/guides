@@ -1,4 +1,4 @@
-# Writing Design Principles
+# Design Principles
 
 ## What are design principles?
 

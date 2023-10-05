@@ -35,7 +35,7 @@ These rules ensure the links work from the both the github markdown side, and ar
 
 *Don't:*
 ```md
-- [How to Write User Stories](https://github.com/labzero/guides/blob/master/process/how_we_write_user_stories.md)
+- [How to Write User Stories](https://github.com/labzero/guides/blob/master/product_design/how_we_write_user_stories.md)
 - [How to conduct a presentation](process/presentation.html)
 - [File in the same directory](/languages/sibling-document.md)
 - [Our Website](labzero.com)
@@ -43,8 +43,8 @@ These rules ensure the links work from the both the github markdown side, and ar
 
 Do:
 ```md'
-- [How to Write User Stories](process/how_we_write_user_stories.md)
-- [How to conduct a presentation](process/presentation.md)
+- [How to Write User Stories](/product_design/how_we_write_user_stories.md)
+- [How to conduct a presentation](/process/presentation.md)
 - [File in the same directory](sibling-document.md)
 - [Our Website](https://labzero.com)
 ```
