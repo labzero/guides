@@ -16,7 +16,7 @@ logo: "/assets/images/lz-logo.svg"
 favicon: /assets/images/favicon.ico
 apple_touch_icon: /assets/images/apple-touch-icon.png
 
-# these defaults can come from many sources and override theme and plugin defaults 
+# these defaults can come from many sources and override theme and plugin defaults
 # in this case these are added for opengraph/sharing tags
 defaults:
   - scope:
@@ -26,7 +26,7 @@ defaults:
 
 accent_image: /assets/images/side_image.png
 accent_color:  rgb(254,202,14)
-theme_color:  rgb(94,105,119)
+theme_color:  rgb(92,100,114)
 
 legal:
   - title:             Contact us
@@ -40,16 +40,16 @@ no_search:           true
 
 # sidebar (drawer links)
 menu:
-  - title:             Delivery Process Guides
-    url:               /#delivery-process-guides
-  - title:             Design Guides
-    url:               /#design-guides
-  - title:             Developer Language Guides
-    url:               /#developer-guides--languages
-  - title:             Playbooks
-    url:               /#playbooks
-  - title:             Dev Ops
-    url:               /#dev-ops
+  - title:             Project Kickoff
+    url:               /#project-kickoff
+  - title:             Vision & Roadmap
+    url:               /#vision--roadmap
+  - title:             Product Design
+    url:               /#product-design
+  - title:             Continuous Delivery
+    url:               /#continuous-delivery
+  - title:             Technical Guides
+    url:               /#technical-guides
   - title:             labzero.com
     url:               https://labzero.com
 
@@ -76,5 +76,5 @@ titles_from_headings:
 google_analytics: G-2NX5YFW46E
 
 plugins:
-  - jekyll-redirect-from
   - jekyll-seo-tag
+  #  - jekyll-redirect-from - not currently using this

@@ -35,7 +35,7 @@ These rules ensure the links work from the both the github markdown side, and ar
 
 *Don't:*
 ```md
-- [How to Write User Stories](https://github.com/labzero/guides/blob/master/process/how_we_write_user_stories.md)
+- [How to Write User Stories](https://github.com/labzero/guides/blob/master/product_design/how_we_write_user_stories.md)
 - [How to conduct a presentation](process/presentation.html)
 - [File in the same directory](/languages/sibling-document.md)
 - [Our Website](labzero.com)
@@ -43,8 +43,8 @@ These rules ensure the links work from the both the github markdown side, and ar
 
 Do:
 ```md'
-- [How to Write User Stories](process/how_we_write_user_stories.md)
-- [How to conduct a presentation](process/presentation.md)
+- [How to Write User Stories](/product_design/how_we_write_user_stories.md)
+- [How to conduct a presentation](/process/presentation.md)
 - [File in the same directory](sibling-document.md)
 - [Our Website](https://labzero.com)
 ```
@@ -108,11 +108,52 @@ The above sets the article title (the 1st `h1` if unset).  And it switches to th
 
 #### index pages
 
-Our breadcrumbs necessitate an index.md file in each directory or users that click intermediary breadcrumbs will see a 404 page.  
+Our breadcrumbs necessitate an index.md file in each sub-directory.  This page is only linked to via ntermediary breadcrumbs.  Without it, users will see a 404 page.  
 
 To avoid this, we have a simple script that lists out the files in a directory with their titles.  You can copy `index.md` from most sub-directories into any new subdirectory and it will work.  
 
 It relies on a partial in `_includes` which contains a small bit of liquid code.
+
+### Working with Pull Requests and editing on github.com
+
+You can work directly on github.com to add & edit articles.  
+
+_In short the steps are:_
+
+1. edit or add a file
+2. commit the change to a **new branch**
+3. github guides you to open a pull request
+4. open the branch from the repo index page and edit additional files to add them to the same pull request
+
+<details><summary>Click here to open a more in-depth editing guide</summary>
+
+> Note that the UI you see may differ from the screenshots below. Github continues to refine their UI.
+
+After you've made your first edit commit the change.
+
+![Commit Changes button](https://github.com/labzero/guides/assets/1916144/b55e0311-138a-4f5d-a120-d9c88b924e37)
+
+You'll note that it says you're creating a new commit and branch.  Copy the branch name for later use.  In this image the branch name is `tgaff-patch-1` (github created that for me).
+
+![Commit changes dialog](https://github.com/labzero/guides/assets/1916144/4b07bf72-b2ab-4315-a03f-61b67aec412f)
+
+Github will direct you to open a Pull Request (PR).  
+
+</details>
+
+#### Adding files, or edits to an existing PR or branch
+
+You likely want to **add a link to the index.md** file after you've created a **new guide**.  
+
+![Branch name on PR](https://github.com/labzero/guides/assets/1916144/39bf97fa-96e3-40c7-9276-8046ef9e9448)
+
+To add additional files, open up the **same branch** from the repository [index page](https://github.com/labzero/guides/).
+
+![Open up a branch](https://github.com/labzero/guides/assets/1916144/057be955-5557-4aa6-ab38-08a87cc82745)
+
+From there you can edit any file (e.g. index.md) and follow the same procedure as before to commit a change.  When committing your next change be sure you're still on your previous branch or you'll have to open a new PR.
+
+![Branch name while editing a file](https://github.com/labzero/guides/assets/1916144/85443f43-f773-4cbb-8e56-bd3fa35b42f9)
 
 ## Technology
 
@@ -124,7 +165,7 @@ In short you're looking at:
 
 ### Deployment
 
-Deployment is automatic when a new commit is merged to the master branch.  It is performed by a Github action with no customization.
+Deployment is automatic when a new commit is merged into the master branch.  It is performed by a Github action with no customization.
 
 ### Config
 

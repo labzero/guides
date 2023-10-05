@@ -3,47 +3,48 @@ layout: page
 ---
 
 # Lab Zero Guides
+
 Welcome to Lab Zero's resource library. These guides offer insights into our best practices for product development processes, playbooks, languages, and tools. They represent our evolving knowledge and expertise. By sharing them, we aim to provide others with the benefits of our experience and  a glimpse into what it's like to work with us.
 
 Feel free to explore, and if anything catches your attention or raises questions, we're here and eager for your feedback.
 
 
-## Delivery Process Guides
+## Project Kickoff
 
-- [Project Charter Template](/process/project_charter_template.md)
-- [How to Write User Stories](/process/how_we_write_user_stories.md)
-- [Development Workflow](/process/development_workflow.md)
-- [Testing Strategy](/process/testing_strategy.md)
-- [Git Commit Guide](/process/commit_guide.md)
-- [README Guide](/process/readme_guide.md)
-- [Definition of Done](/process/dod.md)
-- [Definition of Ready](/process/definition-of-ready.md)
-- [Sprint Demo Guide](/process/demo_guide.md)
+- [Project Charter](/project_kickoff/project_charter.md)
+- [Definition of Ready](/project_kickoff/definition-of-ready.md)
+- [Definition of Done](/project_kickoff/dod.md)
+- [Team Norms](/project_kickoff/team_norms.md)
+- [Meeting Etiquette](/project_kickoff/meeting-etiquette.md)
+- [Securing Your Workspace](/project_kickoff/securing_your_workspace.md)
 
-## Design Guides
-- [How to Write Design Principles](/process/writing_design_principles.md)
-- [Design Review Best Practices](/process/design-review-best-practices.md)
-- [Best Practices for Giving and Receiving Feedback](/process/giving-and-receiving-design-feedback.md)
+## Vision & Roadmap
 
-## Playbooks
-- [Customer Development Playbook](/process/customer_development_playbook.md)
-- [Speclet Playbook](/process/speclet_playbook.md) + [Template](/process/speclet_template.md)
-- [Team Norms Playbook](/process/team_norms_playbook.md)
+- [Customer Development](/vision_and_roadmap/customer_development_playbook.md)
+- [Product Speclet](/vision_and_roadmap/speclet.md) + [Template](/vision_and_roadmap/speclet_template.md)
 
-## Developer Guides & Languages
+## Product Design
 
-- [Ruby on Rails](/languages/ruby/ruby_on_rails.md)
-- [Javascript](/languages/javascript/code-style-quality-rules.md)
-- [Testing React Applications](/languages/javascript/react-testing.md)
-- [CSS](languages/css)
+- [Design Principles](/product_design/design_principles.md)
+- [Design Review](/product_design/design-review-best-practices.md)
+- [Giving and Receiving Feedback](/product_design/giving-and-receiving-design-feedback.md)
+- [How to Write User Stories](/product_design/how_we_write_user_stories.md)
+- [Accessibility](/product_design/accessibility_guide.md)
 
-### Dev ops
+## Continuous Delivery
 
-- [Chef](devops/chef)
-- [Dev Ops Runbook Guide](/devops/runbook_guide.md)
+- [Development Workflow](/continuous_delivery/development_workflow.md)
+- [Testing Strategy](/continuous_delivery/testing_strategy.md)
+- [Git Commit Guide](/continuous_delivery/commit_guide.md)
+- [README Guide](/continuous_delivery/readme_guide.md)
+- [Sprint Demo Guide](/continuous_delivery/demo_guide.md)
 
-## Other
+## Technical Guides
 
-- [Securing Your Workspace](/process/securing_your_workspace.md)
-- [Meeting Etiquette](/process/Meeting-Etiquette.md)
-- [Accessibility Guide](/process/accessibility_guide.md)
+- [Ruby on Rails](/technical_guides/ruby_on_rails.md)
+- [Javascript](/technical_guides/javascript-code-style-quality-rules.md)
+- [Testing React Applications](/technical_guides/react-testing.md)
+- [CSS](technical_guides/css.md)
+- [Chef](technical_guides/chef.md)
+- [Dev Ops Runbook Guide](/technical_guides/dev_ops_runbook_guide.md)
+
