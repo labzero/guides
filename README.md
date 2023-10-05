@@ -106,6 +106,14 @@ layout: page
 
 The above sets the article title (the 1st `h1` if unset).  And it switches to the `page` layout.  The `page` layout does *not* display the "Pages" section with related pages at the bottom.
 
+#### index pages
+
+Our breadcrumbs necessitate an index.md file in each sub-directory.  This page is only linked to via ntermediary breadcrumbs.  Without it, users will see a 404 page.  
+
+To avoid this, we have a simple script that lists out the files in a directory with their titles.  You can copy `index.md` from most sub-directories into any new subdirectory and it will work.  
+
+It relies on a partial in `_includes` which contains a small bit of liquid code.
+
 ### Working with Pull Requests and editing on github.com
 
 You can work directly on github.com to add & edit articles.  
@@ -146,7 +154,6 @@ To add additional files, open up the **same branch** from the repository [index 
 From there you can edit any file (e.g. index.md) and follow the same procedure as before to commit a change.  When committing your next change be sure you're still on your previous branch or you'll have to open a new PR.
 
 ![Branch name while editing a file](https://github.com/labzero/guides/assets/1916144/85443f43-f773-4cbb-8e56-bd3fa35b42f9)
-
 
 ## Technology
 
