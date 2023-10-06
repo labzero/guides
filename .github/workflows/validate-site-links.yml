@@ -1,5 +1,6 @@
 name: Validate site links
-
+  # This validates links on the site after it's deployed
+  # If you're operating on a fork, this won't work correctly for you.
 on:
   deployment
 
@@ -13,4 +14,4 @@ jobs:
         uses: lycheeverse/lychee-action@v1.8.0
         with:
           fail: true
-          args: "--verbose --no-progress './**/*.rst' https://labzero.com"
+          args: "--verbose --no-progress './**/*.rst' https://guides.labzero.com"

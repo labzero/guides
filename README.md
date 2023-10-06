@@ -176,3 +176,19 @@ Worth noting: the sidebar and footer links are both in the config.
 ### Running the site locally
 
 This is not supported.  Github has instructions for doing this but we haven't set up the repo for it.  (Attempting to keep the repo easy to use for all team members.)
+
+### Tests
+
+Currently PRs are tested to verify their links are correct and pointing to a real page.
+
+Deploys are also tested post-deploy.
+
+Both of these use [Lychee](https://github.com/lycheeverse/lychee-action/) to do the testing.
+
+Be aware of these differences:
+
+  * SUT:
+    * the PR tester tests Markdown files **directly** - that means the links need to be properly relative to work correctly.  It **does not use Jekyll** to build first.
+    * the site tester fetches from https://guides.labzero.com
+  * running the site tester too often might annoy github :shrug: not sure
+  * use `.lycheeignore` to ignore files
