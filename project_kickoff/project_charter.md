@@ -22,7 +22,6 @@ Dean Baker | Design | dean@labzero.com |
 Matt Wilson | CTO | matt@labzero.com | 
 Kate Bennet | Product Manager | kate@labzero.com | 
 Ned Holets | Tech Lead | ned@labzero.com | 
-César Idrovo | Agility Coach | cesar@labzero.com | 
 
 ## Project Timeline
 Are there key meetings, milestones or cycles?  List them here.  A table or bulleted list — use the format that communicates it best. Are there scheduled team meetings such as stand-ups, design reviews, product demos? What is the cadence of those?
