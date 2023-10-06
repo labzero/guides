@@ -32,7 +32,7 @@ We start with a baseline of readily available tools for testing and add the appr
 
 ### Planning for accessibility
 
-- [DIY Accessibility Checklists](https://webaccess.berkeley.edu/evaluating/self-assessment/diy-accessibility-checklists)
+- [DIY Accessibility Checklists](https://dap.berkeley.edu/testing/checklist-manual-reviews)
 - [Screen reader support for hidden content](https://stevefaulkner.github.io/HTML5accessibility/tests/hidden-2016.html)
 - [Accessibility for Teams](https://accessibility.digital.gov/)
 
