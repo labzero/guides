@@ -10,7 +10,7 @@ Store all colors, font families, font weights, and font sizes in variables.
 
 Use variable-heavy math. Avoid magic numbers whenever possible (and comment when necessary). Store all variables in a separate file so you can see where it's possible to consolidate.
 
-You might consider using [Scut](https://davidtheclark.github.io/scut/) for common utilities and tricks.
+You might consider using [Scut](https://ramseyinhouse.github.io/scut) for common utilities and tricks.
 
 When using Sass, favor [mixins](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#mixins) over [placeholders/extends](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#placeholders). (A gzipped CSS file will cut down on the resulting additional filesize.)
 
@@ -105,7 +105,7 @@ Otherwise, you can write a more specific selector and/or create a new class to o
 [Autoprefixer](https://github.com/postcss/autoprefixer) should be used regardless of whether you're using other PostCSS features or not.
 
 ## Icons
-In most cases, it's more "semantic" to use `<button>` or `<a>` elements rather than `<img>` elements when using icons. You'll need to use a background image and hide the text using an image replacement hack, like [the one provided by Scut](https://davidtheclark.github.io/scut/image-replace.html).
+In most cases, it's more "semantic" to use `<button>` or `<a>` elements rather than `<img>` elements when using icons. You'll need to use a background image and hide the text using an image replacement hack, like [the one provided by Scut](https://ramseyinhouse.github.io/scut/image-replace.html).
 
 Prefer SVGs over PNGs. Bother your designer if they haven't provided vector-based assets.
 
