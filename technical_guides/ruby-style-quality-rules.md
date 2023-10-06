@@ -29,9 +29,10 @@ Use double quotes when not necessary | Only use for strings with interpolation
 Use explicit `self` when not necessary | Only use when attribute may be shadowed by local var / parameter etc. (i.e. almost never)
 
 ## Adding Rubocop to your project
-Copy this [`.rubocop.yml`](.rubocop.yml) file into the root of your project
+Copy this [`.rubocop.yml`](https://github.com/labzero/guides/tree/master/assets/technical_guides/.rubocop.yml) file into the root of your project
 
 Your gemfile should contain:
+
 ```
 gem 'rubocop', require: false
 gem 'rubocop-checkstyle_formatter', require: false
