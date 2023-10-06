@@ -44,7 +44,7 @@
 More Information / References
 =============================
 
-  * [The Berkshelf Way ~ Jamie Winsor](http://www.getchef.com/blog/chefconf-talks/the-berkshelf-way-jamie-winsor/)
+  * The Berkshelf Way ~ Jamie Winsor, formerly at: http://www.getchef.com/blog/chefconf-talks/the-berkshelf-way-jamie-winsor/
   * [Berkshelf Site](http://berkshelf.com/)
   * [Getting Started Writing Chef Cookbooks the Berkshelf Way](http://misheska.com/blog/2013/06/16/getting-started-writing-chef-cookbooks-the-berkshelf-way/)
   * [Test Kitchen](https://kitchen.ci/)
