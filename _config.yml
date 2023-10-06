@@ -56,8 +56,6 @@ menu:
 # files to include that would ordinarily be exluded by jekyll
 include:
   - .rubocop.yml
-  - .jscsrc
-  - .jshintrc
 
 related_posts: none
 
