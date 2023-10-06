@@ -1,4 +1,4 @@
-name: Links (Fail Fast)
+name: Validate site links
 
 on:
   deployment
