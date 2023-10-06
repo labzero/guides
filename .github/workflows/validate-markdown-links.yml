@@ -1,0 +1,17 @@
+name: Validate Markdown Links for PRs
+  # This tests links using a *local* copy of the site *without* building it
+  # That means links need to be accurate before Jekyll builds and the page is deployed
+
+on:
+  pull_request
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.8.0
+        with:
+          fail: true
