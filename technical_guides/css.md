@@ -10,8 +10,6 @@ Store all colors, font families, font weights, and font sizes in variables.
 
 Use variable-heavy math. Avoid magic numbers whenever possible (and comment when necessary). Store all variables in a separate file so you can see where it's possible to consolidate.
 
-You might consider using [Scut](https://ramseyinhouse.github.io/scut) for common utilities and tricks.
-
 When using Sass, favor [mixins](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#mixins) over [placeholders/extends](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#placeholders). (A gzipped CSS file will cut down on the resulting additional filesize.)
 
 ## File structure
