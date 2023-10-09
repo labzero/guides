@@ -46,12 +46,14 @@ This view gives us an understanding of some interesting project traits:
 - Who has too many stories in-progress? (Implicit call-to-action: Go ask them why!)
 - What should be accepted & working on the test server right now?
 
+![Jira configuration](/assets/images/Jira_column_configuration_backend.png)
+
 <h2>Reports</h2>
 Not a whole lot to report here (no pun intended). We generally don’t need a chart to tell us if our flow is healthy, but one of our teams uses the burn-down chart during the sprint to keep their eyes on the prize. We wouldn’t grade ourselves on our burn-down charts, but if we see a consistent pattern that affects our ability to deliver working software—e.g. never burning down or adding too many story points late in the sprint—we’d take corrective action.
 
 That team often sees burn-downs like this:
 
-**ADD IMAGE
+![Jira Report](/assets/images/jira-report.png)
 
 Team X has been using the burndown chart to motivate the team to put more effort into the sprint beginning (vs. goal-posting delivery and acceptance of last-minute changes).
 One client asked us to include a listing of stories delivered during a given invoice period. e.g.:
