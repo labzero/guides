@@ -179,9 +179,11 @@ This is not supported.  Github has instructions for doing this but we haven't se
 
 ### Tests
 
-Currently PRs are tested to verify their links are correct and pointing to a real page.
+There are two github actions.  
 
-Deploys are also tested post-deploy.
+1) PRs are tested to verify their links are correct and pointing to a real page.
+
+2) Site Deploys are tested post-deploy to verify links all point to a real page/address.
 
 Both of these use [Lychee](https://github.com/lycheeverse/lychee-action/) to do the testing.
 
@@ -189,6 +191,6 @@ Be aware of these differences:
 
   * SUT:
     * the PR tester tests Markdown files **directly** - that means the links need to be properly relative to work correctly.  It **does not use Jekyll** to build first.
-    * the site tester fetches from https://guides.labzero.com
+    * the post-deploy site tester fetches from https://guides.labzero.com, testing the deployed HTML pages.
   * running the site tester too often might annoy github :shrug: not sure
-  * use `.lycheeignore` to ignore files
+  * use `.lycheeignore` to ignore files - it applies to both testers
