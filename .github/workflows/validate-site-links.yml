@@ -13,4 +13,4 @@ jobs:
         uses: ruzickap/action-my-broken-link-checker@v2
         with:
           url: https://tgaff.github.io/lzguides
-          cmd_params: '--max-connections=3 --color=always --buffer-size=8192 --header="User-Agent:curl/7.54.0" -e (caniuse.com|deque.com|siegemedia.com)'
+          cmd_params: '--max-connections=3 --color=always --buffer-size=8192 --header="User-Agent:curl/7.54.0" -e (caniuse.com|deque.com|contrast-ratio.com|www.amazon.com)'
