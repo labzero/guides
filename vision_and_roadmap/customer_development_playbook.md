@@ -252,7 +252,7 @@ We keep the following interview techniques in mind to ensure effective communica
 
 **Five Whys Technique:** Originally developed by Toyota and adopted by lean methodologies among others, this iterative questioning technique is used to determine root causes of problems. If the customer says something, the interviewer can simply ask “_Why?_” to try to learn more. Not all problems have a single root cause, so it is helpful to assess possible nuances.   
 
-**Consider a topic map instead of a script:** When we are worried about coming across as too formal or robotic to the customer, we consider this advanced technique of writing down questions in the form of a ‘topic map’ instead of a linear script. Author Christina Wodtke promoted this idea in her blog post, [“Five Habits of Design Thinking”](https://medium.com/@cwodtke/five-habits-of-design-thinking-45bb61b30393#---0-464).  
+**Consider a topic map instead of a script:** When we are worried about coming across as too formal or robotic to the customer, we consider this advanced technique of writing down questions in the form of a ‘topic map’ instead of a linear script. Author Christina Wodtke promoted this idea in her blog post, [“Five Habits of Design Thinking”](https://medium.com/@cwodtke/five-habits-of-design-thinking-45bb61b30393).  
 
 **Thank the customer:** Finally, we always end the interview by thanking the customer for their time and providing contact information in case they think of anything else after the interview.   
 
@@ -310,7 +310,7 @@ We hope this helps. If you have questions about your customers and want to talk 
 
 This playbook is inspired by many authors and practitioners in the product design space, including the following. 
 
-- Steve Blank, Author of [The Startup Owner's Manual](https://www.amazon.com/gp/product/0984999302/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0984999302&linkCode=as2&tag=wwwsteveblank-20)
+- Steve Blank, Author of [The Startup Owner's Manual](https://www.amazon.com/gp/product/0984999302/)
 - Erika Hall, Designer and Author of [Just Enough Research](https://abookapart.com/products/just-enough-research) 
 - [Justin Wilcox](https://customerdevlabs.com/2013/11/05/how-i-interview-customers/?utm_source=CDL+Fit+Workshop+-+Email+Course+Enrollees&utm_campaign=f0333a0e89-Interviewing_Course_Email_3&utm_medium=email&utm_term=0_583a7a794d-f0333a0e89-86026813&mc_cid=f0333a0e89&mc_eid=7e3a0c7b44), Customer Development Labs
 - [Christina Wodtke](http://eleganthack.com/), Designer and Author
