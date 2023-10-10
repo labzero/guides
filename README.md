@@ -189,11 +189,14 @@ There are two github actions.
 * Uses Lychee.  
 * Tests the markdown **directly**. It does not load Jekyll or github pages.  
   * This helps to ensure that links are correct on both github.com and on the github-pages site.
-* use `.lycheeignore` to ignore files - it applies to both testers
+* Use `.lycheeignore` to ignore files.
 
 ##### site tester
 
 * Uses muffet, not lychee.
 * Runs after a github pages deploy
-* fetches from https://guides.labzero.com, testing the deployed HTML pages
-* running the site tester too often might annoy github :shrug: not sure
+* Fetches from https://guides.labzero.com, testing the deployed HTML pages.
+* Running the site tester too often might annoy github :shrug: not sure.
+* Edit the task's `-e` (exclude) argument to exclude a site/page.
+  * Some domains reject muffet (masquerading) as curl.
+  * Muffet also checks internal section links like `#some-id`.  Lychee misses errors in these as long as a page loads.
