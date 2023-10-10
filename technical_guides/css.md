@@ -10,7 +10,7 @@ Store all colors, font families, font weights, and font sizes in variables.
 
 Use variable-heavy math. Avoid magic numbers whenever possible (and comment when necessary). Store all variables in a separate file so you can see where it's possible to consolidate.
 
-When using Sass, favor [mixins](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#mixins) over [placeholders/extends](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#placeholders). (A gzipped CSS file will cut down on the resulting additional filesize.)
+When using Sass, favor [mixins](https://sass-lang.com/documentation/at-rules/mixin/) over [placeholders/extends](https://sass-lang.com/documentation/style-rules/placeholder-selectors/). (A gzipped CSS file will cut down on the resulting additional filesize.)
 
 ## File structure
 Keep variables, mixins, and utility classes (if applicable) in separate files so they can be imported at the top of your main stylesheet(s). You might even want to split your helper files into smaller ones for typography, colors, common measurements, etc.
@@ -122,6 +122,6 @@ Use [Stylelint](https://stylelint.io/) along with [stylelint-config-standard](ht
 
 ## Resources
 - [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [http://caniuse.com](http://caniuse.com)
+- [https://caniuse.com](https://caniuse.com)
 - [https://css-tricks.com/](https://css-tricks.com/)
 - [https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript)
