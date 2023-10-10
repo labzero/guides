@@ -15,4 +15,4 @@ jobs:
         uses: lycheeverse/lychee-action@v1.8.0
         with:
           fail: true
-          args: --verbose --no-progress './**/*.md' './**/*.html' './**/*.rst' --base .
+          args: --verbose --no-progress './**/*.md' './**/*.html' --base .
