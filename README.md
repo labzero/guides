@@ -179,18 +179,7 @@ This is not supported.  Github has instructions for doing this but we haven't se
 
 ### Tests
 
-There are two github actions.  
 
 1) PRs are tested to verify their links are correct and pointing to a real page.
 
-2) Site Deploys are tested post-deploy to verify links all point to a real page/address.
-
-Both of these use [Lychee](https://github.com/lycheeverse/lychee-action/) to do the testing.
-
-Be aware of these differences:
-
-  * SUT:
-    * the PR tester tests Markdown files **directly** - that means the links need to be properly relative to work correctly.  It **does not use Jekyll** to build first.
-    * the post-deploy site tester fetches from https://guides.labzero.com, testing the deployed HTML pages.
-  * running the site tester too often might annoy github :shrug: not sure
-  * use `.lycheeignore` to ignore files - it applies to both testers
+This uses lychee.  It tests in raw markdown format, without Jekyll or github pages.  This ensures the links work on the gh-pages site and in the github repo markdown.
