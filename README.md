@@ -176,3 +176,10 @@ Worth noting: the sidebar and footer links are both in the config.
 ### Running the site locally
 
 This is not supported.  Github has instructions for doing this but we haven't set up the repo for it.  (Attempting to keep the repo easy to use for all team members.)
+
+### Tests
+
+
+1) PRs are tested to verify their links are correct and pointing to a real page.
+
+This uses lychee.  It tests in raw markdown format, without Jekyll or github pages.  This ensures the links work on the gh-pages site and in the github repo markdown.

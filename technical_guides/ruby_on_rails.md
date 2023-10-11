@@ -113,7 +113,7 @@ For Ruby and/or Rails we should be on the latest patch level (tiny) for the vers
 
 For new Rails (version 7+) apps, decide between a JS bundling tool and import maps. For apps requiring minimal JS use, import maps are efficient and easy. Transitioning to a bundler, later on if needed, is straightforward.
 
-For JS-intensive apps, especially with React, Vue, or Angular, start with a bundler and consider using Typescript.  See also our [JS guides](../index.md#javascript--typescript--ecmascript) and the official [Rails guides](https://guides.rubyonrails.org/working_with_javascript_in_rails.html#choosing-between-import-maps-and-a-javascript-bundler).
+For JS-intensive apps, especially with React, Vue, or Angular, start with a bundler and consider using Typescript.  See also our [JS guides listed here](../technical_guides) and the official [Rails guides](https://guides.rubyonrails.org/working_with_javascript_in_rails.html#choosing-between-import-maps-and-a-javascript-bundler).
 
 ## Stimulus & Turbo (Hotwire)
 

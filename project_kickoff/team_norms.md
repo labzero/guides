@@ -2,7 +2,7 @@
 
 ## What are team norms? 
 
-Norms are the team’s values, working styles and expectations. It's especially relevant to align on norms when starting with a new team. People don’t know each other professionally or personally. The [team or project’s charter](/project_kickoff/project_charter.md) is a blank slate. 
+Norms are the team’s values, working styles and expectations. It's especially relevant to align on norms when starting with a new team. People don’t know each other professionally or personally. The [team or project’s charter](project_charter.md) is a blank slate. 
 
 ## Who is responsible for team norms? 
 
@@ -55,7 +55,7 @@ Write on the top of page 3:
 5. Make sure everyone has a pen. Ask each person to vote 4 times (per sheet of paper) for the items they agree with strongest.
 6. Have someone count up the dots for each item, writing the number next to the dots.
 7. As a group, talk through the top 2 items under each question.
-8. Come to an agreement on each of the main questions. This can become the new ["team charter"](https://github.com/labzero/guides/blob/master/process/project_charter.md) or compliment an existing charter.
+8. Come to an agreement on each of the main questions. This can become the new ["team charter"](project_charter.md) or compliment an existing charter.
 9. Post the sheets of paper (or photos of them) somewhere everyone can see or access them- eg on a wall or in Slack.
 
 ### Notes for Remote Sessions 

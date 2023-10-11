@@ -3,7 +3,7 @@
 The following template is useful for cross-functional teams when kicking off a new project with our client-partners.
 
 ## Summary & Objectives
-Link to [speclet info](/vision_and_roadmap/speclet.md).
+Link to [speclet info](../vision_and_roadmap/speclet.md).
 
 ## Stakeholders
 Who are the main client stakeholders? Fill out the following table: 
@@ -22,7 +22,6 @@ Dean Baker | Design | dean@labzero.com |
 Matt Wilson | CTO | matt@labzero.com | 
 Kate Bennet | Product Manager | kate@labzero.com | 
 Ned Holets | Tech Lead | ned@labzero.com | 
-César Idrovo | Agility Coach | cesar@labzero.com | 
 
 ## Project Timeline
 Are there key meetings, milestones or cycles?  List them here.  A table or bulleted list — use the format that communicates it best. Are there scheduled team meetings such as stand-ups, design reviews, product demos? What is the cadence of those?
@@ -64,7 +63,7 @@ Metrics and hypotheses |  | responsible | consulted | consulted |  |
 Project coordination |  | responsible | assists | assists |  | 
 Stakeholder management | assists | responsible | assists | assists |  | 
 Team health | assists | responsible | assists | assists | assists | assists
-[Speclet](/vision_and_roadmap/speclet.md) |  | responsible | consulted | consulted |  | 
+[Speclet](../vision_and_roadmap/speclet.md) |  | responsible | consulted | consulted |  | 
 Charter |  | responsible | consulted | consulted |  | 
 Personas |  | assists | responsible | consulted |  | 
 Alignment maps |  | assists | responsible | consulted |  | 
