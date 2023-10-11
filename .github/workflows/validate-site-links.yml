@@ -2,7 +2,7 @@
 # If you're operating on a fork, this won't work correctly for you.
 name: Check deployed site links with muffet
 on:
-  push
+  deployment
 
 jobs:
   my-broken-link-checker:
@@ -12,7 +12,7 @@ jobs:
       - name: Check
         uses: ruzickap/action-my-broken-link-checker@v2
         with:
-          url: https://tgaff.github.io/lzguides
+          url: https://guides.labzero.com
           cmd_params: >-
             --max-connections=3
             --color=always
