@@ -194,9 +194,11 @@ There are two github actions.
 ##### site tester
 
 * Uses muffet, not lychee.
-* Runs after a github pages deploy
+* Runs after a github page deploy.
 * Fetches from https://guides.labzero.com, testing the deployed HTML pages.
 * Running the site tester too often might annoy github :shrug: not sure.
 * Edit the task's `-e` (exclude) argument to exclude a site/page.
   * Some domains reject muffet (masquerading) as curl.
   * Muffet also checks internal section links like `#some-id`.  Lychee misses errors in these as long as a page loads.
+
+> Note: the worker actually runs and bails out for every `deployment_status`.  It only truly runs the checks on a successful deploy.  The `meh` icons in the Action console can be a little confusing without this knowledge.  This is done to ensure that the worker doesn't run until the deployment is complete.
