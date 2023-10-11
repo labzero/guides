@@ -1,0 +1,21 @@
+# This validates links on the site after it's deployed
+# If you're operating on a fork, this won't work correctly for you.
+name: Check deployed site links with muffet
+on:
+  deployment
+
+jobs:
+  my-broken-link-checker:
+    name: Check broken links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check
+        uses: ruzickap/action-my-broken-link-checker@v2
+        with:
+          url: https://guides.labzero.com
+          cmd_params: >-
+            --max-connections=3
+            --color=always
+            --buffer-size=8192
+            --header="User-Agent:curl/7.54.0"
+            -e (caniuse.com|deque.com|contrast-ratio.com|www.amazon.com)

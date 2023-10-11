@@ -179,7 +179,24 @@ This is not supported.  Github has instructions for doing this but we haven't se
 
 ### Tests
 
+There are two github actions.
 
-1) PRs are tested to verify their links are correct and pointing to a real page.
+1) _PRs_ are tested to verify their links are correct and pointing to a real page.
+2) _Site deploys_ are tested post-deploy to verify links all point to a real page/address.
 
-This uses lychee.  It tests in raw markdown format, without Jekyll or github pages.  This ensures the links work on the gh-pages site and in the github repo markdown.
+##### PR tester
+
+* Uses Lychee.  
+* Tests the markdown **directly**. It does not load Jekyll or github pages.  
+  * This helps to ensure that links are correct on both github.com and on the github-pages site.
+* Use `.lycheeignore` to ignore files.
+
+##### site tester
+
+* Uses muffet, not lychee.
+* Runs after a github pages deploy
+* Fetches from https://guides.labzero.com, testing the deployed HTML pages.
+* Running the site tester too often might annoy github :shrug: not sure.
+* Edit the task's `-e` (exclude) argument to exclude a site/page.
+  * Some domains reject muffet (masquerading) as curl.
+  * Muffet also checks internal section links like `#some-id`.  Lychee misses errors in these as long as a page loads.
