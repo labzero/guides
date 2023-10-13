@@ -23,6 +23,7 @@ Feel free to explore, and if anything catches your attention or raises questions
 
 - [Customer Development](/vision_and_roadmap/customer_development_playbook.md)
 - [Product Speclet](/vision_and_roadmap/speclet.md) + [Template](/vision_and_roadmap/speclet_template.md)
+- [Visualizing the future of product initiatives as a cross-functional team](/vision_and_roadmap/visualizing-product-initaitives/md) + [Template](https://www.figma.com/file/kEVk8PaoLbCqI8liK5Emgh/%5BInitiative-Name%5D-Visualization-Summary?type=whiteboard&node-id=0%3A1&t=Dq0dcV75It3GqXxP-1)
 
 ## Product Design
 
