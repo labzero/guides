@@ -68,7 +68,7 @@ Our ideal team for vision exploration is a product manager, a design lead, and a
 
 Adapt this core team structure to meet your needs. As an example, you may experiment with having two designers on your cross-functional team. In this scenario, one designer acts as a facilitator assisting the team with the process while the other focuses on customer needs and solutions. 
 
-At Lab Zero, design usually drives this process since they are closest to customer needs and often have the rapid prototyping skills necessary to explore ideas quickly. That said, there’s no reason product or engineering can’t be the driver. Product, design, and engineering have many overlapping skills and capabilities. Each individual’s skills and comfort zones will vary. It’s worth having a conversation to decide who drives the work and who will be responsible for what. Use a [RACI matrix](https://www.nngroup.com/articles/ux-roles-responsibilities/) as part of a [norming session](/process/team_norms_playbook.md) to help determine roles and responsibilities. 
+At Lab Zero, design usually drives this process since they are closest to customer needs and often have the rapid prototyping skills necessary to explore ideas quickly. That said, there’s no reason product or engineering can’t be the driver. Product, design, and engineering have many overlapping skills and capabilities. Each individual’s skills and comfort zones will vary. It’s worth having a conversation to decide who drives the work and who will be responsible for what. Use a [RACI matrix](https://www.nngroup.com/articles/ux-roles-responsibilities/) as part of a [norming session](project_kickoff/team_norms.md) to help determine roles and responsibilities. 
 
 
 #### Identify your partners
@@ -146,7 +146,7 @@ This phase is about solidifying a story explaining what you’ve learned and wha
 
 
 #### Summarize 
-![Example summary showing information about the initative, customer journey, and key moments.](assets/images/visualization-summary-sample.png)
+![Example summary showing information about the initative, customer journey, and key moments.](/assets/images/visualization-summary-sample.png)
 In addition to making the story accessible for your partners to understand, the work you do here gives you an opportunity to validate the visualization one more time. At the end of this step, you should have recommendations ready to socialize and rally the team around. 
 
 Here’s [an example summary](https://www.figma.com/file/kEVk8PaoLbCqI8liK5Emgh/%5BInitiative-Name%5D-Visualization-Summary?type=whiteboard&node-id=0%3A1&t=S06JJImMFlhoq9Ll-1) created for a past client. Your client may have different needs so feel free to modify your summary as needed.
