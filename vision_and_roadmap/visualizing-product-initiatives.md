@@ -146,7 +146,7 @@ This phase is about solidifying a story explaining what you’ve learned and wha
 
 
 #### Summarize 
-![Example summary showing information about the initative, customer journey, and key moments.](/assets/images/visualization-summary-sample.png)
+![Example summary showing information about the initative, customer journey, and key moments.](../assets/images/visualization-summary-sample.png)
 In addition to making the story accessible for your partners to understand, the work you do here gives you an opportunity to validate the visualization one more time. At the end of this step, you should have recommendations ready to socialize and rally the team around. 
 
 Here’s [an example summary](https://www.figma.com/file/kEVk8PaoLbCqI8liK5Emgh/%5BInitiative-Name%5D-Visualization-Summary?type=whiteboard&node-id=0%3A1&t=S06JJImMFlhoq9Ll-1) created for a past client. Your client may have different needs so feel free to modify your summary as needed.
