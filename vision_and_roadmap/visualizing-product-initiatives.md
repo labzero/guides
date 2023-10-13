@@ -68,7 +68,7 @@ Our ideal team for vision exploration is a product manager, a design lead, and a
 
 Adapt this core team structure to meet your needs. As an example, you may experiment with having two designers on your cross-functional team. In this scenario, one designer acts as a facilitator assisting the team with the process while the other focuses on customer needs and solutions. 
 
-At Lab Zero, design usually drives this process since they are closest to customer needs and often have the rapid prototyping skills necessary to explore ideas quickly. That said, there’s no reason product or engineering can’t be the driver. Product, design, and engineering have many overlapping skills and capabilities. Each individual’s skills and comfort zones will vary. It’s worth having a conversation to decide who drives the work and who will be responsible for what. Use a [RACI matrix](https://www.nngroup.com/articles/ux-roles-responsibilities/) as part of a [norming session](process/team_norms_playbook.md) to help determine roles and responsibilities. 
+At Lab Zero, design usually drives this process since they are closest to customer needs and often have the rapid prototyping skills necessary to explore ideas quickly. That said, there’s no reason product or engineering can’t be the driver. Product, design, and engineering have many overlapping skills and capabilities. Each individual’s skills and comfort zones will vary. It’s worth having a conversation to decide who drives the work and who will be responsible for what. Use a [RACI matrix](https://www.nngroup.com/articles/ux-roles-responsibilities/) as part of a [norming session](/process/team_norms_playbook.md) to help determine roles and responsibilities. 
 
 
 #### Identify your partners
