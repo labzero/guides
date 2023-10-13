@@ -1,6 +1,7 @@
 # Visualizing the future of product initiatives as a cross-functional team
 
-* Contents {:toc}
+* Contents
+{:toc}
 
 ## Your team needs a product vision
 Many teams find themselves on a delivery treadmill. It comes from a good place, like a desire to fulfill customer requests. Over time, the focus on delivery over direction leads to an unclear or absent product vision. 
