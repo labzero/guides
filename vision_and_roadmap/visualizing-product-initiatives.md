@@ -199,5 +199,5 @@ When it’s time to create your next initiative visualization, consider swapping
 
 It’s like exercising. The more your team practices creating and executing from initiative visualizations, the easier it will be. Each visualization process lays the foundation for the next one. 
 
-  ## Your feedback is welcome
+## Your feedback is welcome
 Have you tried this process or something similar? We want to hear what worked well and what could have gone better so that we may continue to refine and improve. Please get in touch to share your thoughts. 
