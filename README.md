@@ -29,28 +29,28 @@ The first `h1` or `#` will automatically become the page title.  You can overrid
 
 #### Links
 
-Use relative links to other pages.  Don't use github.com based links.  In general internal links should not start with `http`.  Instead they should either start with a directory or a file name.  External links should start with `https://`.  Links to other guides should end in `.md`, not `.html`.
+Use relative links to other pages.  Don't use github.com based links.  In general internal links should not start with `http`.  Instead they should either start with a directory, a file name or `../`.  Links to other guides should end in `.md`, not `.html`.  External links should start with `https://` and not point to restricted pages requiring an LZ account to view.
 
 These rules ensure the links work on github.com, and are properly converted to HTML links for the deployed guides website.
 
 *Don't:*
 
 ```md
-1. [Link to a file in the github.com repo](https://github.com/labzero/guides/blob/master/product_design/how_we_write_user_stories.md)
-1. [Link starting with `/`](/process/presentation.md) (only works at the root of the repo)
 1. [.html file suffix](process/making-decisions.html)
-1. [File in the same directory](languages/sibling-document.md)
-1. [Bare URL](labzero.com)
+2. [File in the same directory](languages/sibling-document.md)
+3. [Page in a different directory using `/`](/other-dir/presentation.md) (only works on root level pages)
+4. [Bare URL](labzero.com)
+5. [Link to a file in the github.com repo](https://github.com/labzero/guides/blob/master/product_design/how_we_write_user_stories.md)
 ```
 
 Do:
 
 ```md
-1. [Relative link from within another directory](../product_design/how_we_write_user_stories.md)
-1. [Relative link not starting with `/`](process/presentation.md)
 1. [.md file extension](process/making-decisions.md)
-1. [File in the same directory](sibling-document.md)
-1. [HTTPS URL](https://labzero.com)
+2. [File in the same directory](sibling-document.md)
+3. [Relative link not starting with `/`](../other-dir/presentation.md)
+4. [HTTPS URL](https://labzero.com)
+5. [Relative link from within another directory](../product_design/how_we_write_user_stories.md)
 ```
 
 
