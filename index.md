@@ -27,7 +27,7 @@ Feel free to explore, and if anything catches your attention or raises questions
 
 ## Product Design
 
-- [Design Team Charter](product_design/design_charter.md)
+- [Design Team Charter](product_design/design-charter.md)
 - [Design Principles](product_design/design_principles.md)
 - [Design Review Best Practices](product_design/design-review-best-practices.md)
 - [Giving and Receiving Feedback](product_design/giving-and-receiving-design-feedback.md)
