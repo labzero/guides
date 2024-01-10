@@ -4,20 +4,22 @@ Software projects take effort to manage; that’s indisputable. In order to ensu
 
 Some of our clients ask us to use their internal tools. Often, that means we use Jira. “When in Rome...” we do as the Romans do—almost.
 
-Out of the box, Jira’s Agile module meets most of our needs, but still needs a few tweaks to make it work really well. This article addresses the ways we configure Jira's workflows to support a lightweight process that fits with Lab Zero’s agile software development practice.  
+Out of the box, Jira’s Agile module meets most of our needs, but still needs a few tweaks to make it work really well. This guide summarizes the ways we configure Jira's workflows to support a lightweight process that fits with Lab Zero’s agile software development practice.  
 
 <h2>Limit the Types of Tickets</h2>
 Out-of-the-box Jira supports many kinds of tickets— too many kinds of tickets to be honest. We typically find that we only need a few. Here are the ones we use:
 
 - Story
 - Bug
-- Chore
+- Task
 - Epic (not a ticket type)
 - Custom Workflows
 
-<h3>Non-Accept Workflow</h3>
+<h3>Workflow</h3>
 
-For bugs and chores (a.k.a. work with no story-points) we don’t need an elaborate acceptance process. We keep the workflow straightforward:
+We keep the workflow straightforward. 
+
+For stories with points, we want the work to be reviewed by another developer, delivered on a test server, and clearly be ready for acceptance or rejection by the Product Manager or Designer. 
 
 **ADD IMAGE
 
