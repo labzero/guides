@@ -46,6 +46,6 @@ More Information / References
 
   * The Berkshelf Way ~ Jamie Winsor
   * [Berkshelf Site](http://berkshelf.com/)
-  * [Getting Started Writing Chef Cookbooks the Berkshelf Way](http://misheska.com/blog/2013/06/16/getting-started-writing-chef-cookbooks-the-berkshelf-way/)
+  * [Getting Started Writing Chef Cookbooks the Berkshelf Way] - previously at `http://misheska.com/blog/2013/06/16/getting-started-writing-chef-cookbooks-the-berkshelf-way/`
   * [Test Kitchen](https://kitchen.ci/)
   * [ServerSpec](https://serverspec.org/)
