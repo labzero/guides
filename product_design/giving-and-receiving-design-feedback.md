@@ -1,10 +1,14 @@
 # Giving and receiving design feedback effectively takes practice
-It’s not always easy to give and receive design feedback. A negative past experience might make a designer hesitant to ask for or participate in a review. Unfortunately, we can’t produce good work without getting or giving feedback. 
+
+It’s not always easy to give and receive design feedback. A negative past experience or feeling uncertain about what to say might make us hesitant to ask for or participate in a review. Unfortunately, we can’t produce good work without getting or giving feedback. 
 
 Practicing giving and receiving feedback will help us grow as a team. This guide provides an overview of behaviors to strive for in a design review. We don't have to get them right each time, but making an effort counts.
 
+* Contents
+{:toc}
+
 ## Best practices for giving feedback
-The goal of giving feedback is to help evaluate a design in terms of how well the design meets its objectives. As feedback givers, we have a duty to our teammates to be thoughtful. There are several ways we can give thoughtful feedback:
+The goal of giving feedback is to help evaluate a design in terms of how well the design meets its objectives. We want to lift the idea up and make it stronger, not tear it down. As feedback givers, we have a duty to our teammates to be thoughtful. There are several ways we can give thoughtful feedback:
 
 ### Lead with questions
 Asking questions about the design helps us give informed feedback. It shows the designer you’re interested in both their work and their reasoning behind it. Delivering feedback on an incorrect assumption could take the conversation off track. Asking questions helps you determine if your assumption is accurate. The resulting feedback is more likely to be relevant to the objectives.
@@ -31,7 +35,7 @@ It may seem odd to go through the process of identifying problems with a design 
 
 One exception to this guideline: when a designer asks for this type of help. It's okay to brainstorm solutions if both parties have agreed to have this type of conversation. If you're not sure if a designer is asking for this type of help, ask.   
 
-
+---
 
 ## Best practices for receiving feedback
 When asking for feedback, we are taking a step back from the generative phase to look critically at our work and how well it meets our design goals. As feedback receivers, our duty is to listen and remember that critique is about improving the design, not a judgment of us as individuals. There are several ways we can engage as feedback recipients:
@@ -48,7 +52,10 @@ If this is a follow-up critique and the reviewer contradicts their earlier feedb
 
 If you’re struggling to both listen and take notes, consider having someone take notes for you. Another option is to take notes on a whiteboard or in a document visible to the team. This visibility will also help you and the team be sure you’re on the same page.
 
-If you want praise, don’t hesitate to ask: “What about this design is working well?” Don’t expect a design review itself to be a source of praise. 
+### It's okay to ask for praise
+If you want praise, don’t hesitate to ask: “What about this design is working well?” 
+Don’t expect a design review itself to be a source of praise. 
+
 
 ### Participate
 You’re allowed to critique your work, too. Try picking one of the personas and imagining what this design might be like for them. Are they able to meet their goals? This activity helps you practice critiquing skills and strengthens your ability to switch between the creative mindset and the analytical mindset. It can put the other reviewers at ease to see you talk openly about your own work. 
@@ -59,7 +66,7 @@ If you feel like your discussion is getting off topic or you’re getting feedba
 
 
 ---
-**Sources**
+#### Sources
 
 [Adam Connor and Aaron Irizarry, *Discussing Design* (O’Reilly, 2015.)](http://www.discussingdesign.com/)
 Available in handy cheat-sheet form: [http://www.discussingdesign.com/downloads/Critique_CheatSheet.pdf](http://www.discussingdesign.com/downloads/Critique_CheatSheet.pdf)
