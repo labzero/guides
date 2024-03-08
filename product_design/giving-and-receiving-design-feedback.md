@@ -63,6 +63,8 @@ You’re allowed to critique your work, too. Try picking one of the personas and
 ### Stay on target
 If you feel like your discussion is getting off topic or you’re getting feedback that seems out of left field, refer to the context you set in the beginning. Is everyone on the same page? If they aren’t, we either need more alignment, or we may need to reevaluate our foundation.
 
+If you find your discussions frequently get off topic, review our guide, [Design Review Best Practices](../product_design/design-review-best-practices.md), for tips on how to structure the converstation for best results. 
+
 
 
 ---
