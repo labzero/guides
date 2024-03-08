@@ -1,7 +1,10 @@
 # Design Review Best Practices
 
+* Contents
+{:toc}
+
 ### The goal of design reviews
-Design is an iterative and collaborative process. It takes many conversations to get from an initial idea to a complete product. Early conversations may be about getting alignment on the problem space. Other conversations may be about getting sign off to start building the design in code. For the purposes of this guide, we are looking at conversations we'll call "design reviews."
+Design is an iterative and collaborative process. It takes many conversations to get from an initial idea to a complete product. Early conversations may be about getting alignment on the problem space. Other conversations may be about getting sign off to start building the design in code. For the purposes of this guide, we are looking at conversations meant to get feedback on work in progress. We'll call these conversations "design reviews."
 
 Design reviews give us an opportunity to step back and look at the work critically. This type of conversation helps us ensure our designs are on track. A design review has two goals. First, we must understand the design in context. Next, we give feedback to improve the design so it best meets our business objectives and the needs of our users. 
 
