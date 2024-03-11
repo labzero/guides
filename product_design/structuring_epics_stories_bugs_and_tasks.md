@@ -6,7 +6,7 @@ This page summarizes what an Epic, User Story, Bug, and Task is and documents ou
 
 Guidance on our approach to [writing Epics and User Stories](../product_design/how_we_write_user_stories.md) can be found here.
 
-ADD IMAGE
+![Initiatives inform Epics which then inform our stories, tasks, and bugs](/assets/images/structuring_tickets/structure-overview.png)
 
 <br>
 
@@ -37,8 +37,10 @@ Epics convey the overall big picture priorities. They contain a group of stories
 
 **Notes:** Links to relevant documents.
 
-Example speclet:
-ADD IMAGE
+#### Example speclet:
+![Page one of our speclet example](/assets/images/structuring_tickets/structure-speclet1.png)
+![Page two of our speclet example](/assets/images/structuring_tickets/structure-speclet2.png)
+
 <br>
 
 ### Example Epic in Jira:
@@ -90,7 +92,8 @@ All user stories must be:
 **Resources:** Links to relevant designs, user flows, etc. Link to the original design (eg a screen in a Figma file) where possible, rather than attaching images to the story. 
 
 #### Example user story:
-ADD IMAGE
+![Example user story](/assets/images/structuring_tickets/structure-story.png)
+![Example of a figma attachment](/assets/images/structuring_tickets/structure-figma-attachment.png)
  
 --- 
 ## Bugs
@@ -115,7 +118,8 @@ ADD IMAGE
 **Attachments:** Screenshots and/ or video are attached clearly showing the issue.
 
 #### Examples:
-Add Images here
+![Example of a bug](/assets/images/structuring_tickets/structure-bug1.png)
+![Example of a bug](/assets/images/structuring_tickets/structure-bug2.png)
  
 --- 
 ## Tasks
@@ -132,7 +136,7 @@ Add Images here
 
 *Resources:* Links to any relevant resources.
 
-ADD IMAGE
+![Example of a task](/assets/images/structuring_tickets/structure-tasks.png)
 
 ### Structure of a design ticket:
-(Work in progress)
+(Coming soon!)
