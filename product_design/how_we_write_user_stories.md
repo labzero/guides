@@ -45,9 +45,9 @@ The Product Manager begins by writing a speclet that will serve as a stand-in fo
 When the Designer has enough context on the problem (from the speclet and discovery) they begin work on designs.<br>
 3. **Create Epic in Jira** <br>
 Product Manager creates the Epic(s) and possibly shell user story tickets in Jira. 
-Follow [this guidance](tbd) on epics.<br>
+Follow [this guidance](../product_design/structuring_epics_stories_bugs_and_tasks.md#epics) on epics.<br>
 4. **Add User Stories to the Epic**<br>
-When designs are agreed on, the Designer prepares the designs for handoff and [writes detailed user stories based on the designs](tbd). *If the epic doesn’t have a user interface, it may be more appropriate for the Lead Engineer to write the user stories.*<br>
+When designs are agreed on, the Designer prepares the designs for handoff and [writes detailed user stories based on the designs](../product_design/structuring_epics_stories_bugs_and_tasks.md##user-stories). *If the epic doesn’t have a user interface, it may be more appropriate for the Lead Engineer to write the user stories.*<br>
 5. **Preview stories**<br> 
 The Product Manager, Designer, and Lead Engineer review all stories before Storytime and estimation.<br>
 6. **Initial prioritization**<br> 
