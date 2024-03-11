@@ -31,7 +31,8 @@ Feel free to explore, and if anything catches your attention or raises questions
 - [Design Principles](product_design/design_principles.md)
 - [Design Review Best Practices](product_design/design-review-best-practices.md)
 - [Giving and Receiving Feedback](product_design/giving-and-receiving-design-feedback.md)
-- [How to Write User Stories](/product_design/how_we_write_user_stories.md)
+- [Epics and User Stories](/product_design/how_we_write_user_stories.md)
+- [Structuring Epics, Stories, Bugs and Tasks(product_design/structuring_epics_stories_bugs_and_tasks.md)
 - [Accessibility](product_design/accessibility_guide.md)
 
 
