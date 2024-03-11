@@ -55,7 +55,7 @@ Epics convey the overall big picture priorities. They contain a group of stories
 ## User stories
 - User stories describe a small, discrete, testable piece of functionality from the perspective of the person who desires the new capability (usually a user or customer of the system).
 - The fibonacci sequence is used for estimating (1, 2, 3, 5, 8). Any story with more than 3 points should be broken down into smaller stories.
-  - Read about why we use these numbers in these articles by [Mike Cohn](https://www.mountaingoatsoftware.com/blog/why-the-fibonacci-sequence-works-well-for-estimating) and [Steve Bockman](https://www.linkedin.com/pulse/estimation-values-near-fibonacci-vs-true-fibonacci-steve-bockman/).
+  - Read about why we use these numbers in these articles by [Mike Cohn](https://www.mountaingoatsoftware.com/blog/why-the-fibonacci-sequence-works-well-for-estimating).
 - Every story should have an Acceptor assigned. The Acceptor is usually decided in Storytime.
 - Subtitles within the story should be bold, and bullet points or numbers used where possible.
 - All user stories should be part of an epic. There are multiple user stories in an epic.
