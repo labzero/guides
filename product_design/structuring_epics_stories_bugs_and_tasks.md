@@ -38,15 +38,13 @@ Epics convey the overall big picture priorities. They contain a group of stories
 **Notes:** Links to relevant documents.
 
 #### Example speclet: 
-| <a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-speclet1.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-speclet1.png" alt="Page one of our speclet example" width="400" ></a> | <a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-speclet2.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-speclet2.png" alt="Page two of our speclet example" width="400" ></a> |
-|-|-|
+<a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-speclet1.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-speclet1.png" alt="Page one of our speclet example" width="400" style="border: 2px solid  gray;"></a> <a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-speclet2.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-speclet2.png" alt="Page two of our speclet example" width="400" style="border: 2px solid  gray;" ></a> 
 
 
-### Example Epic in Jira:
+#### Example Epic in Jira:
 **Title:** Concise summary of the epic.
 
 **Description:** Link to the speclet.
-
 
 --- 
 
@@ -75,10 +73,11 @@ All user stories must be:
 ### Structure of a user story:
 **Summary:** The title of the ticket (which shows up in the Backlog list). Short, descriptive, and easy to scan. If possible putting the user first.
 
-**Description:** Expands on the title, explaining who wants the functionality, why and to what end. Format: 
+**Description:** Expands on the title, explaining who wants the functionality, why and to what end. 
 
-**Why** In order to *...reason why the user would need to do this activity*,
-**Who** I, the *...persona name, with link to their persona page*,
+Format: 
+**Why** In order to *...reason why the user would need to do this activity*, <br>
+**Who** I, the *...persona name, with link to their persona page*, <br>
 **What** *...need/ want/ etc.*
 
 **Acceptance criteria:** A numbered list of functionality that the Designer or Product Manager will use to test that the story has been completed. Stories can’t be rejected for a requirement that isn’t stated here (new tickets should instead be created to cover the missed criteria).
@@ -90,9 +89,9 @@ All user stories must be:
 **Resources:** Links to relevant designs, user flows, etc. Link to the original design (eg a screen in a Figma file) where possible, rather than attaching images to the story. 
 
 #### Example user story:
-| <a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-story.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-story.png" alt="Example user story" width="600" ></a> |
-|-|
-| <a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-figma-attachment.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-figma-attachment.png" alt="Example of a figma attachment" width="600" ></a> |
+<a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-story.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-story.png" alt="Example user story" width="600" style="border: 2px solid  gray;"></a> 
+
+<a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-figma-attachment.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-figma-attachment.png" alt="Example of a figma attachment" width="600" style="border: 2px solid  gray;"></a>
 
  
 --- 
@@ -118,9 +117,8 @@ All user stories must be:
 **Attachments:** Screenshots and/ or video are attached clearly showing the issue.
 
 #### Examples:
-| <a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-bug1.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-bug1.png" alt="Example of a bug" width="600" ></a> |
-|-|
-| <a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-bug2.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-bug2.png" alt="Example of a bug" width="600" ></a> |
+<a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-bug1.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-bug1.png" alt="Example of a bug" width="600" style="border: 2px solid  gray;"></a> 
+<a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-bug2.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-bug2.png" alt="Example of a bug" width="600" style="border: 2px solid  gray;"></a>
 
 
  
@@ -133,16 +131,15 @@ All user stories must be:
 - Tasks are prioritized by the Product Manager.
 
 ### Structure of a task:
-*Title:* Short description of the task
+**Title:** Short description of the task
 
-*Description:* Full summary of the task, using bullet points.
+**Description:** Full summary of the task, using bullet points.
 
-*Resources:* Links to any relevant resources.
+**Resources:** Links to any relevant resources.
 
 #### Example
 
-| <a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-tasks.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-tasks.png" alt="Example of a task" width="600" ></a> |
-|-|
+<a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-tasks.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-tasks.png" alt="Example of a task" width="600" style="border: 2px solid  gray;"></a>
 
-### Structure of a design ticket:
+### Structure of a design task:
 (Coming soon!)
