@@ -7,3 +7,6 @@ Stories are ready when they have:
 * All dependent copy or assets linked/attached
 * Prioritized
 * Reviewed and sized by Eng (story points are assigned)
+
+  ## Related content
+  [Essential Working Agreements: Ready and Done](https://labzero.com/blog/essential-working-agreements-ready-and-done)blog post
