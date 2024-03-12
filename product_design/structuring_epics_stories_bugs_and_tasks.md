@@ -73,10 +73,11 @@ All user stories must be:
 ### Structure of a user story:
 **Summary:** The title of the ticket (which shows up in the Backlog list). Short, descriptive, and easy to scan. If possible putting the user first.
 
-**Description:** Expands on the title, explaining who wants the functionality, why and to what end. Format: 
+**Description:** Expands on the title, explaining who wants the functionality, why and to what end. 
 
-**Why** In order to *...reason why the user would need to do this activity*,
-**Who** I, the *...persona name, with link to their persona page*,
+Format: 
+**Why** In order to *...reason why the user would need to do this activity*, <br>
+**Who** I, the *...persona name, with link to their persona page*, <br>
 **What** *...need/ want/ etc.*
 
 **Acceptance criteria:** A numbered list of functionality that the Designer or Product Manager will use to test that the story has been completed. Stories can’t be rejected for a requirement that isn’t stated here (new tickets should instead be created to cover the missed criteria).
@@ -130,11 +131,11 @@ All user stories must be:
 - Tasks are prioritized by the Product Manager.
 
 ### Structure of a task:
-*Title:* Short description of the task
+**Title:** Short description of the task
 
-*Description:* Full summary of the task, using bullet points.
+**Description:** Full summary of the task, using bullet points.
 
-*Resources:* Links to any relevant resources.
+**Resources:** Links to any relevant resources.
 
 #### Example
 
