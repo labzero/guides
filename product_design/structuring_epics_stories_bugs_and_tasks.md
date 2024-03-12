@@ -37,20 +37,18 @@ Epics convey the overall big picture priorities. They contain a group of stories
 
 **Notes:** Links to relevant documents.
 
-#### Example speclet:
-![Page one of our speclet example](/assets/images/structuring_tickets/structure-speclet1.png)
-![Page two of our speclet example](/assets/images/structuring_tickets/structure-speclet2.png)
+#### Example speclet: 
+| <a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-speclet1.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-speclet1.png" alt="Page one of our speclet example" width="400" ></a> | <a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-speclet2.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-speclet2.png" alt="Page two of our speclet example" width="400" ></a> |
+|-|-|
 
-<br>
 
 ### Example Epic in Jira:
 **Title:** Concise summary of the epic.
 
 **Description:** Link to the speclet.
 
-<br>
+
 --- 
-<br>
 
 ## User stories
 - User stories describe a small, discrete, testable piece of functionality from the perspective of the person who desires the new capability (usually a user or customer of the system).
@@ -92,8 +90,10 @@ All user stories must be:
 **Resources:** Links to relevant designs, user flows, etc. Link to the original design (eg a screen in a Figma file) where possible, rather than attaching images to the story. 
 
 #### Example user story:
-![Example user story](/assets/images/structuring_tickets/structure-story.png)
-![Example of a figma attachment](/assets/images/structuring_tickets/structure-figma-attachment.png)
+| <a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-story.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-story.png" alt="Example user story" width="600" ></a> |
+|-|
+| <a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-figma-attachment.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-figma-attachment.png" alt="Example of a figma attachment" width="600" ></a> |
+
  
 --- 
 ## Bugs
@@ -118,8 +118,11 @@ All user stories must be:
 **Attachments:** Screenshots and/ or video are attached clearly showing the issue.
 
 #### Examples:
-![Example of a bug](/assets/images/structuring_tickets/structure-bug1.png)
-![Example of a bug](/assets/images/structuring_tickets/structure-bug2.png)
+| <a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-bug1.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-bug1.png" alt="Example of a bug" width="600" ></a> |
+|-|
+| <a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-bug2.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-bug2.png" alt="Example of a bug" width="600" ></a> |
+
+
  
 --- 
 ## Tasks
@@ -136,7 +139,10 @@ All user stories must be:
 
 *Resources:* Links to any relevant resources.
 
-![Example of a task](/assets/images/structuring_tickets/structure-tasks.png)
+#### Example
+
+| <a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-tasks.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-tasks.png" alt="Example of a task" width="600" ></a> |
+|-|
 
 ### Structure of a design ticket:
 (Coming soon!)
