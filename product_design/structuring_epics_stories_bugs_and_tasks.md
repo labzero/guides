@@ -38,15 +38,13 @@ Epics convey the overall big picture priorities. They contain a group of stories
 **Notes:** Links to relevant documents.
 
 #### Example speclet: 
-| <a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-speclet1.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-speclet1.png" alt="Page one of our speclet example" width="400" ></a> | <a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-speclet2.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-speclet2.png" alt="Page two of our speclet example" width="400" ></a> |
-|-|-|
+<a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-speclet1.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-speclet1.png" alt="Page one of our speclet example" width="400" style="border: 2px solid  gray;"></a> <a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-speclet2.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-speclet2.png" alt="Page two of our speclet example" width="400" style="border: 2px solid  gray;" ></a> 
 
 
-### Example Epic in Jira:
+#### Example Epic in Jira:
 **Title:** Concise summary of the epic.
 
 **Description:** Link to the speclet.
-
 
 --- 
 
@@ -90,9 +88,9 @@ All user stories must be:
 **Resources:** Links to relevant designs, user flows, etc. Link to the original design (eg a screen in a Figma file) where possible, rather than attaching images to the story. 
 
 #### Example user story:
-| <a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-story.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-story.png" alt="Example user story" width="600" ></a> |
-|-|
-| <a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-figma-attachment.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-figma-attachment.png" alt="Example of a figma attachment" width="600" ></a> |
+<a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-story.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-story.png" alt="Example user story" width="600" style="border: 2px solid  gray;"></a> 
+
+<a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-figma-attachment.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-figma-attachment.png" alt="Example of a figma attachment" width="600" style="border: 2px solid  gray;"></a>
 
  
 --- 
@@ -118,9 +116,8 @@ All user stories must be:
 **Attachments:** Screenshots and/ or video are attached clearly showing the issue.
 
 #### Examples:
-| <a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-bug1.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-bug1.png" alt="Example of a bug" width="600" ></a> |
-|-|
-| <a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-bug2.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-bug2.png" alt="Example of a bug" width="600" ></a> |
+<a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-bug1.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-bug1.png" alt="Example of a bug" width="600" style="border: 2px solid  gray;"></a> 
+<a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-bug2.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-bug2.png" alt="Example of a bug" width="600" style="border: 2px solid  gray;"></a>
 
 
  
@@ -141,8 +138,7 @@ All user stories must be:
 
 #### Example
 
-| <a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-tasks.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-tasks.png" alt="Example of a task" width="600" ></a> |
-|-|
+<a href="https://guides.labzero.com/assets/images/structuring_tickets/structure-tasks.png"><img src="https://guides.labzero.com/assets/images/structuring_tickets/structure-tasks.png" alt="Example of a task" width="600" style="border: 2px solid  gray;"></a>
 
-### Structure of a design ticket:
+### Structure of a design task:
 (Coming soon!)
