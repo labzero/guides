@@ -30,12 +30,12 @@ The following ceremonies/ meetings take place each week:
 
 We usually follow this cadence for weekly sprints:
 
-| Thursday | Friday | Monday | Tuesday | Wednesday |
-|:--------|:-------|:--------|:-------|:--------|
-| Sprint Planning & Kickoff   | Daily Standup | Daily Standup | Daily Standup | Daily Standup Product Sync. Retrospective. | 
-| Preview Stories |  | Storytime | Product/ Design Prioritization | Demo|
-|  |  |  |  | Product Sync |
-|  |  |  |  | Retrospective |
+| Thursday | Friday |-| Monday | Tuesday | Wednesday |
+|:--------|:-------|:--------|:--------|:-------|:--------|
+| Sprint Planning & Kickoff   | Daily Standup |-| Daily Standup | Daily Standup | Daily Standup Product Sync. Retrospective. | 
+| Preview Stories |  | -|Storytime | Product/ Design Prioritization | Demo|
+|  |  |-|  |  | Product Sync |
+|  |  |-|  |  | Retrospective |
 
 
 We avoid Fridays for demos, and never push changes to a production environment on Friday.
