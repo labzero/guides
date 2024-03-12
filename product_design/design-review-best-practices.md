@@ -68,7 +68,7 @@ Follow up with your team as you make progress on your next iteration.
 
 ---
 
-#### Sources:
+## Sources:
 
 [Adam Connor and Aaron Irizarry, *Discussing Design* (O’Reilly, 2015.)](http://www.discussingdesign.com/). Available in hand cheat-sheet form: [http://www.discussingdesign.com/downloads/Critique_CheatSheet.pdf](http://www.discussingdesign.com/downloads/Critique_CheatSheet.pdf)
 
