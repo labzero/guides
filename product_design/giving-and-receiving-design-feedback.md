@@ -68,7 +68,7 @@ If you find your discussions frequently get off topic, review our guide, [Design
 
 
 ---
-#### Sources
+## Sources
 
 [Adam Connor and Aaron Irizarry, *Discussing Design* (O’Reilly, 2015.)](http://www.discussingdesign.com/)
 Available in handy cheat-sheet form: [http://www.discussingdesign.com/downloads/Critique_CheatSheet.pdf](http://www.discussingdesign.com/downloads/Critique_CheatSheet.pdf)
