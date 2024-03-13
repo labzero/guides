@@ -36,7 +36,7 @@ Feel free to explore, and if anything catches your attention or raises questions
 - [Accessibility](product_design/accessibility_guide.md)
 
 
-## Continuous Delivery
+## Engineering Process
 
 - [Development Workflow](continuous_delivery/development_workflow.md)
 - [Testing Strategy](continuous_delivery/testing_strategy.md)
@@ -44,7 +44,7 @@ Feel free to explore, and if anything catches your attention or raises questions
 - [README Guide](continuous_delivery/readme_guide.md)
 - [Sprint Demo Guide](continuous_delivery/demo_guide.md)
 
-## Technical Guides
+## Technical Tools
 
 - [Ruby on Rails](technical_guides/ruby_on_rails.md)
 - [Javascript](technical_guides/javascript-code-style-quality-rules.md)
