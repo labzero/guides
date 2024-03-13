@@ -6,7 +6,7 @@ layout: page
 
 Welcome to Lab Zero's resource library. These guides offer insights into our best practices for product development processes, playbooks, languages, and tools. They represent our evolving knowledge and expertise. By sharing them, we aim to provide others with the benefits of our experience and  a glimpse into what it's like to work with us.
 
-Feel free to explore, and if anything catches your attention or raises questions, we're here and eager for your feedback.
+Feel free to explore, and if anything catches your attention or raises questions, [we're here and eager for your feedback](https://labzero.com/contact).
 
 
 ## Project Kickoff
