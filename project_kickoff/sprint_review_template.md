@@ -17,7 +17,7 @@ High level context for the sprint. Include any big points of interest.
 ## Demo
 ### Features
 [ticket number and link] [story name]
-####Tasks
+### Tasks
 [ticket number and link] [task name]
 ### Bugs
 [ticket number and link] [bug name]
