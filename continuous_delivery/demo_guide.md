@@ -14,7 +14,7 @@ At the end of every sprint.
 
 ## Who attends the sprint review?
 
-**Preparation** - The [demo script](/project_kickoff/sprint_review_template.md) is prepared by the Product Manager and shared with the squad before the demo.
+**Preparation** - The [demo script](../project_kickoff/sprint_review_template.md) is prepared by the Product Manager and shared with the squad before the demo.
 
 **Attendees** - All relevant stakeholders are invited to the demo. The whole squad attends the demo.
 
@@ -29,7 +29,7 @@ At the end of every sprint.
 ## Demo Best Practices
 - **Focus on value** - The demo is the time to show the value that has been delivered. Center your story on value rather than tasks. Connect the story to the persona who would see value from this work.
 - **Know your audience** - Adjust your demo to cater specifically to them. If you are demoing to a non-technical or mixed audience, don't dive into the weeds of how something was done, or why it was difficult or easy to implement. Instead, focus on the value that has been added to the product or user, for example.
-- **Reduce distractions** - Keep your screen focused on what the grou needs to see.
+- **Reduce distractions** - Keep your screen focused on what the audience needs to see.
   - Turn on your computer's [Do Not Disturb](https://www.youtube.com/watch?v=KxHMpviBlaY) mode
   - Close all communication apps, like Slack, Messages, Email
   - If sharing a broswer window, limit the open tabs to those relevant to the demo
