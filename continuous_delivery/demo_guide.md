@@ -14,7 +14,7 @@ At the end of every sprint.
 
 ## Who attends the sprint review?
 
-**Preparation** - The [demo script](/project_kickoff/sprint_review_template) is prepared by the Product Manager and shared with the squad before the demo.
+**Preparation** - The [demo script](/project_kickoff/sprint_review_template.md) is prepared by the Product Manager and shared with the squad before the demo.
 
 **Attendees** - All relevant stakeholders are invited to the demo. The whole squad attends the demo.
 
