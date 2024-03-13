@@ -1,32 +1,34 @@
 # [Client] Sprint Demo & Retrospective
+
 ---
 ***🎥 Start recording***
 ---
 
-### Attendees
+## Attendees
 Lab Zero: 
 [Client]: 
 
-### Intro/Summary
+###Intro/Summary
 High level context for the sprint. Include any big points of interest.
 
-### Value delivered this sprint
+## Value delivered this sprint
 - Bullet appointed summary.
 
-### Demo
-#### Features
+## Demo
+### Features
 [ticket number and link] [story name]
-#### Tasks
+####Tasks
 [ticket number and link] [task name]
-#### Bugs
+### Bugs
 [ticket number and link] [bug name]
 
-#### Design demo (optional)
+### Design demo (optional)
 [initiative name] [type: design or research]
 
-### [Client] Questions and Feedback
+## [Client] Questions and Feedback
 
 
+---
 
 ## Sprint review
 ### Outcomes
