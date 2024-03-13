@@ -22,5 +22,5 @@ You will never be "done", and your version of done will vary by feature at diffe
 If you do all of that and things look good-enough to the business group, ship and repeat!
 
 
- ## Related content
+## Related content
 [Essential Working Agreements: Ready and Done](https://labzero.com/blog/essential-working-agreements-ready-and-done) blog post
