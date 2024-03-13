@@ -13,6 +13,7 @@ Feel free to explore, and if anything catches your attention or raises questions
 
 - [Project Charter](project_kickoff/project_charter.md)
 - [Sprint Ceremonies](project_kickoff/ceremonies.md)
+- - [Sprint Review Guide](continuous_delivery/demo_guide.md)
 - [Definition of Ready](project_kickoff/definition-of-ready.md)
 - [Definition of Done](project_kickoff/dod.md)
 - [Team Norms](project_kickoff/team_norms.md)
@@ -42,7 +43,7 @@ Feel free to explore, and if anything catches your attention or raises questions
 - [Testing Strategy](continuous_delivery/testing_strategy.md)
 - [Git Commit Guide](continuous_delivery/commit_guide.md)
 - [README Guide](continuous_delivery/readme_guide.md)
-- [Sprint Demo Guide](continuous_delivery/demo_guide.md)
+
 
 ## Technical Guides
 
