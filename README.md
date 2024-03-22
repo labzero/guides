@@ -161,7 +161,7 @@ From there you can edit any file (e.g. index.md) and follow the same procedure a
 
 ## Technology
 
-This a Github Pages site built with Github's automatic Jekyll setup.
+This is a Github Pages site built with Github's automatic Jekyll setup.
 
 In short you're looking at:
 
