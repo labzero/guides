@@ -1,43 +1,45 @@
 # Continuous Integration and Continuous Delivery
 
-Continuous Integration and Continuous Delivery (CI/CD) is a software development practice that aims to automate the building, testing, and deploying of code changes in a frequent and reliable manner. It helps to ensure that new features can be delivered faster, bugs are caught earlier, and the codebase remains more stable. To achieve faster delivery, automation is used to test and validate all changes and provide feedback to the developer on the state of the system with the inclusion of the changes.
+The aim of Continuous Integration and Continuous Delivery (CI/CD) is a software development practice that aims to automate the building, testing, and deploying of code changes in a frequent and reliable manner. It helps to ensure that new features can be delivered faster, bugs are caught earlier, and the codebase remains more stable. To achieve faster delivery, automation is used to test and validate all changes and provide feedback to the developer on the state of the system with the inclusion of the changes.
 
 ## Continuous Integration
 
-Pull requests to merge code changes triggers the automation pipeline. The pipeline runs validation checks and ensures the changes are ready for peer review.  The following stages go into detail how the code changes are validated. This pipeline needs to reside in a dedicated, preferrably ephemeral, environment.
+Pull requests to merge code changes trigger the automation pipeline. The pipeline runs validation checks and ensures the changes are ready for peer review.  The following stages go into detail about how the code changes are validated. This pipeline needs to reside in a dedicated, and preferrably ephemeral environment.
+
+# Style and Static Analysis
+1. **Style/lint checks:** Ensure consistency in coding styles and conventions, making code easier to read and understand.
+2. **Static analysis scans:** Scan code for quality and potential security risks.
+3. **Dependency audits:** Check third-party packages for vulnerabilities and updates.
 
 ### Building
-1. Style/lint checks. Ensure consistency in coding styles and convention makes code easier to read and understand.
-2. Static analysis tools. Scans code for quality and potential security risks.
-3. Dependency auditing. Checks third party package for vulnerabilities and updates.
-4. Compilation (for compiled code). Catches syntax/compliation errors.
+1. **Compilation (for compiled code):** Catch syntax/compilation errors.
 
 ### Testing
-1. Run unit tests. Code changes include new unit tests and modifying existing tests to ensure functionality is working as expected. 
-2. Enforce test Coverage. Ensures code base meets testing coverage threshold.
-3. Deploy code to testing environment. Ideally an ephemeral environment that will be used for functional testing.  Otherwise use a blocking environment that serializes pull request jobs during the functional tests.
-4. Run database migrations. Scaffolding database and running migrations to build a consistent database that mirrors those in production. 
-5. Seed any new application database data. Also seed any test data required for functional tests.
-6. Run functional/integration tests. These tests are written from the perspective of end user/application feature perspective. A typical example uses browser drivers that mimic user interactions with the application, in a repeatable deterministic script. 
+1. **Unit tests execution:** New code changes should include new unit tests and modification of existing tests to ensure functionality is working as expected. 
+2. **Test coverage report:** Ensures code base meets testing coverage threshold. Dips in coverage is an early indicator of risk. 
+3. **PR environment deployment:** Ideally an ephemeral PR environment that will be used for functional testing.  Otherwise use a blocking environment that serializes pull request jobs during the functional tests.
+4. **Database migrations:** Use a database that has similar data and identical structure as that in production. Run new migrations and verify the results are as expected.
+5. **Database seeding:** Seed any test data required for functional tests.
+6. **Functional/integration tests execution:** Run end-user tests. Typical example uses browser drivers that mimic user interactions with the application, in a repeatable deterministic script. 
 
 ### Code Review
-1. Peer code review and approval. Peer review is ready once all automated checks passes.  This ensures that the changes meet the minimum validation threshold before review begins. Any new code changes during the review will trigger the automation pipeline again.
-2. Merge code change. Once the pull request is approved, the author merges the changes.
+1. **Peer code review and approval:** Peer review starts after all automated checks [go green](development_workflow.md#going-green).  This ensures that the changes meet the minimum validation threshold before the review begins. Any new code changes during the review will trigger the automation pipeline again.
+2. **PR code merge:** Once the pull request is approved, the changes are merged. One approach is the reviewer merging the changes. This approach has faster delivery of the changes, but potentially slower response from the author if there isn't a notification built informing of merge issues.  The other approach is the author merging the changes.  This approach has the advantage that the author of the change can quickly address any potential issues with the merge. It's a norming practice that should be agreed upon by the team.  Once the PR is merged, the story is marked [delivered](development_workflow.md#delivering-a-story).
 
 ## Continuous Delivery
 
 Merging code changes to the development branch triggers automation to deploy the code to a staging environment.
 
-1. Deploy code to qa/staging environment. This environment is a long-lived environment for feature acceptance.  
-2. Run database migrations.  Run any wew migrations. 
-3. Populate database seed data.  Populate any new seed data.
-4. Feature Acceptance on staging environment.
+1. **QA/staging/UAT environment deployment:** Deploy to the long-lived QA/staging/UAT environment for feature acceptance.  
+2. **Database migrations:**  Run any new migrations. This step should be identical to those in the PR testing stage.
+3. **Database seeding:**  Populate any new seed data. Any new application specific seeds in the PR. 
+4. **Feature acceptance:** Perform feature acceptance on staging environment.  Design or Product will do final acceptance in this long-lived environment.  Once validated, the ticket associated with the PR can be moved to accepted.  
 
 ## Production Deployment
 
-Production deployment strategy should include handling rollback and recovery in case of any issues that might happen during deployment. Using release tagging with a version control like Git can help reverting the application to a previously known working state. Combined with regular backups of application data and configuration, will enable fast rollback in case of failure. The follow are steps recommended when deploying to production.
+A robust production deployment strategy must encompass rollback and recovery procedures for potential deployment issues. Leveraging release tagging within a version control system such as Git facilitates reverting the application to a proven, stable state. Combined with routine backups of application data and configuration, this ensures swift rollback capabilities in the event of failure. The following steps are recommended for production deployment:.
 
 1. Create a release tag in source control. This will create a snapshot of the codebase for the code that will be deployed to production.
-2. Manual approval for merging of the release tag to the source control. This acts as the final trigger for deployment to production.
-3. Automation triggers on the merging of the release tag to the source control. The automation should run through the build stage with the same checks a those for the continous integration build steps.  
-4. The testing stage would run the full unit test suites, and User Acceptance Testing suites in the functional end to end testing if the application has special UAT created accounts on the production application. The goal is to have a set of UAT tests that validates the deployment but not impact production data.
+2. Manual approval for merging of the release tag to source control. This acts as the final trigger for deployment to production.
+3. Automation triggers on the merging of the release tag to the source control. The automation should run through the build stage with the same checks as those for the continuous integration build steps.  
+4. In the testing stage, full unit test suites, User Acceptance Testing (UAT) suites, and end-to-end functional testing are conducted. If the application utilizes special UAT accounts on the production environment, these are also included. The objective is to perform UAT tests that validate the deployment without affecting production data.
